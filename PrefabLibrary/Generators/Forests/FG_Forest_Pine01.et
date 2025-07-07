@@ -1,0 +1,10254 @@
+ForestGeneratorEntity {
+ ID "65A569181FE7FB35"
+ Flags 1048579
+ GeneratorType GeneratorTypeForest "{65A569180B342660}" {
+ }
+ m_Color 0 1 0 0
+ m_iSeed 150
+ m_bAvoidObjects 1
+ m_bAvoidRoads 1
+ m_bAvoidRivers 1
+ m_bAvoidPowerLines 1
+ m_bAvoidTracks 1
+ m_bAvoidLakes 1
+ m_aLevels {
+  ForestGeneratorOutline Outline_small {
+   m_aTreeGroups {
+    TreeGroupClass BushesTrees {
+     m_aTrees {
+      ForestGeneratorTree betula_pendula_1s {
+       m_fMinScale 0.75
+       m_Prefab "{425761285F36BF16}PrefabLibrary/Vegetation/Trees/t_betula_pendula_1s.et"
+       m_fBotDistance 0.5
+      }
+      ForestGeneratorTreeShort corylus_avellana_1l {
+       m_fMinScale 0.75
+       m_Prefab "{DA7492F3E6B63251}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_1l.et"
+       m_fBotDistance 0.5
+       m_fWeight 4
+      }
+      ForestGeneratorTreeShort corylus_avellana_1 {
+       m_fMinScale 0.75
+       m_Prefab "{A35E15EBC6033C07}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_1.et"
+       m_fBotDistance 0
+       m_fWeight 0.5
+      }
+      ForestGeneratorTreeShort corylus_avellana_2 {
+       m_Prefab "{CF0A210B7AC7B329}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_2.et"
+      }
+      ForestGeneratorTreeShort betula_pendula_1sw {
+       m_Prefab "{960EA50FD57CD7D5}PrefabLibrary/Vegetation/Trees/t_betula_pendula_1sw.et"
+       m_fBotDistance 0.5
+      }
+      ForestGeneratorTreeShort betula_pendula_1f {
+       m_Prefab "{F1DB9A8115310093}PrefabLibrary/Vegetation/Trees/t_betula_pendula_1f.et"
+       m_fBotDistance 0.25
+      }
+     }
+    }
+    TreeGroupClass Trees {
+     m_fWeight 0.15
+     m_aTrees {
+      ForestGeneratorTreeShort Pine_small {
+       m_fMinScale 0.75
+       m_fMaxScale 1.2
+       m_Prefab "{2FE01B5E743D5205}PrefabLibrary/Vegetation/Trees/t_pinus_sylvestris_1s.et"
+       m_fBotDistance 0
+      }
+     }
+    }
+   }
+   m_fDensity 300
+   m_fClusterRadius 7
+   m_fMinDistance 0
+   m_fMaxDistance 6
+  }
+  ForestGeneratorOutline Outline_big {
+   m_aTreeGroups {
+    TreeGroupClass Trees {
+     m_fWeight 3
+     m_aTrees {
+      ForestGeneratorTreeTall pinus_sylvestris_3s {
+       m_fMinScale 0.65
+       m_fMaxScale 0.8
+       m_Prefab "{C1F4CA4F9D788CE5}PrefabLibrary/Vegetation/Trees/t_pinus_sylvestris_3s.et"
+       m_fBotDistance 0.5
+       m_fRandomPitchAngle 2
+       m_fRandomRollAngle 2
+       m_fWeight 0.75
+       m_fMidDistance 1
+       m_fTopDistance 2
+      }
+      ForestGeneratorTreeMiddle pinus_sylvestris_2s {
+       m_fMinScale 1
+       m_fMaxScale 1.3
+       m_Prefab "{B6FEA2C769DA6395}PrefabLibrary/Vegetation/Trees/t_pinus_sylvestris_2s.et"
+       m_fBotDistance 0.5
+       m_fRandomPitchAngle 2
+       m_fRandomRollAngle 2
+       m_fMidDistance 2
+      }
+      ForestGeneratorTreeTall pinus_sylvestris_2f {
+       m_fMinScale 0.65
+       m_fMaxScale 0.8
+       m_Prefab "{0572596E23DDDC10}PrefabLibrary/Vegetation/Trees/t_pinus_sylvestris_2f.et"
+       m_fBotDistance 0.5
+       m_fMidDistance 2
+       m_fTopDistance 2
+      }
+      ForestGeneratorTreeTall pinus_sylvestris_3x {
+       m_fMinScale 0.65
+       m_fMaxScale 0.82
+       m_Prefab "{86FE6FFC07B02673}PrefabLibrary/Vegetation/Trees/t_pinus_sylvestris_3x.et"
+       m_fBotDistance 0.5
+       m_fMidDistance 1
+       m_fTopDistance 2
+      }
+      ForestGeneratorTreeTall pinus_sylvestris_3w {
+       m_fMinScale 0.65
+       m_fMaxScale 0.75
+       m_Prefab "{159BD386C0F6F3AD}PrefabLibrary/Vegetation/Trees/t_pinus_sylvestris_3w.et"
+       m_fBotDistance 0.5
+       m_fMidDistance 1
+      }
+     }
+    }
+    TreeGroupClass BushesTrees {
+     m_fWeight 0.75
+     m_aTrees {
+      ForestGeneratorTreeMiddle betula_pendula_2s {
+       m_fMinScale 0.7
+       m_fMaxScale 1.3
+       m_Prefab "{DB49D8B142D18E86}PrefabLibrary/Vegetation/Trees/t_betula_pendula_2s.et"
+       m_fBotDistance 0.5
+       m_fRandomPitchAngle 2
+       m_fRandomRollAngle 2
+       m_fMidDistance 2
+      }
+      ForestGeneratorTreeTall betula_pendula_3s {
+       m_fMinScale 1.05
+       m_fMaxScale 1.3
+       m_Prefab "{AC43B039B67361F6}PrefabLibrary/Vegetation/Trees/t_betula_pendula_3s.et"
+       m_fBotDistance 0.5
+       m_fRandomPitchAngle 2
+       m_fRandomRollAngle 2
+       m_fWeight 0.7
+       m_fMidDistance 2
+       m_fTopDistance 3
+      }
+      ForestGeneratorTreeMiddle corylus_avellana_2 {
+       m_Prefab "{CF0A210B7AC7B329}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_2.et"
+       m_fBotDistance 0.75
+       m_fMidDistance 1
+      }
+      ForestGeneratorTreeShort Betula_Pendula_2sw {
+       m_Prefab "{C8E68C4C6AF159DA}PrefabLibrary/Vegetation/Trees/t_betula_pendula_2sw.et"
+       m_fRandomPitchAngle 1
+       m_fRandomRollAngle 1
+      }
+     }
+    }
+   }
+   m_fDensity 600
+   m_fClusterRadius 7
+   m_eOutlineType MIDDLE
+   m_fMinDistance 4
+   m_fMaxDistance 10
+  }
+  ForestGeneratorTopLevel TopLevel {
+   m_aTreeGroups {
+    TreeGroupClass Trees {
+     m_aTrees {
+      ForestGeneratorTreeTall pinus_sylvestris_3f {
+       m_fMinScale 0.7
+       m_fMaxScale 0.8
+       m_Prefab "{727831E6D77F3360}PrefabLibrary/Vegetation/Trees/t_pinus_sylvestris_3f.et"
+       m_fBotDistance 0.5
+       m_fRandomPitchAngle 1.5
+       m_fRandomRollAngle 1.5
+       m_fMidDistance 1
+       m_fTopDistance 2.5
+      }
+      ForestGeneratorTreeTall Pinus_sylvestris_2f {
+       m_fMinScale 1
+       m_Prefab "{0572596E23DDDC10}PrefabLibrary/Vegetation/Trees/t_pinus_sylvestris_2f.et"
+       m_fBotDistance 0.5
+       m_fRandomPitchAngle 1.5
+       m_fRandomRollAngle 1.5
+       m_fWeight 2
+       m_fMidDistance 1.5
+       m_fTopDistance 1.5
+      }
+     }
+    }
+   }
+   m_fDensity 500
+  }
+  ForestGeneratorBottomLevel BottomLevel {
+   m_aTreeGroups {
+    TreeGroupClass Trees_bushes {
+     m_fWeight 2
+     m_aTrees {
+      ForestGeneratorTreeShort Pinus_Sylvestris_1f {
+       m_fMinScale 0.7
+       m_Prefab "{9C6CE0F73E3AED80}PrefabLibrary/Vegetation/Trees/t_pinus_sylvestris_1f.et"
+       m_fBotDistance 0.5
+       m_fRandomPitchAngle 3
+       m_fRandomRollAngle 3
+      }
+      ForestGeneratorTreeShort Pinus_sylvestris_1s {
+       m_fMinScale 0.7
+       m_Prefab "{2FE01B5E743D5205}PrefabLibrary/Vegetation/Trees/t_pinus_sylvestris_1s.et"
+       m_fBotDistance 0.5
+       m_fRandomPitchAngle 3
+       m_fRandomRollAngle 3
+      }
+     }
+    }
+    TreeGroupClass Dead_Trees {
+     m_aTrees {
+      FallenTree Fallen_Pine {
+       m_fMinScale 0.75
+       m_fMaxScale 1.4
+       m_Prefab "{913BFDAA2CE68926}PrefabLibrary/Vegetation/Trees/t_pinus_sylvestris_stump_01.et"
+       m_fBotDistance 0.5
+       m_fWeight 4
+      }
+      FallenTree Debris_04 {
+       m_fMinScale 0.3
+       m_fMaxScale 1
+       m_Prefab "{327E590B0D2DFE7D}PrefabLibrary/Vegetation/Debris/T_trunk_debris_04.et"
+       m_fBotDistance 0.5
+       m_fRandomRollAngle 180
+       m_fWeight 1.25
+       m_CapsuleStartInEditor 0 0 3
+       m_CapsuleEndInEditor 0 0 -3
+      }
+     }
+    }
+   }
+   m_fDensity 40
+  }
+ }
+ m_aClusters {
+  ForestGeneratorCircleCluster Birches {
+   m_aObjects {
+    BigForestGeneratorClusterObject betula_pendula_3s {
+     m_fMinScale 0.75
+     m_fMaxScale 1
+     m_Prefab "{1FCF4B90FC74DE73}PrefabLibrary/Vegetation/Trees/t_betula_pendula_3f.et"
+     m_fBotDistance 0.5
+     m_fRandomPitchAngle 2
+     m_fRandomRollAngle 2
+     m_iMinCount 0
+     m_iMaxCount 2
+     m_fMinRadius 0
+     m_fMaxRadius 3
+     m_fMidDistance 1
+     m_fTopDistance 2
+    }
+    MiddleForestGeneratorClusterObject betula_pendula_2f {
+     m_fMinScale 0.65
+     m_Prefab "{68C5231808D63103}PrefabLibrary/Vegetation/Trees/t_betula_pendula_2f.et"
+     m_fBotDistance 0.5
+     m_fRandomPitchAngle 3
+     m_fRandomRollAngle 3
+     m_iMinCount 0
+     m_iMaxCount 4
+     m_fMinRadius 0
+     m_fMaxRadius 4
+     m_fMidDistance 2
+    }
+    SmallForestGeneratorClusterObject betula_pendula_1s {
+     m_fMinScale 0.6
+     m_fMaxScale 1.2
+     m_Prefab "{425761285F36BF16}PrefabLibrary/Vegetation/Trees/t_betula_pendula_1s.et"
+     m_fRandomPitchAngle 2
+     m_fRandomRollAngle 2
+     m_iMinCount 0
+     m_iMaxCount 4
+     m_fMinRadius 2
+     m_fMaxRadius 6
+    }
+    SmallForestGeneratorClusterObject corylus_avellana_1 {
+     m_fMinScale 0.65
+     m_fMaxScale 1.2
+     m_Prefab "{A35E15EBC6033C07}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_1.et"
+     m_fBotDistance 0.5
+     m_iMinCount 0
+     m_iMaxCount 4
+     m_fMinRadius 0
+     m_fMaxRadius 8
+    }
+    SmallForestGeneratorClusterObject corylus_avellana_1l {
+     m_Prefab "{DA7492F3E6B63251}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_1l.et"
+     m_fBotDistance 0.5
+     m_iMinCount 0
+     m_iMaxCount 4
+    }
+    MiddleForestGeneratorClusterObject corylus_avelana_2s {
+     m_Prefab "{DB49D8B142D18E86}PrefabLibrary/Vegetation/Trees/t_betula_pendula_2s.et"
+     m_fBotDistance 0.5
+     m_iMinCount 0
+     m_iMaxCount 3
+     m_fMinRadius 0
+     m_fMaxRadius 4
+     m_fMidDistance 2
+    }
+    SmallForestGeneratorClusterObject betula_pendula_2sw {
+     m_fMinScale 0.7
+     m_Prefab "{C8E68C4C6AF159DA}PrefabLibrary/Vegetation/Trees/t_betula_pendula_2sw.et"
+     m_fBotDistance 2
+     m_iMinCount 0
+     m_iMaxCount 3
+     m_fMinRadius 2
+     m_fMaxRadius 6
+    }
+    SmallForestGeneratorClusterObject Betula_pendula_1sw {
+     m_Prefab "{960EA50FD57CD7D5}PrefabLibrary/Vegetation/Trees/t_betula_pendula_1sw.et"
+     m_fRandomPitchAngle 2
+     m_fRandomRollAngle 2
+     m_iMinCount 0
+     m_iMaxCount 2
+     m_fMinRadius 2
+     m_fMaxRadius 6
+    }
+    SmallForestGeneratorClusterObject Betula_Pendula_1sw {
+     m_Prefab "{960EA50FD57CD7D5}PrefabLibrary/Vegetation/Trees/t_betula_pendula_1sw.et"
+     m_fBotDistance 0.75
+     m_fRandomPitchAngle 1.5
+     m_fRandomRollAngle 1.5
+     m_iMinCount 0
+     m_fMinRadius 2
+     m_fMaxRadius 7
+    }
+    SmallForestGeneratorClusterObject Betula_pendula_1f {
+     m_Prefab "{B78F72C338993EA1}Prefabs/Vegetation/Tree/t_betula_pendula/t_betula_pendula_1f.et"
+     m_fBotDistance 0.75
+     m_fRandomPitchAngle 2
+     m_fRandomRollAngle 2
+     m_iMinCount 0
+     m_fMinRadius 0
+     m_fMaxRadius 8
+    }
+   }
+   m_fMinCDENSHA 2
+   m_fMaxCDENSHA 4
+  }
+  ForestGeneratorCircleCluster BushesStones {
+   m_aObjects {
+    SmallForestGeneratorClusterObject Stone_01 {
+     m_fMinScale 0.5
+     m_fMaxScale 0.6
+     m_Prefab "{926C09375D2DAA4D}PrefabLibrary/Rocks/Granite/GraniteStone_01.et"
+     m_fBotDistance 0.65
+     m_fRandomPitchAngle 6
+     m_fRandomRollAngle 6
+     m_iMinCount 0
+     m_iMaxCount 4
+     m_fMinRadius 0
+     m_fMaxRadius 3
+    }
+    SmallForestGeneratorClusterObject Stone_02 {
+     m_fMinScale 0.5
+     m_fMaxScale 0.6
+     m_Prefab "{1BA4712EED0CB208}PrefabLibrary/Rocks/Granite/GraniteStone_03.et"
+     m_fBotDistance 0.65
+     m_fRandomPitchAngle 6
+     m_fRandomRollAngle 6
+     m_iMinCount 0
+     m_iMaxCount 4
+     m_fMinRadius 0
+     m_fMaxRadius 5
+    }
+    SmallForestGeneratorClusterObject Stone_03 {
+     m_fMinScale 0.5
+     m_fMaxScale 1.2
+     m_Prefab "{1BA4712EED0CB208}PrefabLibrary/Rocks/Granite/GraniteStone_03.et"
+     m_fBotDistance 0.65
+     m_fRandomPitchAngle 6
+     m_fRandomRollAngle 6
+     m_iMinCount 0
+     m_iMaxCount 3
+     m_fMinRadius 0
+     m_fMaxRadius 4
+    }
+    SmallForestGeneratorClusterObject Stone_small {
+     m_fMinScale 0.2
+     m_fMaxScale 0.6
+     m_Prefab "{926C09375D2DAA4D}PrefabLibrary/Rocks/Granite/GraniteStone_01.et"
+     m_fBotDistance 2.25
+     m_fRandomPitchAngle 180
+     m_iMinCount 0
+     m_iMaxCount 5
+     m_fMinRadius 2
+     m_fMaxRadius 6
+    }
+    SmallForestGeneratorClusterObject betula_pendula_1s {
+     m_fMinScale 0.5
+     m_fMaxScale 0.9
+     m_Prefab "{425761285F36BF16}PrefabLibrary/Vegetation/Trees/t_betula_pendula_1s.et"
+     m_fBotDistance 0.2
+     m_iMinCount 0
+     m_fMinRadius 0
+     m_fMaxRadius 3
+    }
+    SmallForestGeneratorClusterObject corylus_avellana_1s {
+     m_Prefab "{A35E15EBC6033C07}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_1.et"
+     m_iMinCount 0
+     m_iMaxCount 4
+     m_fMinRadius 0
+     m_fMaxRadius 6
+    }
+    SmallForestGeneratorClusterObject Corylus_Avellana_1l {
+     m_Prefab "{DA7492F3E6B63251}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_1l.et"
+     m_fBotDistance 1.2
+     m_iMinCount 0
+     m_iMaxCount 2
+     m_fMinRadius 0
+     m_fMaxRadius 6
+    }
+    SmallForestGeneratorClusterObject Betula_pendula_0 {
+     m_fMaxScale 1.3
+     m_Prefab "{531BB93086610CA1}PrefabLibrary/Vegetation/Trees/t_betula_pendula_0.et"
+     m_fBotDistance 0.1
+     m_fRandomPitchAngle 2
+     m_fRandomRollAngle 2
+     m_iMinCount 0
+     m_iMaxCount 4
+     m_fMinRadius 2
+     m_fMaxRadius 6
+    }
+    SmallForestGeneratorClusterObject Betula_pendula_1sw {
+     m_fMinScale 0.65
+     m_Prefab "{960EA50FD57CD7D5}PrefabLibrary/Vegetation/Trees/t_betula_pendula_1sw.et"
+     m_fBotDistance 0.2
+     m_fRandomPitchAngle 2
+     m_fRandomRollAngle 2
+     m_iMinCount 0
+     m_iMaxCount 2
+     m_fMinRadius 0
+     m_fMaxRadius 5
+    }
+    SmallForestGeneratorClusterObject betula_1f {
+     m_fMinScale 0.7
+     m_Prefab "{F1DB9A8115310093}PrefabLibrary/Vegetation/Trees/t_betula_pendula_1f.et"
+     m_fBotDistance 0.15
+     m_fRandomPitchAngle 2
+     m_fRandomRollAngle 2
+     m_iMinCount 0
+     m_fMinRadius 0
+     m_fMaxRadius 4
+    }
+   }
+   m_fMinCDENSHA 2
+   m_fMaxCDENSHA 3
+  }
+  ForestGeneratorCircleCluster Dead_trees {
+   m_aObjects {
+    WideForestGeneratorClusterObject Pinus_fallen {
+     m_fMinScale 0.6
+     m_fMaxScale 1.5
+     m_Prefab "{AA14F25DFBDF4945}PrefabLibrary/Vegetation/Trees/t_picea_abies_3d_fallen.et"
+     m_iMinCount 0
+     m_iMaxCount 0
+     m_fMinRadius 0
+     m_fMaxRadius 20
+     m_CapsuleStartInEditor 2 0 13
+     m_CapsuleEndInEditor -2 0 -13
+     m_bAlignToNormal 0
+    }
+   }
+   m_fMinCDENSHA 0
+   m_fMaxCDENSHA 2
+  }
+  ForestGeneratorCircleCluster Pines {
+   m_aObjects {
+    SmallForestGeneratorClusterObject Pinus_Sylvestris_1s {
+     m_fMinScale 0.65
+     m_Prefab "{2FE01B5E743D5205}PrefabLibrary/Vegetation/Trees/t_pinus_sylvestris_1s.et"
+     m_fBotDistance 0.7
+     m_fRandomPitchAngle 1
+     m_fRandomRollAngle 1
+     m_iMaxCount 5
+     m_fMaxRadius 4
+    }
+    SmallForestGeneratorClusterObject Pinus_Sylvestris_1f {
+     m_fMinScale 0.7
+     m_fMaxScale 1.3
+     m_Prefab "{9C6CE0F73E3AED80}PrefabLibrary/Vegetation/Trees/t_pinus_sylvestris_1f.et"
+     m_fBotDistance 0.6
+     m_fRandomPitchAngle 1
+     m_fRandomRollAngle 1
+     m_iMinCount 0
+     m_iMaxCount 3
+     m_fMinRadius 0
+    }
+   }
+   m_fMinCDENSHA 3
+   m_fMaxCDENSHA 6
+  }
+ }
+ {
+  $grp Tree : "{0572596E23DDDC10}PrefabLibrary/Vegetation/Trees/t_pinus_sylvestris_2f.et" {
+   {
+    ID "65A56918109C1443"
+    coords 57.464 -1.021 201.849
+    angleX 0.51
+    angleY -93.793
+    angleZ 2.672
+    scale 1.143
+   }
+   {
+    ID "65A56918109C8D39"
+    coords 38.135 0.132 197.709
+    angleX 4.942
+    angleY 158.23
+    angleZ -0.585
+    scale 1.126
+   }
+   {
+    ID "65A56918109C8D3A"
+    coords 43.281 0.132 183.86
+    angleX 3.495
+    angleY 143.695
+    angleZ 0.358
+    scale 1.128
+   }
+   {
+    ID "65A56918109CBD74"
+    coords 58.948 -0.004 174.42
+    angleX -4.738
+    angleY -123.6
+    angleZ 1.411
+    scale 1.035
+   }
+   {
+    ID "65A56918109CBD75"
+    coords 59.893 -0.782 188.38
+    angleX -1.805
+    angleY -84.806
+    angleZ -4.126
+    scale 1.066
+   }
+   {
+    ID "65A56918109D6D35"
+    coords 31.64 0.132 200.468
+    angleX -0.599
+    angleY 175.204
+    angleZ 0.974
+    scale 1.026
+   }
+   {
+    ID "65A56918109D6D36"
+    coords 66.195 -1.899 193.205
+    angleX 1.914
+    angleY 78.324
+    angleZ 3.963
+    scale 1.167
+   }
+   {
+    ID "65A56918109D74F4"
+    coords 34.584 -0.143 210.261
+    angleX 3.127
+    angleY -134.675
+    angleZ 1.739
+    scale 1.042
+   }
+   {
+    ID "65A56918109D74F5"
+    coords 50.612 0.132 168.305
+    angleX -0.956
+    angleY 56.054
+    angleZ -1.92
+    scale 1.136
+   }
+   {
+    ID "65A56918109D90A9"
+    coords 66.828 -0.747 177.239
+    angleX 4.837
+    angleY 108.471
+    angleZ -2.608
+    scale 1.199
+   }
+   {
+    ID "65A56918109D90AE"
+    coords 57.804 0.115 169.661
+    angleX 2.245
+    angleY 15.436
+    angleZ 1.657
+    scale 1.02
+   }
+   {
+    ID "65A56918109E4368"
+    coords 57.355 -0.667 193.229
+    angleX 3.646
+    angleY 143.804
+    angleZ 0.454
+    scale 1.032
+   }
+   {
+    ID "65A56918109E4369"
+    coords 56.906 -0.179 181.354
+    angleX -4.004
+    angleY -85.487
+    angleZ -2.96
+    scale 1.103
+   }
+   {
+    ID "65A56918109E5ADF"
+    coords 31.469 0.132 172.397
+    angleX 3.166
+    angleY 8.053
+    angleZ 2.508
+    scale 1.17
+   }
+   {
+    ID "65A56918109E8170"
+    coords 36.757 0.132 193.693
+    angleX -2.724
+    angleY 69.721
+    angleZ -0.481
+    scale 1.005
+   }
+   {
+    ID "65A56918109E831C"
+    coords 43.953 0.132 191.262
+    angleX 3.809
+    angleY -132.631
+    angleZ 3.645
+    scale 1.13
+   }
+   {
+    ID "65A56918109ECD45"
+    coords 40.64 0.132 186.817
+    angleX -4.198
+    angleY -95.65
+    angleZ 2.668
+    scale 1.022
+   }
+   {
+    ID "65A56918109F188D"
+    coords 85.3 -1.182 129.093
+    angleX -0.222
+    angleY 115.25
+    angleZ -4.555
+    scale 1.03
+   }
+   {
+    ID "65A56918109F1BC8"
+    coords 77.493 -0.396 94.421
+    angleX 0.738
+    angleY 152.209
+    angleZ 2.495
+    scale 1.107
+   }
+   {
+    ID "65A56918109F4E2C"
+    coords 57.987 0.132 166.167
+    angleX -4.018
+    angleY 155.154
+    angleZ -3.691
+    scale 1.079
+   }
+   {
+    ID "65A56918109F4E2F"
+    coords 34.082 0.132 197.087
+    angleX -3.922
+    angleY 24.05
+    angleZ -0.421
+    scale 1.09
+   }
+   {
+    ID "65A56918109F899B"
+    coords 27.966 0.132 196.794
+    angleX -1.212
+    angleY 44.1
+    angleZ 0.69
+    scale 1.015
+   }
+   {
+    ID "65A56918109F8D48"
+    coords 41.295 0.132 178.695
+    angleX 3.192
+    angleY 27.324
+    angleZ 1.258
+    scale 1.034
+   }
+   {
+    ID "65A56918109F8D49"
+    coords 40.726 0.132 165.085
+    angleX 0.606
+    angleY 103.132
+    angleZ 2.866
+    scale 1.037
+   }
+   {
+    ID "65A56918109F9F11"
+    coords 36.555 0.132 171.129
+    angleX 4.029
+    angleY -65.887
+    angleZ -1.355
+    scale 1.066
+   }
+   {
+    ID "65A56918109FD74F"
+    coords 61.198 -0.556 181.643
+    angleX 3.338
+    angleY -127.742
+    angleZ 3.67
+    scale 1.103
+   }
+   {
+    ID "65A569181F006878"
+    coords -60.628 -0.879 3.506
+    angleX 4.103
+    angleY -177.907
+    angleZ -1.852
+    scale 0.785
+   }
+   {
+    ID "65A569181F00923F"
+    coords -66.546 -1.618 0.493
+    angleX 4.228
+    angleY -42.046
+    angleZ -2.978
+    scale 0.682
+   }
+   {
+    ID "65A569181F01FFC8"
+    coords -60.775 -1.618 15.893
+    angleX -4.882
+    angleY -13.03
+    angleZ -3.747
+    scale 0.742
+   }
+   {
+    ID "65A569181F023694"
+    coords -22.955 0.132 44.167
+    angleX 0.634
+    angleY 44.035
+    angleZ 2.701
+    scale 0.688
+   }
+   {
+    ID "65A569181F02532F"
+    coords -47.195 0.132 47.078
+    angleX 2.919
+    angleY 61.657
+    angleZ 2.58
+    scale 0.732
+   }
+   {
+    ID "65A569181F02DFBA"
+    coords -58.176 0.112 49.38
+    angleX -0.611
+    angleY 81.092
+    angleZ -2.537
+    scale 0.77
+   }
+   {
+    ID "65A569181F02E716"
+    coords -54.171 0.132 47.749
+    angleX 1.863
+    angleY 128.126
+    angleZ 4.675
+    scale 0.785
+   }
+   {
+    ID "65A569181F036FCF"
+    coords -20.996 0.132 90.092
+    angleX 3.127
+    angleY -49.682
+    angleZ 3.511
+    scale 0.754
+   }
+   {
+    ID "65A569181F045CC0"
+    coords 5.421 -6.618 -80.545
+    angleX 3.805
+    angleY -154.462
+    angleZ 0.214
+    scale 0.755
+   }
+   {
+    ID "65A569181F072164"
+    coords -62.083 -1.592 -6.817
+    angleX 0.785
+    angleY -89.959
+    angleZ -0.9
+    scale 0.676
+   }
+   {
+    ID "65A569181F072167"
+    coords -66.865 -1.618 -5.824
+    angleX 2.44
+    angleY 76.698
+    angleZ 0.604
+    scale 0.783
+   }
+   {
+    ID "65A569181F0B16C8"
+    coords 24.982 -4.332 -72.91
+    angleX 4.703
+    angleY 114.261
+    angleZ 4.755
+    scale 0.715
+   }
+   {
+    ID "65A569181F0BDD72"
+    coords 49.4 0.132 -20.891
+    angleX -0.725
+    angleY 8.723
+    angleZ -2.384
+    scale 0.662
+   }
+   {
+    ID "65A569181F200DCA"
+    coords -15.975 -3.223 -62.319
+    angleX 2.717
+    angleY 3.021
+    angleZ -4.626
+    scale 1.154
+   }
+   {
+    ID "65A569181F200DD5"
+    coords -1.942 -3.687 -66.677
+    angleX 3.55
+    angleY 64.129
+    angleZ -1.915
+    scale 1.078
+   }
+   {
+    ID "65A569181F20A6DA"
+    coords 24.014 -3.187 -61.259
+    angleX 1.79
+    angleY 61.855
+    angleZ 1.483
+    scale 1.047
+   }
+   {
+    ID "65A569181F20A6DB"
+    coords 19.108 -2.789 -59.592
+    angleX 4.261
+    angleY -66.612
+    angleZ 4.024
+    scale 1.109
+   }
+   {
+    ID "65A569181F21092C"
+    coords -16.086 -0.572 -41.405
+    angleX -2.595
+    angleY 62.866
+    angleZ 2.331
+    scale 1.187
+   }
+   {
+    ID "65A569181F21092F"
+    coords 23.402 -3.801 -68.37
+    angleX -3.39
+    angleY 144.475
+    angleZ -4.946
+    scale 1.01
+   }
+   {
+    ID "65A569181F2188E2"
+    coords 25.901 -1.712 -43.668
+    angleX 4.664
+    angleY -2.56
+    angleZ -1.83
+    scale 1.138
+   }
+   {
+    ID "65A569181F21960D"
+    coords 12.614 -2.165 -53.904
+    angleX -4.747
+    angleY -41.079
+    angleZ -2.64
+    scale 1.116
+   }
+   {
+    ID "65A569181F222812"
+    coords 10.59 -2.971 -64.337
+    angleX 0.046
+    angleY 123.314
+    angleZ 3.842
+    scale 1.037
+   }
+   {
+    ID "65A569181F222813"
+    coords 24.017 -2.245 -50.444
+    angleX -0.334
+    angleY -172.15
+    angleZ -4.727
+    scale 1.011
+   }
+   {
+    ID "65A569181F22E489"
+    coords -1.887 -2.609 -61.694
+    angleX -0.773
+    angleY 169.887
+    angleZ 4.071
+    scale 1.138
+   }
+   {
+    ID "65A569181F22F10E"
+    coords 22.828 -2.814 -57.758
+    angleX 4.25
+    angleY -143.585
+    angleZ 4.452
+    scale 1.191
+   }
+   {
+    ID "65A569181F22F10F"
+    coords -9.193 -0.637 -36.774
+    angleX 0.516
+    angleY -16.546
+    angleZ 4.713
+    scale 1.11
+   }
+   {
+    ID "65A569181F237670"
+    coords -20.723 -1.769 -59.332
+    angleX 2.175
+    angleY 15.063
+    angleZ 3.112
+    scale 1.186
+   }
+   {
+    ID "65A569181F2406EE"
+    coords -40.722 -0.934 194.37
+    angleX 4.319
+    angleY -154
+    angleZ 4.946
+    scale 1.144
+   }
+   {
+    ID "65A569181F2406EF"
+    coords -26.842 0.132 192.039
+    angleX 2.128
+    angleY 44.122
+    angleZ 4.924
+    scale 1.003
+   }
+   {
+    ID "65A569181F245B19"
+    coords -23.334 0.132 196.363
+    angleX 2.73
+    angleY 134.411
+    angleZ 3.549
+    scale 1.134
+   }
+   {
+    ID "65A569181F24BF31"
+    coords -31.484 0.118 197.048
+    angleX 2.753
+    angleY 89.574
+    angleZ 0.902
+    scale 1.089
+   }
+   {
+    ID "65A569181F24C88C"
+    coords -32.618 0.132 145.419
+    angleX 1.344
+    angleY 111.57
+    angleZ 4.501
+    scale 1.136
+   }
+   {
+    ID "65A569181F24C88D"
+    coords -24.615 0.132 120.284
+    angleX -0.122
+    angleY 135.4
+    angleZ -1.399
+    scale 1.166
+   }
+   {
+    ID "65A569181F250D51"
+    coords -3.805 -1.987 -56.676
+    angleX 1.008
+    angleY 173.227
+    angleZ 1.954
+    scale 1.021
+   }
+   {
+    ID "65A569181F25CC02"
+    coords -27.901 0.132 196.504
+    angleX 4.358
+    angleY -116.777
+    angleZ 2.467
+    scale 1.015
+   }
+   {
+    ID "65A569181F25FFF2"
+    coords -23.397 0.132 179.805
+    angleX 0.55
+    angleY 41.013
+    angleZ -3.209
+    scale 1.075
+   }
+   {
+    ID "65A569181F25FFF3"
+    coords -23.765 0.122 203.352
+    angleX -2.211
+    angleY -10.976
+    angleZ -3.408
+    scale 1.006
+   }
+   {
+    ID "65A569181F261944"
+    coords 13.844 -3.584 -69.827
+    angleX 1.594
+    angleY 68.271
+    angleZ 0.501
+    scale 1.187
+   }
+   {
+    ID "65A569181F2626B6"
+    coords 17.358 -1.196 -38.576
+    angleX -4.198
+    angleY -8.306
+    angleZ -1.404
+    scale 1.024
+   }
+   {
+    ID "65A569181F262946"
+    coords 19 -2.4 -54.56
+    angleX 2.743
+    angleY 0.165
+    angleZ -3.091
+    scale 1.074
+   }
+   {
+    ID "65A569181F262947"
+    coords 15.168 -3.254 -66.662
+    angleX 1.903
+    angleY -160.504
+    angleZ -0.043
+    scale 1.007
+   }
+   {
+    ID "65A569181F2646E8"
+    coords 8.268 -1.359 -43.547
+    angleX -0.424
+    angleY 101.319
+    angleZ -0.683
+    scale 1.092
+   }
+   {
+    ID "65A569181F269EE4"
+    coords 25.646 -1.391 -39.801
+    angleX 0.769
+    angleY 94.441
+    angleZ -2.946
+    scale 1.163
+   }
+   {
+    ID "65A569181F2703E2"
+    coords -6.072 -0.752 -38.257
+    angleX -2.906
+    angleY 20.128
+    angleZ 4.331
+    scale 1.109
+   }
+   {
+    ID "65A569181F271999"
+    coords 14.98 -1.922 -49.862
+    angleX -2.186
+    angleY -76.72
+    angleZ 4.71
+    scale 1.03
+   }
+   {
+    ID "65A569181F272688"
+    coords 11.991 -2.694 -60.926
+    angleX -2.408
+    angleY -102.088
+    angleZ -4.447
+    scale 1.001
+   }
+   {
+    ID "65A569181F27268B"
+    coords 19.106 -3.099 -63.252
+    angleX -3.534
+    angleY -119.052
+    angleZ 3.728
+    scale 1.153
+   }
+   {
+    ID "65A569181F27A360"
+    coords 13.872 -1.247 -40.102
+    angleX 1.637
+    angleY 34.037
+    angleZ -1.535
+    scale 1.091
+   }
+   {
+    ID "65A569181F27A367"
+    coords -12.467 -2.634 -60.392
+    angleX 3.133
+    angleY 116.272
+    angleZ 3.912
+    scale 1.089
+   }
+   {
+    ID "65A569181F27AEF5"
+    coords -20.621 -0.455 -44.675
+    angleX 0.411
+    angleY -32.026
+    angleZ -1.709
+    scale 1.193
+   }
+   {
+    ID "65A569181F285040"
+    coords -39.775 0.132 120.156
+    angleX -1.165
+    angleY 40.035
+    angleZ 0.02
+    scale 1.152
+   }
+   {
+    ID "65A569181F28953A"
+    coords -56.786 -1.344 141.276
+    angleX -3.981
+    angleY 119.788
+    angleZ 0.72
+    scale 1.2
+   }
+   {
+    ID "65A569181F28953B"
+    coords -24.694 0.132 124.619
+    angleX -1.681
+    angleY -29.928
+    angleZ 3.322
+    scale 1.194
+   }
+   {
+    ID "65A569181F28D8F1"
+    coords -45.392 0.132 105.302
+    angleX -3.644
+    angleY -48.704
+    angleZ -3.526
+    scale 1.037
+   }
+   {
+    ID "65A569181F28DB4A"
+    coords -42.698 0.132 117.725
+    angleX -4.962
+    angleY 0.132
+    angleZ 3.065
+    scale 1.065
+   }
+   {
+    ID "65A569181F28F625"
+    coords -28.529 0.132 142.832
+    angleX 4.905
+    angleY 40.354
+    angleZ -3.609
+    scale 1.18
+   }
+   {
+    ID "65A569181F28F626"
+    coords -40.139 0.132 128.435
+    angleX 4.48
+    angleY 179.05
+    angleZ -0.953
+    scale 1.076
+   }
+   {
+    ID "65A569181F291D1C"
+    coords -49.454 0.124 115.286
+    angleX 0.904
+    angleY 84.465
+    angleZ 2.687
+    scale 1.114
+   }
+   {
+    ID "65A569181F291D1F"
+    coords -30.762 0.132 122.396
+    angleX -2.234
+    angleY -140.464
+    angleZ -4.348
+    scale 1.099
+   }
+   {
+    ID "65A569181F29A536"
+    coords -42.951 0.132 134.209
+    angleX 0.354
+    angleY 79.752
+    angleZ -3.628
+    scale 1.021
+   }
+   {
+    ID "65A569181F29D91C"
+    coords -49.206 -0.27 139.68
+    angleX 4.451
+    angleY -140.366
+    angleZ 3.335
+    scale 1.025
+   }
+   {
+    ID "65A569181F29D91D"
+    coords -24.585 0.132 137.339
+    angleX 2.541
+    angleY 6.625
+    angleZ 1
+    scale 1.081
+   }
+   {
+    ID "65A569181F2A13B6"
+    coords -25.834 0.132 131.598
+    angleX 3.848
+    angleY 114.184
+    angleZ 4.382
+    scale 1.068
+   }
+   {
+    ID "65A569181F2A7340"
+    coords -29.954 0.132 132.953
+    angleX -3.91
+    angleY -122.754
+    angleZ 1.171
+    scale 1.169
+   }
+   {
+    ID "65A569181F2A737F"
+    coords -47.691 0.077 129.436
+    angleX 0.98
+    angleY 162.317
+    angleZ 0.492
+    scale 1.197
+   }
+   {
+    ID "65A569181F2AABDB"
+    coords -34.235 0.132 117.929
+    angleX -2.414
+    angleY 111.097
+    angleZ -3.034
+    scale 1.097
+   }
+   {
+    ID "65A569181F2ADCE3"
+    coords -23.871 0.132 152.627
+    angleX 2.109
+    angleY -38.42
+    angleZ -1.148
+    scale 1.039
+   }
+   {
+    ID "65A569181F2B69C7"
+    coords -35.398 0.132 152.383
+    angleX -1.196
+    angleY -58.526
+    angleZ -1.663
+    scale 1.111
+   }
+   {
+    ID "65A569181F2BB139"
+    coords -43.934 0.122 137.469
+    angleX 4.702
+    angleY -53.098
+    angleZ -3.618
+    scale 1.081
+   }
+   {
+    ID "65A569181F2BCD0A"
+    coords -29.18 0.132 149.89
+    angleX 0.318
+    angleY -89.245
+    angleZ -1.185
+    scale 1.096
+   }
+   {
+    ID "65A569181F2BEA96"
+    coords -49.28 -0.453 146.647
+    angleX -3.971
+    angleY 7.68
+    angleZ -1.134
+    scale 1.161
+   }
+   {
+    ID "65A569181F2C0F4A"
+    coords -37.309 0.132 23.932
+    angleX 2.84
+    angleY -76.775
+    angleZ -1.315
+    scale 1.133
+   }
+   {
+    ID "65A569181F2C0F4F"
+    coords -67.453 -0.631 48.77
+    angleX -4.624
+    angleY 170.271
+    angleZ -4.715
+    scale 1.041
+   }
+   {
+    ID "65A569181F2C6718"
+    coords -51.327 0.132 -25.514
+    angleX -3.183
+    angleY 141.113
+    angleZ -0.802
+    scale 1.187
+   }
+   {
+    ID "65A569181F2C6C28"
+    coords -44.157 -0.061 -28.688
+    angleX 2.697
+    angleY 22.248
+    angleZ 3.686
+    scale 1.01
+   }
+   {
+    ID "65A569181F2C6C29"
+    coords -56.203 -1.618 17.085
+    angleX -1.295
+    angleY 114.371
+    angleZ 2.042
+    scale 1.021
+   }
+   {
+    ID "65A569181F2C6C2B"
+    coords -34.957 0.101 7.081
+    angleX -3
+    angleY -89.706
+    angleZ -1.775
+    scale 1.129
+   }
+   {
+    ID "65A569181F2C8B78"
+    coords -42.658 0.118 7.142
+    angleX -1.335
+    angleY 159.274
+    angleZ -3.147
+    scale 1.01
+   }
+   {
+    ID "65A569181F2C8B79"
+    coords -57.248 -0.32 -4.955
+    angleX -0.757
+    angleY -143.244
+    angleZ 4.704
+    scale 1.11
+   }
+   {
+    ID "65A569181F2CF1BA"
+    coords -26.156 0.101 11.633
+    angleX 1.159
+    angleY -97.287
+    angleZ -2.049
+    scale 1.19
+   }
+   {
+    ID "65A569181F2D21A3"
+    coords -25.733 0.113 22.248
+    angleX 0.716
+    angleY -83.543
+    angleZ 3.35
+    scale 1.197
+   }
+   {
+    ID "65A569181F2D21A4"
+    coords -41.834 0.132 21.782
+    angleX 1.519
+    angleY -166.393
+    angleZ 2.387
+    scale 1.007
+   }
+   {
+    ID "65A569181F2D34B8"
+    coords -43.414 0.132 32.728
+    angleX 0.454
+    angleY -123.578
+    angleZ 1.782
+    scale 1.026
+   }
+   {
+    ID "65A569181F2D5FA0"
+    coords -36.724 0.132 36.089
+    angleX -1.536
+    angleY -134.861
+    angleZ -1.593
+    scale 1.032
+   }
+   {
+    ID "65A569181F2D5FA1"
+    coords -56.656 0.099 53.845
+    angleX -2.349
+    angleY 143.321
+    angleZ -4.714
+    scale 1.086
+   }
+   {
+    ID "65A569181F2D5FA2"
+    coords -36.457 0.132 16.107
+    angleX 1.353
+    angleY -20.919
+    angleZ 3.499
+    scale 1.157
+   }
+   {
+    ID "65A569181F2D5FA4"
+    coords -52.444 -1.618 18.156
+    angleX -0.715
+    angleY 25.885
+    angleZ 4.312
+    scale 1.179
+   }
+   {
+    ID "65A569181F2D7540"
+    coords -53.516 0.021 34.765
+    angleX -2.09
+    angleY 6.922
+    angleZ -0.255
+    scale 1.183
+   }
+   {
+    ID "65A569181F2D7541"
+    coords -45.538 0.132 40.827
+    angleX -3.076
+    angleY -99.649
+    angleZ -1.968
+    scale 1.005
+   }
+   {
+    ID "65A569181F2D7543"
+    coords -28.04 0.132 31.092
+    angleX -2.139
+    angleY 121.908
+    angleZ -3.134
+    scale 1.192
+   }
+   {
+    ID "65A569181F2D842C"
+    coords -28.727 0.132 39.506
+    angleX 1.964
+    angleY -94.321
+    angleZ 1.753
+    scale 1.114
+   }
+   {
+    ID "65A569181F2D8452"
+    coords -47.899 0.086 31.243
+    angleX -3.956
+    angleY 10.13
+    angleZ -1.344
+    scale 1.187
+   }
+   {
+    ID "65A569181F2D8453"
+    coords -53.632 -1.44 24.813
+    angleX 4.497
+    angleY -50.747
+    angleZ 0.172
+    scale 1.136
+   }
+   {
+    ID "65A569181F2DFD79"
+    coords -44.607 0.132 48.921
+    angleX -4.425
+    angleY 153.066
+    angleZ 1.247
+    scale 1.081
+   }
+   {
+    ID "65A569181F2E14E4"
+    coords -28.823 0.132 105.134
+    angleX -4.789
+    angleY 10.328
+    angleZ 0.163
+    scale 1.009
+   }
+   {
+    ID "65A569181F2E14E5"
+    coords -34.074 0.132 94.268
+    angleX -3.165
+    angleY 117.777
+    angleZ 3.508
+    scale 1.168
+   }
+   {
+    ID "65A569181F2E14FA"
+    coords -38.821 0.132 103.894
+    angleX 0.284
+    angleY -27.148
+    angleZ 4.792
+    scale 1.183
+   }
+   {
+    ID "65A569181F2E4B01"
+    coords -57.904 0.126 44.933
+    angleX 3.088
+    angleY 19.413
+    angleZ -4.533
+    scale 1.167
+   }
+   {
+    ID "65A569181F2E4B02"
+    coords -46.094 0.132 37.74
+    angleX 4.98
+    angleY 175.27
+    angleZ 4.76
+    scale 1.085
+   }
+   {
+    ID "65A569181F2E8591"
+    coords -24.489 0.132 37.034
+    angleX 3.957
+    angleY -115.646
+    angleZ -0.963
+    scale 1.014
+   }
+   {
+    ID "65A569181F2E94EF"
+    coords -23.437 0.101 17.587
+    angleX 0.871
+    angleY -74.171
+    angleZ 0.487
+    scale 1.146
+   }
+   {
+    ID "65A569181F2F0D38"
+    coords -25.82 0.132 101.995
+    angleX -0.613
+    angleY 72.292
+    angleZ 3.447
+    scale 1.145
+   }
+   {
+    ID "65A569181F2F230E"
+    coords -37.382 0.132 112.771
+    angleX 2.744
+    angleY 19.315
+    angleZ 0.685
+    scale 1.109
+   }
+   {
+    ID "65A569181F2F416C"
+    coords -51.32 -0.345 91.814
+    angleX -2.639
+    angleY -2.175
+    angleZ -3.291
+    scale 1.023
+   }
+   {
+    ID "65A569181F2F416F"
+    coords -39.811 0.132 99.383
+    angleX 2.226
+    angleY -6.57
+    angleZ 0.114
+    scale 1.004
+   }
+   {
+    ID "65A569181F2FA7C2"
+    coords -34.022 0.132 100.859
+    angleX -4.813
+    angleY -74.303
+    angleZ -0.186
+    scale 1.06
+   }
+   {
+    ID "65A569181F2FE6D2"
+    coords -69.445 -3.27 93.256
+    angleX -0.867
+    angleY 147.078
+    angleZ 2.947
+    scale 1.003
+   }
+   {
+    ID "65A569181F2FE6D4"
+    coords -43.325 0.132 113.809
+    angleX -3.769
+    angleY 50.275
+    angleZ 4.935
+    scale 1.083
+   }
+   {
+    ID "65A569181F303386"
+    coords -35.29 0.063 -10.633
+    angleX 1.676
+    angleY -86.015
+    angleZ 4.684
+    scale 1.161
+   }
+   {
+    ID "65A569181F3033B8"
+    coords -49.283 0.109 -6.504
+    angleX 4.399
+    angleY -38.563
+    angleZ 2.489
+    scale 1.082
+   }
+   {
+    ID "65A569181F3033B9"
+    coords -31.73 0.086 4.484
+    angleX -3.914
+    angleY -80.313
+    angleZ -2.885
+    scale 1.143
+   }
+   {
+    ID "65A569181F3033BB"
+    coords -40.414 0.062 -27.209
+    angleX -2.091
+    angleY -24.94
+    angleZ 1.027
+    scale 1.025
+   }
+   {
+    ID "65A569181F3033BD"
+    coords -55.08 0.132 -18.26
+    angleX -4.81
+    angleY -90.376
+    angleZ 4.81
+    scale 1.113
+   }
+   {
+    ID "65A569181F304792"
+    coords -55.153 -1.528 -46.552
+    angleX -2.623
+    angleY 102.89
+    angleZ 4.903
+    scale 1.145
+   }
+   {
+    ID "65A569181F304793"
+    coords -45.515 -1.618 -39.58
+    angleX 1.858
+    angleY 141.387
+    angleZ 0.799
+    scale 1.158
+   }
+   {
+    ID "65A569181F309F89"
+    coords -44.946 -1.562 -59.505
+    angleX -4.596
+    angleY 20.226
+    angleZ 2.764
+    scale 1.065
+   }
+   {
+    ID "65A569181F309F8A"
+    coords -53.735 -1.318 -53.025
+    angleX -3.744
+    angleY -7.394
+    angleZ 4.236
+    scale 1.056
+   }
+   {
+    ID "65A569181F309F8B"
+    coords -32.082 -0.053 -37.775
+    angleX 1.442
+    angleY 2
+    angleZ -4.519
+    scale 1.041
+   }
+   {
+    ID "65A569181F309F8C"
+    coords -25.963 -0.179 -35.88
+    angleX 0.526
+    angleY -14.634
+    angleZ -2.07
+    scale 1.068
+   }
+   {
+    ID "65A569181F30DA93"
+    coords -53.659 -1.618 -38.319
+    angleX 2.517
+    angleY 92.244
+    angleZ -0.015
+    scale 1.065
+   }
+   {
+    ID "65A569181F3126DD"
+    coords -52.838 0.132 1.731
+    angleX -0.551
+    angleY -115.887
+    angleZ 2.601
+    scale 1.097
+   }
+   {
+    ID "65A569181F3126DE"
+    coords -56.923 -1.184 7.295
+    angleX -2.448
+    angleY 75.665
+    angleZ -2.203
+    scale 1.09
+   }
+   {
+    ID "65A569181F3155FD"
+    coords -40.71 0.101 -1.296
+    angleX 0.976
+    angleY -144.584
+    angleZ -0.693
+    scale 1.103
+   }
+   {
+    ID "65A569181F31E6B7"
+    coords -46.958 0.101 -24.267
+    angleX 1.791
+    angleY 27.137
+    angleZ 1.582
+    scale 1.183
+   }
+   {
+    ID "65A569181F327CE0"
+    coords -44.325 -0.346 13.654
+    angleX -0.553
+    angleY 102.484
+    angleZ 1.109
+    scale 1.148
+   }
+   {
+    ID "65A569181F32B668"
+    coords -43.245 0.097 -11.907
+    angleX 1.91
+    angleY 91.914
+    angleZ -3.92
+    scale 1.089
+   }
+   {
+    ID "65A569181F32B669"
+    coords -37.489 0.07 -7.772
+    angleX 0.656
+    angleY 112.328
+    angleZ 4.205
+    scale 1.139
+   }
+   {
+    ID "65A569181F32BAA0"
+    coords -35.597 0.038 -16.143
+    angleX -0.236
+    angleY 157.428
+    angleZ 1.305
+    scale 1.191
+   }
+   {
+    ID "65A569181F32BAA2"
+    coords -50.818 -1.207 7.472
+    angleX -4.302
+    angleY -164.339
+    angleZ 2.854
+    scale 1.013
+   }
+   {
+    ID "65A569181F32BAA3"
+    coords -60.686 -1.455 -0.196
+    angleX -4.777
+    angleY -24.511
+    angleZ 3.794
+    scale 1.054
+   }
+   {
+    ID "65A569181F32BAAF"
+    coords -30.295 0.002 -18.783
+    angleX 1.68
+    angleY 50.561
+    angleZ -3.244
+    scale 1.193
+   }
+   {
+    ID "65A569181F32E4A4"
+    coords -30.341 0.07 0.73
+    angleX 0.677
+    angleY 66.623
+    angleZ -4.136
+    scale 1.125
+   }
+   {
+    ID "65A569181F335092"
+    coords -26.066 -0.049 -20.536
+    angleX 3.409
+    angleY -172.996
+    angleZ -1.768
+    scale 1.17
+   }
+   {
+    ID "65A569181F335093"
+    coords -24.169 0.007 -10.828
+    angleX 0.188
+    angleY -10.712
+    angleZ -3.723
+    scale 1.085
+   }
+   {
+    ID "65A569181F335095"
+    coords -33.187 0.006 -22.827
+    angleX 2.129
+    angleY 114.173
+    angleZ -3.204
+    scale 1.051
+   }
+   {
+    ID "65A569181F3351A9"
+    coords -36.428 0.014 -32.08
+    angleX -4.923
+    angleY 88.552
+    angleZ -1.866
+    scale 1.09
+   }
+   {
+    ID "65A569181F3351B6"
+    coords -42.628 0.089 -24.237
+    angleX -0.864
+    angleY 87.124
+    angleZ -1.5
+    scale 1.192
+   }
+   {
+    ID "65A569181F3351B7"
+    coords -41.169 -0.955 -33.162
+    angleX 0.183
+    angleY -79.521
+    angleZ 3.688
+    scale 1.198
+   }
+   {
+    ID "65A569181F33BB20"
+    coords -48.06 -0.334 -29.045
+    angleX 3.147
+    angleY 122.49
+    angleZ 3.908
+    scale 1.189
+   }
+   {
+    ID "65A569181F33DC09"
+    coords -39.999 0.07 -18.838
+    angleX -1.545
+    angleY -44.43
+    angleZ 1.473
+    scale 1.019
+   }
+   {
+    ID "65A569181F33DC0C"
+    coords -48.762 0.132 -3.19
+    angleX -0.185
+    angleY 122.38
+    angleZ 3.657
+    scale 1.12
+   }
+   {
+    ID "65A569181F34D368"
+    coords 76.618 -0.313 102.92
+    angleX 3.876
+    angleY 78.236
+    angleZ 4.032
+    scale 0.693
+   }
+   {
+    ID "65A569181F3570A0"
+    coords 29.945 0.132 39.292
+    angleX -3.591
+    angleY 36.794
+    angleZ 2.71
+    scale 0.759
+   }
+   {
+    ID "65A569181F3709E1"
+    coords -36.483 -0.271 -39.961
+    angleX -3.487
+    angleY -124.611
+    angleZ -3.662
+    scale 1.154
+   }
+   {
+    ID "65A569181F37AB07"
+    coords -40.534 -1.53 -39.154
+    angleX -2.642
+    angleY 64.964
+    angleZ 0.172
+    scale 1.173
+   }
+   {
+    ID "65A569181F37AB08"
+    coords -47.204 -1.603 -54.845
+    angleX 1.506
+    angleY 109.098
+    angleZ 0.756
+    scale 1.064
+   }
+   {
+    ID "65A569181F37AB0C"
+    coords -32.183 -0.001 -48.462
+    angleX 1.417
+    angleY 141.838
+    angleZ 3.847
+    scale 1.046
+   }
+   {
+    ID "65A569181F37AB0D"
+    coords -26.279 -0.216 -47.323
+    angleX -2.285
+    angleY 149.561
+    angleZ -3.839
+    scale 1.052
+   }
+   {
+    ID "65A569181F37AB0E"
+    coords -34.843 -0.702 -50.834
+    angleX 3.76
+    angleY -55.724
+    angleZ -1.447
+    scale 1.091
+   }
+   {
+    ID "65A569181F37AB0F"
+    coords -52.543 -1.461 -48.812
+    angleX 1.887
+    angleY -64.81
+    angleZ 2.185
+    scale 1.081
+   }
+   {
+    ID "65A569181F398664"
+    coords 37.481 -0.544 213.604
+    angleX 2.633
+    angleY -82.4
+    angleZ -1.113
+    scale 0.668
+   }
+   {
+    ID "65A569181F3A6C05"
+    coords 73.363 0.132 150.956
+    angleX 3.716
+    angleY 50.011
+    angleZ -1.847
+    scale 0.655
+   }
+   {
+    ID "65A569181F3B1602"
+    coords 73.036 0.058 96.435
+    angleX 3.482
+    angleY 92.552
+    angleZ 3.095
+    scale 0.766
+   }
+   {
+    ID "65A569181F3CA7D8"
+    coords -28.472 0.132 99.843
+    angleX 1.704
+    angleY 139.948
+    angleZ -0.182
+    scale 0.672
+   }
+   {
+    ID "65A569181F3D0C98"
+    coords -54.397 -0.134 103.202
+    angleX 3.862
+    angleY -103.593
+    angleZ -2.069
+    scale 0.753
+   }
+   {
+    ID "65A569181F3D75A0"
+    coords -62.112 -1.552 98.245
+    angleX -0.007
+    angleY -57.79
+    angleZ 3.055
+    scale 0.708
+   }
+   {
+    ID "65A569181F3D75A1"
+    coords -64.401 -1.953 95.203
+    angleX 3.285
+    angleY 152.308
+    angleZ 0.396
+    scale 0.757
+   }
+   {
+    ID "65A569181F3E16E4"
+    coords -44.399 0.044 148.598
+    angleX -0.586
+    angleY -130.609
+    angleZ 2.95
+    scale 0.751
+   }
+   {
+    ID "65A569181F3EC101"
+    coords -53.611 -0.065 114.922
+    angleX -3.85
+    angleY 89.519
+    angleZ -3.035
+    scale 0.769
+   }
+   {
+    ID "65A569181F3F825E"
+    coords -28.55 0.132 167.736
+    angleX 4.283
+    angleY 0.209
+    angleZ -4.473
+    scale 0.703
+   }
+   {
+    ID "65A569181F3FBB6F"
+    coords -37.477 -0.906 190.278
+    angleX 2.146
+    angleY -120.051
+    angleZ 1.559
+    scale 0.68
+   }
+   {
+    ID "65A569181F404C9D"
+    coords -2.067 0.132 160.135
+    angleX -2.894
+    angleY 162.174
+    angleZ -0.918
+    scale 1.073
+   }
+   {
+    ID "65A569181F40BB5B"
+    coords 2.773 0.132 163.2
+    angleX -3.43
+    angleY 105.384
+    angleZ 3.615
+    scale 1.07
+   }
+   {
+    ID "65A569181F40D620"
+    coords 14.066 0.132 134.069
+    angleX -2.82
+    angleY -7.866
+    angleZ -0.464
+    scale 1.003
+   }
+   {
+    ID "65A569181F41BBA2"
+    coords 8.388 0.132 164.446
+    angleX 1
+    angleY -63.679
+    angleZ 0.19
+    scale 1.079
+   }
+   {
+    ID "65A569181F41BBA3"
+    coords 4.338 0.132 143.76
+    angleX 4.186
+    angleY -29.785
+    angleZ 2.959
+    scale 1.151
+   }
+   {
+    ID "65A569181F41D2B1"
+    coords -10.124 0.132 151.841
+    angleX 0.795
+    angleY -159.823
+    angleZ -3.494
+    scale 1.199
+   }
+   {
+    ID "65A569181F426ECF"
+    coords 22.535 0.132 116.479
+    angleX 1.782
+    angleY -60.943
+    angleZ 3.274
+    scale 1.078
+   }
+   {
+    ID "65A569181F426F63"
+    coords -10.025 0.132 122.003
+    angleX 2.6
+    angleY -118.513
+    angleZ -3.653
+    scale 1.138
+   }
+   {
+    ID "65A569181F42AF90"
+    coords -1.262 0.132 136.094
+    angleX 0.255
+    angleY -171.271
+    angleZ 2.854
+    scale 1.014
+   }
+   {
+    ID "65A569181F437B26"
+    coords 13.413 0.132 146.873
+    angleX -0.59
+    angleY 173.589
+    angleZ 1.517
+    scale 1.107
+   }
+   {
+    ID "65A569181F43AB6B"
+    coords -22.957 0.132 161.647
+    angleX -2.063
+    angleY 21.688
+    angleZ -4.077
+    scale 1.049
+   }
+   {
+    ID "65A569181F43FA5E"
+    coords 9.722 0.132 155.221
+    angleX -0.283
+    angleY -51.527
+    angleZ -0.653
+    scale 1.105
+   }
+   {
+    ID "65A569181F43FF12"
+    coords 12.673 0.132 151.864
+    angleX -4.629
+    angleY 88.025
+    angleZ 4.563
+    scale 1.195
+   }
+   {
+    ID "65A569181F4413FB"
+    coords 10.602 0.132 125.82
+    angleX -2.608
+    angleY -123.171
+    angleZ 2.931
+    scale 1.001
+   }
+   {
+    ID "65A569181F448FF8"
+    coords -1.178 0.132 154.777
+    angleX 2.049
+    angleY 133.389
+    angleZ 3.748
+    scale 1.044
+   }
+   {
+    ID "65A569181F448FFB"
+    coords -5.148 0.132 120.2
+    angleX -1.024
+    angleY 142.178
+    angleZ -0.012
+    scale 1.138
+   }
+   {
+    ID "65A569181F44E5C6"
+    coords 2.886 0.132 132.941
+    angleX -1.449
+    angleY 118.678
+    angleZ -4.546
+    scale 1.009
+   }
+   {
+    ID "65A569181F4543F2"
+    coords -6.946 0.132 163.527
+    angleX -1.868
+    angleY -104.901
+    angleZ 0.824
+    scale 1.172
+   }
+   {
+    ID "65A569181F45F4DC"
+    coords -19.66 0.132 133.513
+    angleX -1.959
+    angleY -27.928
+    angleZ 2.613
+    scale 1.175
+   }
+   {
+    ID "65A569181F467273"
+    coords 6.165 0.132 134.606
+    angleX -0.192
+    angleY 79.434
+    angleZ -2.648
+    scale 1.028
+   }
+   {
+    ID "65A569181F467274"
+    coords 3.215 0.132 157.203
+    angleX -3.4
+    angleY 11.92
+    angleZ 4.273
+    scale 1.009
+   }
+   {
+    ID "65A569181F469DC0"
+    coords 16.911 0.132 151.887
+    angleX -2.06
+    angleY 162.394
+    angleZ -0.716
+    scale 1.127
+   }
+   {
+    ID "65A569181F469DC1"
+    coords 25.749 0.132 145.822
+    angleX -0.903
+    angleY 58.504
+    angleZ 4.812
+    scale 1.198
+   }
+   {
+    ID "65A569181F46A70F"
+    coords -14.104 0.132 117.091
+    angleX 1.854
+    angleY -88.322
+    angleZ -4.789
+    scale 1.178
+   }
+   {
+    ID "65A569181F46E4C6"
+    coords -9.959 0.132 158.227
+    angleX -1.296
+    angleY -57.46
+    angleZ -4.639
+    scale 1.156
+   }
+   {
+    ID "65A569181F4759D1"
+    coords 22.552 0.132 158.981
+    angleX 3.995
+    angleY -112.987
+    angleZ -4.296
+    scale 1.178
+   }
+   {
+    ID "65A569181F475FBD"
+    coords 18.293 0.132 138.135
+    angleX 2.695
+    angleY -54.032
+    angleZ 4.727
+    scale 1.07
+   }
+   {
+    ID "65A569181F475FBE"
+    coords 11.326 0.132 141.302
+    angleX -0.948
+    angleY -100.308
+    angleZ -0.481
+    scale 1.163
+   }
+   {
+    ID "65A569181F47E717"
+    coords 17.075 0.132 127.637
+    angleX 3.304
+    angleY 76.357
+    angleZ -1.993
+    scale 1.125
+   }
+   {
+    ID "65A569181F480725"
+    coords 9.344 0.132 96.543
+    angleX -3.504
+    angleY 63.382
+    angleZ 4.136
+    scale 1.043
+   }
+   {
+    ID "65A569181F482F89"
+    coords -9.398 0.132 68.311
+    angleX -4.841
+    angleY -77.017
+    angleZ 3.535
+    scale 1.048
+   }
+   {
+    ID "65A569181F482F8A"
+    coords 1.033 0.132 109.55
+    angleX -2.074
+    angleY 88.64
+    angleZ -0.522
+    scale 1.052
+   }
+   {
+    ID "65A569181F488C0E"
+    coords -6.76 0.132 113.876
+    angleX -0.564
+    angleY 135.026
+    angleZ 1.112
+    scale 1.074
+   }
+   {
+    ID "65A569181F488C0F"
+    coords -13.965 0.132 106.576
+    angleX -0.503
+    angleY 44.024
+    angleZ -2.433
+    scale 1.035
+   }
+   {
+    ID "65A569181F48DC98"
+    coords -5.666 0.132 81.273
+    angleX 1.73
+    angleY -22.138
+    angleZ -0.257
+    scale 1.12
+   }
+   {
+    ID "65A569181F48DC9F"
+    coords 13.09 0.132 73.758
+    angleX -3.006
+    angleY 166.657
+    angleZ -2.258
+    scale 1.051
+   }
+   {
+    ID "65A569181F4920AA"
+    coords 1.227 0.132 91.596
+    angleX 3.248
+    angleY 129.818
+    angleZ 3.456
+    scale 1.068
+   }
+   {
+    ID "65A569181F4920AB"
+    coords -9.845 0.132 73.348
+    angleX 0.318
+    angleY 49.242
+    angleZ 4.789
+    scale 1.198
+   }
+   {
+    ID "65A569181F496BA3"
+    coords 7.668 0.132 69.992
+    angleX -3.242
+    angleY 80.576
+    angleZ 0.072
+    scale 1.169
+   }
+   {
+    ID "65A569181F49A48D"
+    coords 8.909 0.132 79.097
+    angleX 1.441
+    angleY 128.247
+    angleZ 0.948
+    scale 1.097
+   }
+   {
+    ID "65A569181F49D9BA"
+    coords -5.183 0.132 92.359
+    angleX -2.14
+    angleY 23.753
+    angleZ -1.557
+    scale 1.031
+   }
+   {
+    ID "65A569181F49D9BB"
+    coords 5.242 0.132 104.487
+    angleX 4.114
+    angleY -99.517
+    angleZ 1.603
+    scale 1.002
+   }
+   {
+    ID "65A569181F49F99A"
+    coords -10.12 0.132 87.757
+    angleX 2.626
+    angleY 27.741
+    angleZ 1.079
+    scale 1.106
+   }
+   {
+    ID "65A569181F4A0BFB"
+    coords 20.6 0.132 98.631
+    angleX -4.435
+    angleY 86.938
+    angleZ 4.416
+    scale 1.081
+   }
+   {
+    ID "65A569181F4ABAC3"
+    coords 26.046 0.132 113.535
+    angleX -3.254
+    angleY -87.025
+    angleZ 3.891
+    scale 1.133
+   }
+   {
+    ID "65A569181F4AD53B"
+    coords 4.984 0.132 93.093
+    angleX 1.571
+    angleY -104.692
+    angleZ 1.088
+    scale 1.156
+   }
+   {
+    ID "65A569181F4B3098"
+    coords -16.764 0.132 100.878
+    angleX 4.4
+    angleY 85.971
+    angleZ -3.884
+    scale 1.066
+   }
+   {
+    ID "65A569181F4B309F"
+    coords -22.866 0.132 113.596
+    angleX -2.129
+    angleY -48.275
+    angleZ -3.349
+    scale 1.157
+   }
+   {
+    ID "65A569181F4B3E98"
+    coords -3.732 0.132 130.465
+    angleX 1.334
+    angleY -137.322
+    angleZ 4.495
+    scale 1.081
+   }
+   {
+    ID "65A569181F4B3E99"
+    coords 0.668 0.132 69.855
+    angleX -1.361
+    angleY 14.645
+    angleZ 3.266
+    scale 1.055
+   }
+   {
+    ID "65A569181F4BA0B6"
+    coords 17.556 0.132 90.978
+    angleX -4.489
+    angleY 134.576
+    angleZ -3.083
+    scale 1.067
+   }
+   {
+    ID "65A569181F4BE374"
+    coords -2.455 0.132 68.025
+    angleX -4.656
+    angleY 125.039
+    angleZ 1.886
+    scale 1.083
+   }
+   {
+    ID "65A569181F4BE375"
+    coords 4.476 0.132 98.41
+    angleX -1.803
+    angleY 172.93
+    angleZ -4.331
+    scale 1.078
+   }
+   {
+    ID "65A569181F4CA96E"
+    coords 17.104 0.132 95.909
+    angleX -1.844
+    angleY -164.756
+    angleZ 2.382
+    scale 1.074
+   }
+   {
+    ID "65A569181F4CA96F"
+    coords 12.415 0.132 110.151
+    angleX -2.217
+    angleY 176.94
+    angleZ 2.79
+    scale 1.086
+   }
+   {
+    ID "65A569181F4D02C7"
+    coords 9.144 0.132 99.983
+    angleX 3.968
+    angleY 39.42
+    angleZ -3.355
+    scale 1.176
+   }
+   {
+    ID "65A569181F4D88DE"
+    coords -14.989 0.132 112.746
+    angleX 2.878
+    angleY 161.768
+    angleZ 1.581
+    scale 1.013
+   }
+   {
+    ID "65A569181F4D88DF"
+    coords -1.665 0.132 99.357
+    angleX -2.591
+    angleY 0.934
+    angleZ -4.478
+    scale 1.113
+   }
+   {
+    ID "65A569181F4E4DA8"
+    coords -7.808 0.132 89.935
+    angleX 4.296
+    angleY 104
+    angleZ 4.467
+    scale 1
+   }
+   {
+    ID "65A569181F4E4DAB"
+    coords 14.301 0.132 88.75
+    angleX -0.171
+    angleY 110.317
+    angleZ -0.411
+    scale 1.061
+   }
+   {
+    ID "65A569181F4EAE70"
+    coords -14.441 0.132 97.227
+    angleX 0.773
+    angleY -42.826
+    angleZ -0.047
+    scale 1.001
+   }
+   {
+    ID "65A569181F4EAE71"
+    coords 18.421 0.132 73.833
+    angleX -4.549
+    angleY 68.436
+    angleZ -0.794
+    scale 1.178
+   }
+   {
+    ID "65A569181F4EB556"
+    coords 22.262 0.132 89.136
+    angleX 2.779
+    angleY 128.83
+    angleZ 1.536
+    scale 1.104
+   }
+   {
+    ID "65A569181F4F4702"
+    coords 24.974 0.132 93.176
+    angleX -2.032
+    angleY 98.924
+    angleZ -4.407
+    scale 1.094
+   }
+   {
+    ID "65A569181F4FC779"
+    coords -1.475 0.132 72.925
+    angleX 4.24
+    angleY -125.446
+    angleZ 3.79
+    scale 1.04
+   }
+   {
+    ID "65A569181F50A6AB"
+    coords -7.439 0.132 42.625
+    angleX 0.943
+    angleY 179.929
+    angleZ 2.212
+    scale 1.147
+   }
+   {
+    ID "65A569181F514814"
+    coords 14.617 0.132 25.478
+    angleX -1.908
+    angleY -137.201
+    angleZ 0.999
+    scale 1.197
+   }
+   {
+    ID "65A569181F514817"
+    coords 20.202 0.132 26.18
+    angleX 2.624
+    angleY 17.754
+    angleZ -0.385
+    scale 1.167
+   }
+   {
+    ID "65A569181F51A549"
+    coords 2.291 0.132 63.808
+    angleX 1.902
+    angleY -76.192
+    angleZ 2.378
+    scale 1.019
+   }
+   {
+    ID "65A569181F51CA1F"
+    coords -3.552 0.132 30.356
+    angleX -0.711
+    angleY 61.932
+    angleZ 1.86
+    scale 1.005
+   }
+   {
+    ID "65A569181F520297"
+    coords -5.249 0.132 108.046
+    angleX 2.141
+    angleY -36.542
+    angleZ 0.836
+    scale 1.116
+   }
+   {
+    ID "65A569181F52A6E9"
+    coords 24.897 0.132 23.462
+    angleX 3.366
+    angleY 11.382
+    angleZ -3.046
+    scale 1.183
+   }
+   {
+    ID "65A569181F530CB5"
+    coords 16.048 0.132 69.696
+    angleX 3.803
+    angleY -103.11
+    angleZ -0.736
+    scale 1.007
+   }
+   {
+    ID "65A569181F534F2D"
+    coords 20.747 0.132 112.659
+    angleX -4.208
+    angleY -142.244
+    angleZ 2.036
+    scale 1.193
+   }
+   {
+    ID "65A569181F535640"
+    coords -19.791 0.132 109.794
+    angleX 0.851
+    angleY -103.868
+    angleZ -2.629
+    scale 1.14
+   }
+   {
+    ID "65A569181F53E4E1"
+    coords 13.865 0.132 96.849
+    angleX 1.882
+    angleY -101.022
+    angleZ 1.174
+    scale 1.068
+   }
+   {
+    ID "65A569181F54A042"
+    coords 11.701 0.132 21.823
+    angleX 4.222
+    angleY 70.337
+    angleZ -2.661
+    scale 1.198
+   }
+   {
+    ID "65A569181F54D8D3"
+    coords -1.269 0.081 11.832
+    angleX 1.312
+    angleY 31.29
+    angleZ -3.585
+    scale 1.03
+   }
+   {
+    ID "65A569181F54E312"
+    coords -8.005 0.004 -2.225
+    angleX -1.685
+    angleY -123.984
+    angleZ -0.685
+    scale 1.179
+   }
+   {
+    ID "65A569181F54E692"
+    coords -7.805 -0.43 -29.611
+    angleX -1.816
+    angleY -20.721
+    angleZ -2.467
+    scale 1.033
+   }
+   {
+    ID "65A569181F54E693"
+    coords -17.43 0.132 44.216
+    angleX -1.309
+    angleY 149.715
+    angleZ 2.379
+    scale 1.01
+   }
+   {
+    ID "65A569181F553B7C"
+    coords -15.376 0.132 47.756
+    angleX 4.776
+    angleY 123.128
+    angleZ 3.558
+    scale 1.193
+   }
+   {
+    ID "65A569181F553B7D"
+    coords -13.754 0.114 23.456
+    angleX 2.184
+    angleY -122.875
+    angleZ -2.545
+    scale 1.069
+   }
+   {
+    ID "65A569181F553B7E"
+    coords -22.79 0.132 29.592
+    angleX -2.292
+    angleY -5.427
+    angleZ 4.846
+    scale 1.052
+   }
+   {
+    ID "65A569181F553B7F"
+    coords 10.227 0.132 60.997
+    angleX -4.163
+    angleY -113.064
+    angleZ -1.901
+    scale 1.009
+   }
+   {
+    ID "65A569181F557B22"
+    coords -3.693 0.132 38.711
+    angleX 2.563
+    angleY 122.271
+    angleZ 1.631
+    scale 1.056
+   }
+   {
+    ID "65A569181F557B2C"
+    coords 16.43 0.132 28.609
+    angleX -4.335
+    angleY -147.078
+    angleZ -3.791
+    scale 1.028
+   }
+   {
+    ID "65A569181F557B2F"
+    coords 21.737 0.132 57.216
+    angleX 3.733
+    angleY -1.154
+    angleZ 0.632
+    scale 1.022
+   }
+   {
+    ID "65A569181F55A181"
+    coords 23.391 0.132 35.311
+    angleX -0.95
+    angleY -159.34
+    angleZ 2.807
+    scale 1.023
+   }
+   {
+    ID "65A569181F55A348"
+    coords -5.443 0.132 33.806
+    angleX -2.185
+    angleY -35.256
+    angleZ 3.141
+    scale 1.047
+   }
+   {
+    ID "65A569181F55A34A"
+    coords -9.58 0.132 63.815
+    angleX 4.372
+    angleY -24.456
+    angleZ -4.816
+    scale 1.01
+   }
+   {
+    ID "65A569181F55CA4B"
+    coords 12.241 0.132 64.519
+    angleX 2.743
+    angleY -128.885
+    angleZ -0.072
+    scale 1.103
+   }
+   {
+    ID "65A569181F55CA54"
+    coords -4.719 0.132 25.219
+    angleX -2.068
+    angleY -68.139
+    angleZ -1.258
+    scale 1.022
+   }
+   {
+    ID "65A569181F5638EC"
+    coords -14.621 0.132 37.832
+    angleX 0.441
+    angleY 68.029
+    angleZ -0.851
+    scale 1.191
+   }
+   {
+    ID "65A569181F5638ED"
+    coords 7.645 0.132 48.59
+    angleX -3.793
+    angleY 77.368
+    angleZ -2.447
+    scale 1.051
+   }
+   {
+    ID "65A569181F5651BC"
+    coords -7.643 0.132 27.395
+    angleX -4.113
+    angleY 143.87
+    angleZ 2.859
+    scale 1.144
+   }
+   {
+    ID "65A569181F56CE41"
+    coords -4.307 0.132 53.895
+    angleX 1.402
+    angleY -129.159
+    angleZ -0.291
+    scale 1.11
+   }
+   {
+    ID "65A569181F56CE46"
+    coords 6.801 0.132 55.592
+    angleX -0.609
+    angleY 8.46
+    angleZ 0.487
+    scale 1.164
+   }
+   {
+    ID "65A569181F570AA0"
+    coords -17.891 0.132 27.106
+    angleX -3.821
+    angleY 59.229
+    angleZ -3.816
+    scale 1.036
+   }
+   {
+    ID "65A569181F570AA1"
+    coords 20.016 0.132 41.265
+    angleX -0.064
+    angleY 142.794
+    angleZ -1.552
+    scale 1.023
+   }
+   {
+    ID "65A569181F57638C"
+    coords 24.079 0.132 59.596
+    angleX -2.223
+    angleY -138.586
+    angleZ 4.893
+    scale 1.018
+   }
+   {
+    ID "65A569181F57638D"
+    coords -8.754 0.132 59.154
+    angleX 1.669
+    angleY 125.753
+    angleZ -3.946
+    scale 1.181
+   }
+   {
+    ID "65A569181F5763B2"
+    coords -0.094 0.11 19.362
+    angleX 4.275
+    angleY -37.52
+    angleZ 2.531
+    scale 1.129
+   }
+   {
+    ID "65A569181F578F75"
+    coords 5.501 0.123 20.458
+    angleX 4.511
+    angleY 57.867
+    angleZ -3.242
+    scale 1.031
+   }
+   {
+    ID "65A569181F585AF5"
+    coords -16.097 -0.387 -33.694
+    angleX 0.787
+    angleY -138.443
+    angleZ 4.58
+    scale 1.167
+   }
+   {
+    ID "65A569181F587A32"
+    coords 17.615 0.021 4.344
+    angleX 1.702
+    angleY 173.15
+    angleZ 1.684
+    scale 1.174
+   }
+   {
+    ID "65A569181F58C263"
+    coords 8.742 -0.261 -15.687
+    angleX -2.159
+    angleY -90.178
+    angleZ 3.575
+    scale 1.151
+   }
+   {
+    ID "65A569181F58E57F"
+    coords -12.792 0.038 2.079
+    angleX 1.481
+    angleY 161.877
+    angleZ -3.048
+    scale 1.083
+   }
+   {
+    ID "65A569181F5916E8"
+    coords -0.825 0.016 1.361
+    angleX 2.233
+    angleY -133.565
+    angleZ 2.652
+    scale 1.082
+   }
+   {
+    ID "65A569181F5916EF"
+    coords 2.292 0.03 5.023
+    angleX 3.668
+    angleY -115.437
+    angleZ -1.492
+    scale 1.036
+   }
+   {
+    ID "65A569181F5919DE"
+    coords -21.065 0.087 9.801
+    angleX 0.82
+    angleY 24.808
+    angleZ -2.655
+    scale 1.053
+   }
+   {
+    ID "65A569181F5959B6"
+    coords -9.418 -0.304 -26.126
+    angleX 3.178
+    angleY 67.887
+    angleZ 4.725
+    scale 1.153
+   }
+   {
+    ID "65A569181F596AC2"
+    coords 8.756 -0.52 -25.702
+    angleX 0.593
+    angleY 143.299
+    angleZ 0.247
+    scale 1.073
+   }
+   {
+    ID "65A569181F599F06"
+    coords 23.89 -0.271 -14.953
+    angleX -1.47
+    angleY -29.686
+    angleZ -2.003
+    scale 1.055
+   }
+   {
+    ID "65A569181F599F07"
+    coords 3.408 -0.143 -11.274
+    angleX 3.451
+    angleY 44.21
+    angleZ -0.021
+    scale 1.051
+   }
+   {
+    ID "65A569181F5A32BF"
+    coords 5.973 0.072 11.111
+    angleX 4.501
+    angleY -179.742
+    angleZ 2.297
+    scale 1.097
+   }
+   {
+    ID "65A569181F5B09E0"
+    coords 11.167 -0.048 -1.415
+    angleX 2.661
+    angleY 40.255
+    angleZ 2.068
+    scale 1.085
+   }
+   {
+    ID "65A569181F5B09E1"
+    coords -18.589 0.038 -1.845
+    angleX -2.261
+    angleY -97.43
+    angleZ -1.149
+    scale 1.001
+   }
+   {
+    ID "65A569181F5B1F31"
+    coords -6.795 0.038 3.827
+    angleX -1.496
+    angleY 65.305
+    angleZ 4.413
+    scale 1.046
+   }
+   {
+    ID "65A569181F5B1F32"
+    coords -18.729 0.101 12.608
+    angleX 2.707
+    angleY -177.292
+    angleZ -0.729
+    scale 1.117
+   }
+   {
+    ID "65A569181F5B4457"
+    coords -20.145 -0.267 -31.955
+    angleX -3.057
+    angleY -143.189
+    angleZ -4.951
+    scale 1.108
+   }
+   {
+    ID "65A569181F5B8188"
+    coords 26.673 0.101 11.066
+    angleX 0.177
+    angleY -93.53
+    angleZ 2.441
+    scale 1.021
+   }
+   {
+    ID "65A569181F5BA200"
+    coords -1.158 -0.106 -10.2
+    angleX 0.962
+    angleY 37.541
+    angleZ 0.359
+    scale 1.149
+   }
+   {
+    ID "65A569181F5C19BB"
+    coords -11.518 -0.512 -34.454
+    angleX -1.066
+    angleY 112.888
+    angleZ -3.805
+    scale 1.057
+   }
+   {
+    ID "65A569181F5C8BB2"
+    coords -2.885 -0.017 -1.937
+    angleX -1.163
+    angleY -146.013
+    angleZ -0.669
+    scale 1.079
+   }
+   {
+    ID "65A569181F5C8BBD"
+    coords 22.642 -0.489 -22.528
+    angleX 0.917
+    angleY -118.623
+    angleZ -3.358
+    scale 1.196
+   }
+   {
+    ID "65A569181F5CB0BE"
+    coords -13.699 -0.149 -21.121
+    angleX -3.672
+    angleY -42.562
+    angleZ -2.637
+    scale 1.053
+   }
+   {
+    ID "65A569181F5CCEF6"
+    coords -1.521 0.053 6.959
+    angleX -2.412
+    angleY -71.941
+    angleZ -3.878
+    scale 1.101
+   }
+   {
+    ID "65A569181F5CCEF7"
+    coords -19.75 -0.062 -17.378
+    angleX 4.064
+    angleY -77.961
+    angleZ 3.481
+    scale 1.058
+   }
+   {
+    ID "65A569181F5CE8F9"
+    coords -19.341 -0.005 -10.165
+    angleX 3.474
+    angleY 25.544
+    angleZ 1.614
+    scale 1.067
+   }
+   {
+    ID "65A569181F5D1942"
+    coords 12.699 -0.883 -34.036
+    angleX -3.782
+    angleY -165.965
+    angleZ -1.973
+    scale 1.057
+   }
+   {
+    ID "65A569181F5D1945"
+    coords -1.068 -0.279 -21.775
+    angleX -0.318
+    angleY 164.207
+    angleZ -1.83
+    scale 1.196
+   }
+   {
+    ID "65A569181F5D98A9"
+    coords -14.527 -0.006 -5.657
+    angleX 1.764
+    angleY -129.785
+    angleZ 2.017
+    scale 1.094
+   }
+   {
+    ID "65A569181F5DB158"
+    coords 6.096 -0.37 -22.393
+    angleX 4.89
+    angleY -79.038
+    angleZ 1.754
+    scale 1.001
+   }
+   {
+    ID "65A569181F5DB159"
+    coords -0.157 -0.517 -29.451
+    angleX -4.103
+    angleY -118.414
+    angleZ -3.184
+    scale 1.025
+   }
+   {
+    ID "65A569181F5DB198"
+    coords -8.94 -0.185 -20.228
+    angleX -1.388
+    angleY 85.388
+    angleZ 2.758
+    scale 1.01
+   }
+   {
+    ID "65A569181F5DC349"
+    coords -15.796 0.067 5.502
+    angleX 1.666
+    angleY 143.189
+    angleZ 4.849
+    scale 1.015
+   }
+   {
+    ID "65A569181F5DC34A"
+    coords -12.172 0.101 13.975
+    angleX 0.691
+    angleY -150.693
+    angleZ -0.594
+    scale 1.036
+   }
+   {
+    ID "65A569181F5E1708"
+    coords 2.498 -0.431 -26.21
+    angleX -2.749
+    angleY 14.294
+    angleZ -1.945
+    scale 1.075
+   }
+   {
+    ID "65A569181F5E2DA8"
+    coords 13.935 -0.009 1.837
+    angleX 4.014
+    angleY 2.769
+    angleZ 2.681
+    scale 1.162
+   }
+   {
+    ID "65A569181F5E9943"
+    coords 7.576 -0.007 1.983
+    angleX 0.35
+    angleY -73.863
+    angleZ -3.787
+    scale 1.198
+   }
+   {
+    ID "65A569181F5F09CC"
+    coords 9.914 0.047 6.575
+    angleX -3.448
+    angleY -74.292
+    angleZ -0.763
+    scale 1.041
+   }
+   {
+    ID "65A569181F5F4A89"
+    coords -17.771 0.046 1.216
+    angleX 2.465
+    angleY -49.517
+    angleZ 1.337
+    scale 1.05
+   }
+   {
+    ID "65A569181F5FFD43"
+    coords 22.001 -0.933 -33.006
+    angleX 2.577
+    angleY 17.722
+    angleZ -4.528
+    scale 1.149
+   }
+   {
+    ID "65A569181F6078B4"
+    coords 61.87 0.132 143.681
+    angleX -1.843
+    angleY 91.64
+    angleZ 4.503
+    scale 1.001
+   }
+   {
+    ID "65A569181F60AA82"
+    coords 28.643 0.132 124.559
+    angleX 2.475
+    angleY 132.038
+    angleZ -3.661
+    scale 1.097
+   }
+   {
+    ID "65A569181F6144E5"
+    coords 46.019 0.132 138.92
+    angleX 2.472
+    angleY -158.801
+    angleZ -1.431
+    scale 1.143
+   }
+   {
+    ID "65A569181F619EF3"
+    coords 58.84 0.132 139.899
+    angleX 1.587
+    angleY -131.126
+    angleZ 4.926
+    scale 1.09
+   }
+   {
+    ID "65A569181F61C501"
+    coords 55.915 0.132 126.114
+    angleX -4.473
+    angleY 96.935
+    angleZ 4.163
+    scale 1.128
+   }
+   {
+    ID "65A569181F625C20"
+    coords 46.285 0.132 165.007
+    angleX 3.083
+    angleY 24.819
+    angleZ 3.786
+    scale 1.082
+   }
+   {
+    ID "65A569181F62CB81"
+    coords 35.637 0.132 190.411
+    angleX 0.942
+    angleY -178.357
+    angleZ 0.636
+    scale 1.077
+   }
+   {
+    ID "65A569181F62D7E8"
+    coords 43.275 0.132 153.697
+    angleX 0.05
+    angleY -75.478
+    angleZ 1.421
+    scale 1.156
+   }
+   {
+    ID "65A569181F62D7E9"
+    coords 48.519 0.132 115.939
+    angleX -2.751
+    angleY 79.554
+    angleZ 3.802
+    scale 1.01
+   }
+   {
+    ID "65A569181F62DA41"
+    coords 28.549 0.132 158.117
+    angleX 2.72
+    angleY 160.966
+    angleZ -2.86
+    scale 1.035
+   }
+   {
+    ID "65A569181F633097"
+    coords 71.191 -0.542 171.936
+    angleX -1.175
+    angleY -177.621
+    angleZ 2.396
+    scale 1.189
+   }
+   {
+    ID "65A569181F6350D6"
+    coords 30.009 0.132 182.636
+    angleX 2.006
+    angleY -0.956
+    angleZ -3.41
+    scale 1.188
+   }
+   {
+    ID "65A569181F63DAF2"
+    coords 32.585 0.132 204.31
+    angleX 4.303
+    angleY -24.5
+    angleZ -1.524
+    scale 1.109
+   }
+   {
+    ID "65A569181F63DAFD"
+    coords 47.865 0.076 188.673
+    angleX -2.848
+    angleY 129.687
+    angleZ -1.54
+    scale 1.078
+   }
+   {
+    ID "65A569181F640F52"
+    coords 50.849 0.132 118.549
+    angleX -0.239
+    angleY 160.834
+    angleZ 4.203
+    scale 1.033
+   }
+   {
+    ID "65A569181F640F53"
+    coords 39.542 0.132 130.983
+    angleX 3.109
+    angleY 21.116
+    angleZ 2.795
+    scale 1.197
+   }
+   {
+    ID "65A569181F64674E"
+    coords 66.773 0.132 141.337
+    angleX 4.65
+    angleY -15.041
+    angleZ 1.735
+    scale 1.007
+   }
+   {
+    ID "65A569181F6494A4"
+    coords 48.664 0.132 132.035
+    angleX -4.237
+    angleY 148.309
+    angleZ -3.446
+    scale 1.073
+   }
+   {
+    ID "65A569181F656DE1"
+    coords 68.633 0.132 144.49
+    angleX -2.935
+    angleY -26.829
+    angleZ 4.045
+    scale 1.19
+   }
+   {
+    ID "65A569181F6595F9"
+    coords 47.182 0.132 125.74
+    angleX -0.177
+    angleY -85.312
+    angleZ -1.184
+    scale 1.068
+   }
+   {
+    ID "65A569181F6595FE"
+    coords 33.543 0.132 115.738
+    angleX -0.558
+    angleY -36.223
+    angleZ -4.019
+    scale 1.011
+   }
+   {
+    ID "65A569181F665F6D"
+    coords 59.446 0.132 125.629
+    angleX 0.4
+    angleY 121.677
+    angleZ -4.051
+    scale 1.038
+   }
+   {
+    ID "65A569181F665F6E"
+    coords 59.868 0.132 159.334
+    angleX -0.953
+    angleY -34.806
+    angleZ 3.581
+    scale 1.042
+   }
+   {
+    ID "65A569181F66E24A"
+    coords 37.188 0.132 145.631
+    angleX 0.726
+    angleY -76.654
+    angleZ 0.022
+    scale 1.184
+   }
+   {
+    ID "65A569181F66E24B"
+    coords 32.113 0.132 162.405
+    angleX -4.285
+    angleY -125.545
+    angleZ -3.28
+    scale 1.028
+   }
+   {
+    ID "65A569181F672952"
+    coords 51.483 0.132 137.24
+    angleX -1.963
+    angleY 126.72
+    angleZ 3.327
+    scale 1.055
+   }
+   {
+    ID "65A569181F677B73"
+    coords 39.346 0.132 160.087
+    angleX 2.801
+    angleY 55.34
+    angleZ -3.191
+    scale 1.128
+   }
+   {
+    ID "65A569181F67BDAC"
+    coords 40.497 0.132 134.899
+    angleX -3.235
+    angleY 71.49
+    angleZ 2.777
+    scale 1.113
+   }
+   {
+    ID "65A569181F67DEF8"
+    coords 30.598 0.132 138.671
+    angleX 2.926
+    angleY 87.97
+    angleZ 2.863
+    scale 1.144
+   }
+   {
+    ID "65A569181F67DEF9"
+    coords 37.704 0.132 139.912
+    angleX -0.774
+    angleY -131.543
+    angleZ -1.28
+    scale 1.134
+   }
+   {
+    ID "65A569181F6802FA"
+    coords 28.141 0.132 104.266
+    angleX -0.542
+    angleY 126.643
+    angleZ -0.152
+    scale 1.068
+   }
+   {
+    ID "65A569181F68397E"
+    coords 34.123 0.132 69.864
+    angleX -0.083
+    angleY -68.787
+    angleZ 3.364
+    scale 1.043
+   }
+   {
+    ID "65A569181F688362"
+    coords 33.456 0.132 95.725
+    angleX 4.162
+    angleY -133.861
+    angleZ 1.838
+    scale 1.009
+   }
+   {
+    ID "65A569181F688363"
+    coords 52.666 0.132 106.796
+    angleX -1.294
+    angleY 13.228
+    angleZ -3.373
+    scale 1.072
+   }
+   {
+    ID "65A569181F688DA5"
+    coords 52.808 0.132 96.458
+    angleX -1.786
+    angleY -2.593
+    angleZ 1.646
+    scale 1.175
+   }
+   {
+    ID "65A569181F695C38"
+    coords 62.723 0.132 80.948
+    angleX -4.345
+    angleY -121.6
+    angleZ 3.295
+    scale 1.108
+   }
+   {
+    ID "65A569181F695C3F"
+    coords 59.513 0.132 150.524
+    angleX -0.538
+    angleY 83.037
+    angleZ -0.664
+    scale 1.175
+   }
+   {
+    ID "65A569181F69FC32"
+    coords 64.712 0.132 103.764
+    angleX 3.362
+    angleY -11.888
+    angleZ -1.566
+    scale 1.021
+   }
+   {
+    ID "65A569181F69FC33"
+    coords 46.55 0.132 85.146
+    angleX 2.403
+    angleY 9.723
+    angleZ -2.183
+    scale 1.11
+   }
+   {
+    ID "65A569181F6A048E"
+    coords 62.884 0.132 133.84
+    angleX 4.417
+    angleY -104.066
+    angleZ -4.713
+    scale 1.147
+   }
+   {
+    ID "65A569181F6A0E78"
+    coords 45.302 0.132 118.866
+    angleX -1.898
+    angleY 25.445
+    angleZ -2.121
+    scale 1.117
+   }
+   {
+    ID "65A569181F6A0E79"
+    coords 56.766 0.132 160.541
+    angleX -2.57
+    angleY 90.882
+    angleZ -2.623
+    scale 1.07
+   }
+   {
+    ID "65A569181F6AB845"
+    coords 66.399 0.132 155.307
+    angleX 2.969
+    angleY 50.462
+    angleZ 2.135
+    scale 1.033
+   }
+   {
+    ID "65A569181F6AB846"
+    coords 65.467 0.132 126.757
+    angleX 1.476
+    angleY 2.758
+    angleZ -3.799
+    scale 1.1
+   }
+   {
+    ID "65A569181F6ABBF0"
+    coords 45.772 0.132 148.141
+    angleX -1.683
+    angleY 60.844
+    angleZ -3.766
+    scale 1.176
+   }
+   {
+    ID "65A569181F6AD972"
+    coords 57.57 0.132 130.515
+    angleX 0.783
+    angleY -41.771
+    angleZ 4.348
+    scale 1.063
+   }
+   {
+    ID "65A569181F6AFB92"
+    coords 56.141 0.132 119.623
+    angleX -1.613
+    angleY -163.229
+    angleZ -3.799
+    scale 1.076
+   }
+   {
+    ID "65A569181F6AFB93"
+    coords 41.803 0.132 142.071
+    angleX 1.407
+    angleY -57.922
+    angleZ 3.131
+    scale 1.12
+   }
+   {
+    ID "65A569181F6B2113"
+    coords 47.214 0.132 155.775
+    angleX -2.324
+    angleY 70.227
+    angleZ -0.817
+    scale 1.138
+   }
+   {
+    ID "65A569181F6B5EE1"
+    coords 29.921 0.132 150.64
+    angleX 4.317
+    angleY 164.921
+    angleZ -1.419
+    scale 1.109
+   }
+   {
+    ID "65A569181F6B5EEE"
+    coords 65.449 0.132 115.503
+    angleX 2.91
+    angleY 42.321
+    angleZ 3.339
+    scale 1.119
+   }
+   {
+    ID "65A569181F6C168E"
+    coords 47.661 0.132 81.084
+    angleX -1.01
+    angleY 118.788
+    angleZ 4.123
+    scale 1.127
+   }
+   {
+    ID "65A569181F6C5E39"
+    coords 49.597 0.132 88.889
+    angleX -1.759
+    angleY -172.743
+    angleZ 1.883
+    scale 1.087
+   }
+   {
+    ID "65A569181F6CF37E"
+    coords 66.354 0.132 89.78
+    angleX -0.559
+    angleY 170.106
+    angleZ 0.75
+    scale 1.169
+   }
+   {
+    ID "65A569181F6D2AE0"
+    coords 56.33 0.132 105.942
+    angleX 0.094
+    angleY -155.89
+    angleZ 0.34
+   }
+   {
+    ID "65A569181F6D2AE1"
+    coords 68.336 0.132 111.294
+    angleX 0.471
+    angleY -95.815
+    angleZ -2.859
+    scale 1.134
+   }
+   {
+    ID "65A569181F6D2E10"
+    coords 60.047 0.132 103.662
+    angleX -1.9
+    angleY -122.699
+    angleZ -4.17
+    scale 1.106
+   }
+   {
+    ID "65A569181F6D5523"
+    coords 48.637 0.132 69.85
+    angleX 3.303
+    angleY 177.753
+    angleZ -1.995
+    scale 1.006
+   }
+   {
+    ID "65A569181F6DE604"
+    coords 43.028 0.132 109.891
+    angleX 2.246
+    angleY -20.424
+    angleZ -4.061
+    scale 1.037
+   }
+   {
+    ID "65A569181F6DE60B"
+    coords 44.887 0.132 70.444
+    angleX -1.42
+    angleY 176.061
+    angleZ 0.01
+    scale 1.074
+   }
+   {
+    ID "65A569181F6EAA9A"
+    coords 40.283 0.132 78.29
+    angleX -2.202
+    angleY 137.872
+    angleZ -4.136
+    scale 1.121
+   }
+   {
+    ID "65A569181F6EAA9C"
+    coords 38.226 0.132 86.352
+    angleX 2.18
+    angleY 123.831
+    angleZ 1.474
+    scale 1.194
+   }
+   {
+    ID "65A569181F6EF409"
+    coords 29.747 0.132 74.498
+    angleX 4.806
+    angleY 169.063
+    angleZ 3.097
+    scale 1.082
+   }
+   {
+    ID "65A569181F6F2161"
+    coords 49.814 0.132 111.732
+    angleX 1.334
+    angleY 163.262
+    angleZ 0.736
+    scale 1.142
+   }
+   {
+    ID "65A569181F6F229E"
+    coords 54.174 0.132 72.133
+    angleX 2.806
+    angleY -11.723
+    angleZ 4.44
+    scale 1.064
+   }
+   {
+    ID "65A569181F6F6C0B"
+    coords 58.202 0.132 114.394
+    angleX 0.525
+    angleY -131.291
+    angleZ 2.669
+    scale 1.091
+   }
+   {
+    ID "65A569181F6F7257"
+    coords 61.657 0.132 108.983
+    angleX -0.181
+    angleY 165.679
+    angleZ 1.851
+    scale 1.149
+   }
+   {
+    ID "65A569181F6FF782"
+    coords 40.948 0.132 113.361
+    angleX 0.326
+    angleY 104.582
+    angleZ -0.738
+    scale 1.185
+   }
+   {
+    ID "65A569181F703943"
+    coords 32.684 0.132 62.013
+    angleX -3.058
+    angleY 81.631
+    angleZ -0.711
+    scale 1.024
+   }
+   {
+    ID "65A569181F71B9C4"
+    coords 38.473 0.132 41.708
+    angleX -0.774
+    angleY 83.345
+    angleZ -2.636
+    scale 1.105
+   }
+   {
+    ID "65A569181F723AFD"
+    coords 67.428 0.132 102.137
+    angleX -3.351
+    angleY -61.987
+    angleZ -1.682
+    scale 1.032
+   }
+   {
+    ID "65A569181F72BF88"
+    coords 36.175 0.132 99.368
+    angleX -2.049
+    angleY 64.294
+    angleZ -2.79
+    scale 1.069
+   }
+   {
+    ID "65A569181F72BF89"
+    coords 31.782 0.132 91.973
+    angleX 4.319
+    angleY 45.265
+    angleZ 2.488
+    scale 1.123
+   }
+   {
+    ID "65A569181F72D0A8"
+    coords 39.331 0.132 92.146
+    angleX -4.214
+    angleY -126.127
+    angleZ -4.964
+    scale 1.004
+   }
+   {
+    ID "65A569181F72E159"
+    coords 49.008 0.132 101.461
+    angleX 2.732
+    angleY 36.86
+    angleZ -3.297
+    scale 1.199
+   }
+   {
+    ID "65A569181F72E15A"
+    coords 53.856 0.132 81.655
+    angleX -3.453
+    angleY -26.884
+    angleZ -1.473
+    scale 1.178
+   }
+   {
+    ID "65A569181F72FACC"
+    coords 56.539 0.132 93.665
+    angleX -3.136
+    angleY -23.588
+    angleZ -4.195
+    scale 1.141
+   }
+   {
+    ID "65A569181F73895A"
+    coords 45.876 0.132 90.607
+    angleX 2.125
+    angleY -100.989
+    angleZ -4.195
+    scale 1.07
+   }
+   {
+    ID "65A569181F73AA36"
+    coords 53.168 0.132 68.605
+    angleX 3.86
+    angleY -179.632
+    angleZ -4.771
+    scale 1.079
+   }
+   {
+    ID "65A569181F73AA37"
+    coords 28.794 0.132 100.114
+    angleX 1.983
+    angleY -152.638
+    angleZ -4.896
+    scale 1.133
+   }
+   {
+    ID "65A569181F7403F6"
+    coords 1.099 0.132 173.867
+    angleX -3.733
+    angleY 115.063
+    angleZ 1.048
+    scale 1.078
+   }
+   {
+    ID "65A569181F7403F7"
+    coords -0.07 0.132 205.909
+    angleX -1.064
+    angleY -131.038
+    angleZ -2.537
+    scale 1.04
+   }
+   {
+    ID "65A569181F74220C"
+    coords 22.538 0.132 187.64
+    angleX -4.334
+    angleY 179.687
+    angleZ 1.643
+    scale 1.044
+   }
+   {
+    ID "65A569181F74220F"
+    coords -17.377 0.132 167.055
+    angleX -0.008
+    angleY -124.732
+    angleZ -2.339
+    scale 1.1
+   }
+   {
+    ID "65A569181F74548C"
+    coords -8.649 0.132 204.913
+    angleX -1.501
+    angleY -36.586
+    angleZ -3.093
+    scale 1.01
+   }
+   {
+    ID "65A569181F7454B3"
+    coords -6.314 0.132 181.768
+    angleX 3.728
+    angleY 15.975
+    angleZ 0.648
+    scale 1.018
+   }
+   {
+    ID "65A569181F7481D1"
+    coords -13.054 0.132 176.146
+    angleX 2.834
+    angleY -58.932
+    angleZ 4.84
+    scale 1.006
+   }
+   {
+    ID "65A569181F74F993"
+    coords 9.147 0.132 190.609
+    angleX 0.083
+    angleY 1.406
+    angleZ 3.219
+    scale 1.12
+   }
+   {
+    ID "65A569181F75117D"
+    coords 8.004 0.132 196.955
+    angleX 2.093
+    angleY -149.902
+    angleZ 0.864
+    scale 1.09
+   }
+   {
+    ID "65A569181F754D09"
+    coords 10.572 0.132 169.57
+    angleX -0.024
+    angleY -150.232
+    angleZ 4.088
+    scale 1.096
+   }
+   {
+    ID "65A569181F754D0E"
+    coords -16.329 0.132 184.833
+    angleX -2.396
+    angleY 70.611
+    angleZ -1.593
+    scale 1.096
+   }
+   {
+    ID "65A569181F75ADE6"
+    coords 12.836 0.132 187.765
+    angleX -1.97
+    angleY -119.458
+    angleZ 3.22
+    scale 1.166
+   }
+   {
+    ID "65A569181F75ADE7"
+    coords -8.94 0.132 183.43
+    angleX -0.261
+    angleY -32.422
+    angleZ 3.633
+    scale 1.013
+   }
+   {
+    ID "65A569181F760BDC"
+    coords 33.691 -2.281 -46.721
+    angleX -3.086
+    angleY 5.175
+    angleZ -1.365
+    scale 1.163
+   }
+   {
+    ID "65A569181F760BDF"
+    coords 29.62 -4.047 -64.883
+    angleX 4.24
+    angleY 104.077
+    angleZ 1.073
+    scale 1.042
+   }
+   {
+    ID "65A569181F764222"
+    coords 27.92 -3.066 -56.759
+    angleX -0.929
+    angleY -32.224
+    angleZ -4.962
+    scale 1.082
+   }
+   {
+    ID "65A569181F7650C9"
+    coords 35.217 -1.1 -35.854
+    angleX -1.354
+    angleY 112.69
+    angleZ 3.889
+    scale 1.006
+   }
+   {
+    ID "65A569181F766A96"
+    coords 30.328 -2.838 -52.994
+    angleX 3.951
+    angleY 87.641
+    angleZ 2.536
+    scale 1.021
+   }
+   {
+    ID "65A569181F76BD7E"
+    coords 26.783 -2.662 -53.605
+    angleX -1.948
+    angleY 26.687
+    angleZ -3.677
+    scale 1.068
+   }
+   {
+    ID "65A569181F76C201"
+    coords -9.83 0.132 167.583
+    angleX 3.383
+    angleY 103
+    angleZ 1.186
+    scale 1.009
+   }
+   {
+    ID "65A569181F76C202"
+    coords -12.236 0.132 181.974
+    angleX 2.779
+    angleY 14.415
+    angleZ -0.51
+    scale 1.02
+   }
+   {
+    ID "65A569181F76E596"
+    coords -12.195 0.132 189.159
+    angleX -3.668
+    angleY -153.769
+    angleZ -0.705
+    scale 1.012
+   }
+   {
+    ID "65A569181F76E597"
+    coords 10.102 0.132 205.778
+    angleX 3.252
+    angleY -143.266
+    angleZ 2.381
+    scale 1.069
+   }
+   {
+    ID "65A569181F772AE2"
+    coords 39.661 -0.093 -17.126
+    angleX -4.695
+    angleY 138.685
+    angleZ -0.13
+    scale 1.062
+   }
+   {
+    ID "65A569181F776E42"
+    coords 30.346 -0.613 -27.363
+    angleX 2.53
+    angleY 73.929
+    angleZ 3.317
+    scale 1.171
+   }
+   {
+    ID "65A569181F77927C"
+    coords 30.433 -1.613 -41.49
+    angleX -0.251
+    angleY 171.26
+    angleZ -0.733
+    scale 1.114
+   }
+   {
+    ID "65A569181F77D5CD"
+    coords 34.295 -1.454 -39.475
+    angleX -2.514
+    angleY -48.924
+    angleZ 0.493
+    scale 1.143
+   }
+   {
+    ID "65A569181F781427"
+    coords 18.655 0.132 192.127
+    angleX 4.384
+    angleY 179.896
+    angleZ -0.146
+    scale 1.178
+   }
+   {
+    ID "65A569181F784103"
+    coords 15.615 0.132 185.197
+    angleX 1.016
+    angleY 65.184
+    angleZ -0.845
+    scale 1.123
+   }
+   {
+    ID "65A569181F78F138"
+    coords 13.505 0.132 200.265
+    angleX -0.316
+    angleY 169.381
+    angleZ -0.826
+    scale 1.06
+   }
+   {
+    ID "65A569181F792CE2"
+    coords -0.719 0.132 187.368
+    angleX -2.783
+    angleY 24.467
+    angleZ 1.196
+    scale 1.091
+   }
+   {
+    ID "65A569181F79570A"
+    coords -11.942 0.132 165.266
+    angleX -2.402
+    angleY -147.76
+    angleZ -2.145
+    scale 1.01
+   }
+   {
+    ID "65A569181F79AC4A"
+    coords 18.845 0.132 181.51
+    angleX 1.491
+    angleY 136.707
+    angleZ -0.257
+    scale 1.03
+   }
+   {
+    ID "65A569181F79AC4B"
+    coords 0.809 0.132 198.457
+    angleX 0.231
+    angleY -154.934
+    angleZ -0.66
+    scale 1.001
+   }
+   {
+    ID "65A569181F79F766"
+    coords -3.958 0.132 197.457
+    angleX -4.126
+    angleY -143.914
+    angleZ -2.642
+    scale 1.09
+   }
+   {
+    ID "65A569181F7A78D9"
+    coords 9.15 0.132 210.426
+    angleX 2.308
+    angleY 155.527
+    angleZ -0.919
+    scale 1.184
+   }
+   {
+    ID "65A569181F7A78DE"
+    coords 23.58 0.132 166.043
+    angleX -4.896
+    angleY -8.075
+    angleZ 2.426
+    scale 1.003
+   }
+   {
+    ID "65A569181F7A88B4"
+    coords 13.854 0.132 178.423
+    angleX 2.795
+    angleY 30.741
+    angleZ -2.307
+    scale 1.162
+   }
+   {
+    ID "65A569181F7A88B5"
+    coords 1.847 0.132 190.441
+    angleX -3.646
+    angleY 138.542
+    angleZ 3.361
+    scale 1.016
+   }
+   {
+    ID "65A569181F7AC671"
+    coords 24.545 0.132 175.402
+    angleX 0.736
+    angleY 91.772
+    angleZ -1.203
+    scale 1.121
+   }
+   {
+    ID "65A569181F7B763C"
+    coords -6.285 0.132 207.448
+    angleX 1.915
+    angleY -157.955
+    angleZ 3.816
+    scale 1.164
+   }
+   {
+    ID "65A569181F7B763F"
+    coords -16.605 0.132 194.77
+    angleX -1.542
+    angleY 75.489
+    angleZ 3.26
+    scale 1.057
+   }
+   {
+    ID "65A569181F7C23C0"
+    coords 11.24 0.132 122.696
+    angleX 0.967
+    angleY 58.965
+    angleZ -1.514
+    scale 1.08
+   }
+   {
+    ID "65A569181F7C23DF"
+    coords 6.272 0.132 130.491
+    angleX -1.425
+    angleY -150.385
+    angleZ -0.254
+    scale 1.086
+   }
+   {
+    ID "65A569181F7C7D96"
+    coords -1.225 0.132 145.715
+    angleX 1.439
+    angleY 96.639
+    angleZ 4.783
+    scale 1.063
+   }
+   {
+    ID "65A569181F7C82D4"
+    coords -8.986 0.132 118.33
+    angleX -4.401
+    angleY -145.617
+    angleZ 1.241
+    scale 1.128
+   }
+   {
+    ID "65A569181F7CD9C4"
+    coords -12.891 0.132 134.728
+    angleX 0.471
+    angleY -107.823
+    angleZ -2.622
+    scale 1.078
+   }
+   {
+    ID "65A569181F7D6B9E"
+    coords 16.012 0.132 209.901
+    angleX 3.999
+    angleY -170.392
+    angleZ 1.892
+    scale 1.017
+   }
+   {
+    ID "65A569181F7DB15C"
+    coords 21.74 0.132 126.831
+    angleX -1.353
+    angleY 11.92
+    angleZ 0.115
+    scale 1.158
+   }
+   {
+    ID "65A569181F7DB4EB"
+    coords 3.766 0.132 179.21
+    angleX -1.713
+    angleY 11.02
+    angleZ 4.835
+    scale 1.187
+   }
+   {
+    ID "65A569181F7DC15E"
+    coords -13.842 0.132 147.192
+    angleX 1.374
+    angleY 22.512
+    angleZ -2.319
+    scale 1.042
+   }
+   {
+    ID "65A569181F7E4269"
+    coords -22.086 0.132 174.41
+    angleX -2.079
+    angleY -76.61
+    angleZ -2.04
+    scale 1.042
+   }
+   {
+    ID "65A569181F7E6A89"
+    coords -18.329 0.132 198.957
+    angleX -1.773
+    angleY -83.971
+    angleZ 0.528
+    scale 1.102
+   }
+   {
+    ID "65A569181F7E6A8E"
+    coords 14.094 0.132 171.341
+    angleX 0.039
+    angleY -9.701
+    angleZ 4.605
+    scale 1.017
+   }
+   {
+    ID "65A569181F7EE4D3"
+    coords 9.43 0.132 177.918
+    angleX -4.783
+    angleY -78.555
+    angleZ -3.565
+    scale 1.062
+   }
+   {
+    ID "65A569181F7F171D"
+    coords -8.929 0.132 170.619
+    angleX -4.901
+    angleY 137.015
+    angleZ 4.166
+    scale 1.034
+   }
+   {
+    ID "65A569181F7F8F9C"
+    coords 4.938 0.132 172.173
+    angleX 4.344
+    angleY 15.546
+    angleZ -0.994
+    scale 1.027
+   }
+   {
+    ID "65A569181F7F8F9D"
+    coords 21.021 0.132 207.881
+    angleX -3.682
+    angleY -167.338
+    angleZ -2.577
+    scale 1.087
+   }
+   {
+    ID "65A569181F7FDF87"
+    coords 25.167 0.132 208.943
+    angleX 3.138
+    angleY 88.333
+    angleZ -3.867
+    scale 1.185
+   }
+  }
+  $grp Tree : "{159BD386C0F6F3AD}PrefabLibrary/Vegetation/Trees/t_pinus_sylvestris_3w.et" {
+   {
+    ID "65A569181F01A1E5"
+    coords -62.259 -0.777 33.914
+    angleX -0.495
+    angleY 161.032
+    angleZ -0.863
+    scale 0.659
+   }
+   {
+    ID "65A569181F041404"
+    coords -6.461 -6.532 -75.318
+    angleX -0.209
+    angleY 21.885
+    angleZ -1.583
+    scale 0.685
+   }
+   {
+    ID "65A569181F078D2D"
+    coords -58.817 -1.612 -29.366
+    angleX -1.427
+    angleY -99.188
+    angleZ -1.473
+    scale 0.653
+   }
+   {
+    ID "65A569181F0B8B70"
+    coords 46.19 -0.125 -29.086
+    angleX -1.77
+    angleY 44.979
+    angleZ 1.24
+    scale 0.662
+   }
+   {
+    ID "65A569181F0BBB21"
+    coords 38.103 -4.39 -58.84
+    angleX 1.71
+    angleY 51.297
+    angleZ -1.5
+    scale 0.7
+   }
+   {
+    ID "65A569181F34D36B"
+    coords 72.998 0.126 82.678
+    angleX 0.301
+    angleY 141.552
+    angleZ -0.299
+    scale 0.749
+   }
+   {
+    ID "65A569181F37D894"
+    coords 31.615 -0.288 -18.982
+    angleX 0.156
+    angleY -104.912
+    angleZ -0.244
+    scale 0.663
+   }
+   {
+    ID "65A569181F37D895"
+    coords 29.616 -0.001 -1.085
+    angleX 1.639
+    angleY -172.963
+    angleZ -1.454
+    scale 0.709
+   }
+   {
+    ID "65A569181F38EAFC"
+    coords 12.966 0.063 220.447
+    angleX -1.346
+    angleY 49.781
+    angleZ -1.692
+    scale 0.708
+   }
+   {
+    ID "65A569181F398667"
+    coords 50.155 -0.725 207.59
+    angleX -1.949
+    angleY -4.109
+    angleZ -0.564
+    scale 0.691
+   }
+   {
+    ID "65A569181F3A965D"
+    coords 72.954 0.13 163.224
+    angleX 0.784
+    angleY -133.466
+    angleZ 0.429
+    scale 0.65
+   }
+   {
+    ID "65A569181F3BC209"
+    coords 78.115 0.068 137.899
+    angleX -0.944
+    angleY 11.47
+    angleZ 0.06
+    scale 0.667
+   }
+   {
+    ID "65A569181F3E1D43"
+    coords -40.211 -0.087 162.138
+    angleX 1.722
+    angleY 120.721
+    angleZ -1.085
+    scale 0.72
+   }
+   {
+    ID "65A569181F3EC102"
+    coords -56.395 -0.813 129.887
+    angleX -1.435
+    angleY 22.918
+    angleZ 1.011
+    scale 0.687
+   }
+   {
+    ID "65A569181F3F31AF"
+    coords -12.077 0.092 218.682
+    angleX 0.651
+    angleY 68.359
+    angleZ -0.734
+    scale 0.732
+   }
+   {
+    ID "65A569181F3FB49F"
+    coords -37.194 -0.405 178.085
+    angleX -0.889
+    angleY -141.277
+    angleZ -0.621
+    scale 0.658
+   }
+  }
+  $grp SCR_IndestructibleEnvironmentalEntity : "{1BA4712EED0CB208}PrefabLibrary/Rocks/Granite/GraniteStone_03.et" {
+   {
+    ID "65A569181F183ABC"
+    coords -5.818 -1.356 -49.602
+    angleX 32.427
+    angleY 115.909
+    angleZ 151.567
+    scale 0.507
+   }
+   {
+    ID "65A569181F183ABF"
+    coords -8.524 -1.048 -46.12
+    angleX 81.818
+    angleY -62.014
+    angleZ -173.04
+    scale 0.534
+   }
+   {
+    ID "65A569181F183EAF"
+    coords -7.675 -1.217 -48.683
+    angleX -40.332
+    angleY 137.13
+    angleZ -114.701
+    scale 0.538
+   }
+   {
+    ID "65A569181F186782"
+    coords 1.82 0.132 162.614
+    angleX 86.388
+    angleY -137.251
+    angleZ 70.875
+    scale 0.507
+   }
+   {
+    ID "65A569181F1867BD"
+    coords 0.734 0.132 163.984
+    angleX 76.89
+    angleY 83.466
+    angleZ -70.661
+    scale 1.1
+   }
+   {
+    ID "65A569181F1896C0"
+    coords -3.009 0.132 163.092
+    angleX -69.721
+    angleY -119.035
+    angleZ -164.646
+    scale 0.545
+   }
+   {
+    ID "65A569181F1896C1"
+    coords 3.087 0.132 164.369
+    angleX -61.135
+    angleY -55.647
+    angleZ -119.299
+    scale 0.574
+   }
+   {
+    ID "65A569181F191029"
+    coords -15.835 0.101 17.142
+    angleX 65.382
+    angleY -131.725
+    angleZ -110.493
+    scale 0.903
+   }
+   {
+    ID "65A569181F19102A"
+    coords -21.112 0.101 15.643
+    angleX 16.996
+    angleY 168.662
+    angleZ -143.76
+    scale 0.763
+   }
+   {
+    ID "65A569181F19503C"
+    coords -5.722 -0.091 -10.961
+    angleX 18.139
+    angleY -98.853
+    angleZ 3.549
+    scale 0.873
+   }
+   {
+    ID "65A569181F19503D"
+    coords -6.334 -0.145 -16.034
+    angleX -13.217
+    angleY -163.992
+    angleZ -177.599
+    scale 0.6
+   }
+   {
+    ID "65A569181F1969F2"
+    coords -19.183 0.101 15.724
+    angleX 14.859
+    angleY 153.297
+    angleZ 69.221
+    scale 0.569
+   }
+   {
+    ID "65A569181F1BFE84"
+    coords 8.126 -0.066 -2.852
+    angleX 32.273
+    angleY -15.008
+    angleZ 29.351
+    scale 0.644
+   }
+   {
+    ID "65A569181F1C8A59"
+    coords 11.781 0.132 32.344
+    angleX 30.389
+    angleY -114.124
+    angleZ 87.717
+    scale 0.93
+   }
+   {
+    ID "65A569181F1C8A5A"
+    coords 9.372 0.132 38.793
+    angleX -56.037
+    angleY -130.126
+    angleZ -146.897
+    scale 0.569
+   }
+   {
+    ID "65A569181F1CD816"
+    coords 6.673 0.132 37.745
+    angleX 21.49
+    angleY 50.907
+    angleZ -4.559
+    scale 0.589
+   }
+   {
+    ID "65A569181F1CD817"
+    coords 9.802 0.132 35.635
+    angleX -37.937
+    angleY 2.917
+    angleZ -50.693
+    scale 0.546
+   }
+   {
+    ID "65A569181F1D5E8B"
+    coords -45.955 -0.243 24.982
+    angleX -35.333
+    angleY 1.071
+    angleZ -23.973
+    scale 0.811
+   }
+   {
+    ID "65A569181F1EA750"
+    coords -16.608 -0.054 -13.609
+    angleX 43.524
+    angleY 114.162
+    angleZ -56.883
+    scale 0.535
+   }
+   {
+    ID "65A569181F1EA752"
+    coords -18.246 -0.05 -14.476
+    angleX -7.306
+    angleY -160.4
+    angleZ 2.747
+    scale 0.586
+   }
+   {
+    ID "65A569181F1EA754"
+    coords -14.586 -0.065 -13.11
+    angleX -21.446
+    angleY 10.729
+    angleZ 63.789
+    scale 0.908
+   }
+   {
+    ID "65A569181F1EA755"
+    coords -17.885 -0.091 -17.899
+    angleX 55.137
+    angleY 113.185
+    angleZ 103.775
+    scale 0.948
+   }
+   {
+    ID "65A569181FE30850"
+    coords 9.215 0.132 32.743
+    angleX 85.147
+    angleY 137.449
+    angleZ -24.423
+    scale 0.538
+   }
+   {
+    ID "65A569181FE3F09E"
+    coords -1.04 -3.193 -65.35
+    angleX 36.8
+    angleY -176.545
+    angleZ 26.362
+    scale 0.581
+   }
+   {
+    ID "65A569181FE3F09F"
+    coords 0.377 -3.129 -65.288
+    angleX -62.08
+    angleY -77.808
+    angleZ -119.288
+    scale 0.578
+   }
+  }
+  $grp Tree : "{1FCF4B90FC74DE73}PrefabLibrary/Vegetation/Trees/t_betula_pendula_3f.et" {
+   {
+    ID "65A569181FE00A48"
+    coords 44.854 0.132 173.313
+    angleX -2.363
+    angleY 95.903
+    angleZ -2.942
+    scale 0.95
+   }
+   {
+    ID "65A569181FE00A49"
+    coords 41.555 0.132 170.115
+    angleX -1.527
+    angleY 89.475
+    angleZ -1.484
+    scale 0.917
+   }
+   {
+    ID "65A569181FE03E36"
+    coords 15.516 0.132 196.676
+    angleX -0.19
+    angleY -123.281
+    angleZ 1.503
+    scale 0.878
+   }
+   {
+    ID "65A569181FE157AE"
+    coords -29.17 0.032 -10.237
+    angleX 1.402
+    angleY -96.122
+    angleZ -0.312
+    scale 0.943
+   }
+   {
+    ID "65A569181FE28D44"
+    coords -8.526 0.101 17.903
+    angleX 1.869
+    angleY 134.686
+    angleZ -0.503
+    scale 0.827
+   }
+   {
+    ID "65A569181FE7BDBF"
+    coords -16.774 -0.827 -51.243
+    angleX -0.34
+    angleY 79.543
+    angleZ -1.206
+    scale 0.807
+   }
+  }
+  $grp Tree : "{2FE01B5E743D5205}PrefabLibrary/Vegetation/Trees/t_pinus_sylvestris_1s.et" {
+   {
+    ID "65A56918108CE699"
+    coords 30.482 0.132 144.175
+    angleX 0.077
+    angleY 171.414
+    angleZ 0.298
+    scale 0.702
+   }
+   {
+    ID "65A56918108DB458"
+    coords 34.007 0.132 201.986
+    angleX -0.02
+    angleY 66.052
+    angleZ -0.119
+    scale 0.847
+   }
+   {
+    ID "65A56918108DB45E"
+    coords 44.469 0.132 156.343
+    angleX -0.657
+    angleY 8.284
+    angleZ 0.966
+    scale 0.736
+   }
+   {
+    ID "65A56918108DE0FD"
+    coords 64.338 0.132 154.187
+    angleX 1.865
+    angleY 43.969
+    angleZ -0.983
+    scale 1.082
+   }
+   {
+    ID "65A56918108E7A60"
+    coords 44.095 0.132 185.529
+    angleX -1.28
+    angleY -107.955
+    angleZ -1.099
+    scale 1.01
+   }
+   {
+    ID "65A56918109095CD"
+    coords -5.344 0.132 143.821
+    angleX 1.849
+    angleY -119.052
+    angleZ 1.462
+    scale 1.118
+   }
+   {
+    ID "65A5691810913319"
+    coords -1.706 0.132 195.025
+    angleX -0.612
+    angleY 64.008
+    angleZ -0.45
+    scale 0.855
+   }
+   {
+    ID "65A569181091F3F1"
+    coords -13.721 0.132 187.608
+    angleX -1.28
+    angleY 142.805
+    angleZ 1.189
+    scale 0.82
+   }
+   {
+    ID "65A5691810920A46"
+    coords 2.033 0.132 181.482
+    angleX -1.343
+    angleY -30.532
+    angleZ 0.447
+    scale 0.793
+   }
+   {
+    ID "65A5691810923736"
+    coords 37.909 0.132 64.059
+    angleX 0.262
+    angleY 53.011
+    angleZ -1.168
+    scale 0.746
+   }
+   {
+    ID "65A569181092B19A"
+    coords -5.309 0.132 176.139
+    angleX 0.058
+    angleY -116.645
+    angleZ -1.113
+    scale 0.93
+   }
+   {
+    ID "65A569181092C4B9"
+    coords -5.952 0.132 212.051
+    angleX -0.155
+    angleY -167.667
+    angleZ 1.448
+    scale 0.819
+   }
+   {
+    ID "65A5691810933CAC"
+    coords 55.263 0.132 91.795
+    angleX -1.275
+    angleY -151.726
+    angleZ -0.659
+    scale 0.839
+   }
+   {
+    ID "65A5691810934604"
+    coords 48.091 0.132 107.104
+    angleX 0.096
+    angleY 10.328
+    angleZ -0.239
+    scale 1.164
+   }
+   {
+    ID "65A569181093460B"
+    coords 58.37 0.132 97.401
+    angleX -0.325
+    angleY -55.252
+    angleZ -1.857
+    scale 0.947
+   }
+   {
+    ID "65A569181093E4BD"
+    coords 38.498 0.132 59.915
+    angleX -0.093
+    angleY -43.991
+    angleZ -1.763
+    scale 1.12
+   }
+   {
+    ID "65A569181093E4BF"
+    coords 49.797 0.132 66.223
+    angleX 1.761
+    angleY -150.704
+    angleZ -0.359
+    scale 0.8
+   }
+   {
+    ID "65A5691810945BD1"
+    coords -9.491 -0.345 -27.839
+    angleX 1.76
+    angleY 83.488
+    angleZ 0.309
+    scale 1.094
+   }
+   {
+    ID "65A569181094CBF0"
+    coords -1.919 -0.087 -9.367
+    angleX -0.638
+    angleY -120.205
+    angleZ 0.534
+    scale 0.779
+   }
+   {
+    ID "65A569181094CBF1"
+    coords 0.06 0.071 11.006
+    angleX 1.567
+    angleY -55.197
+    angleZ -1.047
+    scale 0.702
+   }
+   {
+    ID "65A5691810957221"
+    coords 7.976 0.132 49.835
+    angleX 1.806
+    angleY -110.833
+    angleZ 0.674
+    scale 0.936
+   }
+   {
+    ID "65A569181095C75A"
+    coords 7.512 0.132 31.234
+    angleX -0.808
+    angleY 151.77
+    angleZ 1.253
+    scale 0.905
+   }
+   {
+    ID "65A569181095D6FE"
+    coords 15.517 -0.419 -20.986
+    angleX 1.652
+    angleY -144.046
+    angleZ 0.822
+    scale 0.956
+   }
+   {
+    ID "65A5691810962E73"
+    coords 21.096 0.132 93.542
+    angleX 1.491
+    angleY 60.383
+    angleZ 0.311
+    scale 1.006
+   }
+   {
+    ID "65A5691810965735"
+    coords 18.812 0.132 100.804
+    angleX 1.906
+    angleY -32.301
+    angleZ 1.224
+    scale 0.915
+   }
+   {
+    ID "65A5691810965736"
+    coords -19.76 0.132 102.868
+    angleX -1.613
+    angleY -128.017
+    angleZ 1.603
+    scale 0.774
+   }
+   {
+    ID "65A5691810970648"
+    coords 0.305 0.132 124.952
+    angleX 1.843
+    angleY 147.122
+    angleZ 0.348
+    scale 1.109
+   }
+   {
+    ID "65A5691810979D7A"
+    coords -8.301 0.132 94.022
+    angleX 0.75
+    angleY -40.497
+    angleZ 1.963
+    scale 1.018
+   }
+   {
+    ID "65A5691810982F52"
+    coords -49.576 0.076 3.329
+    angleX 1.225
+    angleY -157.648
+    angleZ 1.248
+    scale 0.792
+   }
+   {
+    ID "65A5691810991417"
+    coords -64.891 -1.975 99.221
+    angleX 1.913
+    angleY -148.023
+    angleZ 0.337
+    scale 0.754
+   }
+   {
+    ID "65A569181099E577"
+    coords -27.398 0.101 11.8
+    angleX -1.486
+    angleY -93.244
+    angleZ -0.94
+    scale 0.829
+   }
+   {
+    ID "65A56918109AF3DE"
+    coords -55.588 -0.305 108.433
+    angleX 0.114
+    angleY -61.415
+    angleZ 0.9
+    scale 0.711
+   }
+   {
+    ID "65A569181F088FEF"
+    coords 80.185 0.132 149.634
+    angleX -0.805
+    angleY 72.699
+    angleZ -1.79
+    scale 0.819
+   }
+   {
+    ID "65A569181F0966B3"
+    coords 67.801 0.132 66.938
+    angleX 1.716
+    angleY -174.38
+    angleZ 1.939
+    scale 0.814
+   }
+   {
+    ID "65A569181F09C0D1"
+    coords 74.503 0.046 92.619
+    angleX -1.89
+    angleY -47.66
+    angleZ 1.817
+    scale 1.074
+   }
+   {
+    ID "65A569181F0A6969"
+    coords 33.399 -0.011 -5.624
+    angleX -0.973
+    angleY -34.586
+    angleZ -0.691
+    scale 0.954
+   }
+   {
+    ID "65A569181F0A7256"
+    coords 30.709 0.038 1.565
+    angleX -1.219
+    angleY -121.106
+    angleZ -1.59
+    scale 1.059
+   }
+   {
+    ID "65A569181F0C62AA"
+    coords -30.282 0.132 168.506
+    angleX 1.12
+    angleY -141.31
+    angleZ 1.847
+    scale 0.854
+   }
+   {
+    ID "65A569181F0EC654"
+    coords -7.73 0.081 218.922
+    angleX -0.612
+    angleY -21.743
+    angleZ -0.123
+    scale 1.198
+   }
+   {
+    ID "65A569181F0FC174"
+    coords 58.129 -1.544 207.343
+    angleX -0.164
+    angleY 143.728
+    angleZ -0.073
+    scale 1.032
+   }
+   {
+    ID "65A569181F0FC176"
+    coords 64.57 -2.36 205.592
+    angleX -0.201
+    angleY -48.858
+    angleZ 0.695
+    scale 1.099
+   }
+   {
+    ID "65A569181F100991"
+    coords 62.411 -1.254 191.719
+    angleX -0.91
+    angleY 34.498
+    angleZ 0.402
+    scale 1.05
+   }
+   {
+    ID "65A569181F10B88A"
+    coords 60.037 -0.869 189.828
+    angleX 0.823
+    angleY 116.843
+    angleZ 1.883
+    scale 0.888
+   }
+   {
+    ID "65A569181F10B88D"
+    coords 58.955 -0.791 190.923
+    angleX 1.993
+    angleY 178.962
+    angleZ -1.749
+    scale 1.179
+   }
+   {
+    ID "65A569181F1169D5"
+    coords 46.719 -5.629 -57.813
+    angleX -0.786
+    angleY -84.235
+    angleZ -1.516
+    scale 0.925
+   }
+   {
+    ID "65A569181F1169D6"
+    coords 47.761 -3.092 -47.755
+    angleX -0.062
+    angleY -92.738
+    angleZ 0.649
+    scale 1.132
+   }
+   {
+    ID "65A569181F1169E4"
+    coords 13.96 0.046 8.165
+    angleX 1.39
+    angleY 114.448
+    angleZ 0.419
+    scale 1.089
+   }
+   {
+    ID "65A569181F1169E9"
+    coords -19.66 0.132 30.78
+    angleX -0.014
+    angleY 136.29
+    angleZ 1.17
+    scale 0.677
+   }
+   {
+    ID "65A569181F1169ED"
+    coords -15.771 -0.628 -43.255
+    angleX 0.968
+    angleY 135.235
+    angleZ -1.597
+    scale 1.006
+   }
+   {
+    ID "65A569181F1169EE"
+    coords -17.451 -0.552 -42.628
+    angleX 1.52
+    angleY 0.615
+    angleZ 0.155
+    scale 1.134
+   }
+   {
+    ID "65A569181F1169EF"
+    coords -14.348 -0.643 -41.721
+    angleX -0.783
+    angleY -104.835
+    angleZ -1.182
+    scale 1.183
+   }
+   {
+    ID "65A569181F119E80"
+    coords -16.476 0.132 103.148
+    angleX 1.962
+    angleY 29.082
+    angleZ -0.715
+    scale 0.726
+   }
+   {
+    ID "65A569181F119E81"
+    coords -11.417 0.132 106.885
+    angleX 0.516
+    angleY -133.389
+    angleZ 0.143
+    scale 1.033
+   }
+   {
+    ID "65A569181F11CB48"
+    coords 62.02 -1.331 194.62
+    angleX 0.517
+    angleY -5.087
+    angleZ -0.102
+    scale 1.098
+   }
+   {
+    ID "65A569181F11CB4A"
+    coords -15.336 0.132 103.586
+    angleX 0.641
+    angleY 121.908
+    angleZ 0.825
+    scale 0.944
+   }
+   {
+    ID "65A569181F11E789"
+    coords -12.958 0.132 103.619
+    angleX 1.042
+    angleY 169.03
+    angleZ -0.305
+    scale 0.809
+   }
+   {
+    ID "65A569181F123739"
+    coords -31.085 0.132 49.401
+    angleX -0.375
+    angleY 82.411
+    angleZ -0.99
+    scale 1.17
+   }
+   {
+    ID "65A569181F129BD0"
+    coords -68.094 -1.64 -28.363
+    angleX 0.65
+    angleY -141.618
+    angleZ -0.926
+    scale 0.805
+   }
+   {
+    ID "65A569181F129BD4"
+    coords -45.641 -1.576 -59.604
+    angleX -1.373
+    angleY 44.068
+    angleZ 0.894
+    scale 1.063
+   }
+   {
+    ID "65A569181F12AF2E"
+    coords -66.465 -1.596 11.71
+    angleX 1.183
+    angleY -122.82
+    angleZ -1.885
+    scale 0.912
+   }
+   {
+    ID "65A569181F146878"
+    coords 31.062 0.132 97.475
+    angleX 0.291
+    angleY -71.886
+    angleZ 1.192
+    scale 0.784
+   }
+   {
+    ID "65A569181F146879"
+    coords 35.16 0.132 96.293
+    angleX 1.063
+    angleY -169.898
+    angleZ -0.679
+    scale 1.095
+   }
+   {
+    ID "65A569181F14687E"
+    coords 31.168 0.132 95.898
+    angleX 1.628
+    angleY 8.416
+    angleZ -1.59
+    scale 1.034
+   }
+   {
+    ID "65A569181F15354A"
+    coords 28.017 0.132 107.104
+    angleX 1.648
+    angleY -6.482
+    angleZ 0.151
+    scale 0.931
+   }
+   {
+    ID "65A569181F15354B"
+    coords 25.056 0.132 110.097
+    angleX 1.399
+    angleY 126.852
+    angleZ 0.043
+    scale 0.654
+   }
+   {
+    ID "65A569181F155290"
+    coords 25.036 0.132 106.917
+    angleX -0.005
+    angleY 5.351
+    angleZ 1.256
+    scale 1.003
+   }
+   {
+    ID "65A569181F15EA05"
+    coords -49.619 0.132 49.729
+    angleX -1.184
+    angleY -152.835
+    angleZ -1.402
+    scale 1.039
+   }
+   {
+    ID "65A569181F15EA06"
+    coords -20.775 0.101 14.243
+    angleX -1.886
+    angleY -116.239
+    angleZ 0.492
+    scale 1.196
+   }
+   {
+    ID "65A569181F161A21"
+    coords -7.635 0.132 109.771
+    angleX 0.467
+    angleY 62.185
+    angleZ 1.109
+    scale 1.116
+   }
+   {
+    ID "65A569181F161A3C"
+    coords -63.957 -1.932 93.075
+    angleX 0.103
+    angleY -145.793
+    angleZ 1.309
+    scale 0.765
+   }
+   {
+    ID "65A569181F161A3E"
+    coords -64.959 -2.092 90.667
+    angleX 1.241
+    angleY -93.277
+    angleZ 1.249
+    scale 1.063
+   }
+   {
+    ID "65A569181F161A3F"
+    coords -65.952 -2.274 93.562
+    angleX -1.097
+    angleY 0.385
+    angleZ -0.477
+    scale 1.093
+   }
+   {
+    ID "65A569181F169EE8"
+    coords 6.645 -0.453 -24.574
+    angleX 1.994
+    angleY 57.625
+    angleZ -0.44
+    scale 1.056
+   }
+   {
+    ID "65A569181F169EE9"
+    coords 5.391 -0.395 -23.397
+    angleX -1.666
+    angleY -154.451
+    angleZ -0.239
+    scale 0.87
+   }
+   {
+    ID "65A569181F169EEC"
+    coords 25.936 0.132 111.052
+    angleX -0.9
+    angleY -17.238
+    angleZ 0.614
+    scale 0.82
+   }
+   {
+    ID "65A569181F169EEE"
+    coords 0.72 -0.299 -21.692
+    angleX -1.196
+    angleY 161.658
+    angleZ 1.073
+    scale 0.955
+   }
+   {
+    ID "65A569181F17046C"
+    coords 24.125 -0.125 -7.779
+    angleX -1.066
+    angleY -60.569
+    angleZ -0.206
+    scale 1.046
+   }
+   {
+    ID "65A569181F173A26"
+    coords 30.634 -0.119 -10.783
+    angleX 1.658
+    angleY -149.869
+    angleZ -0.988
+    scale 1.123
+   }
+   {
+    ID "65A569181F176D19"
+    coords 25.835 -0.086 -6.995
+    angleX 1.472
+    angleY 177.501
+    angleZ -1.298
+    scale 0.783
+   }
+   {
+    ID "65A569181F176D1A"
+    coords 26.847 -0.167 -11.229
+    angleX -1.621
+    angleY -6.636
+    angleZ -0.662
+    scale 1.089
+   }
+   {
+    ID "65A569181F17A8AC"
+    coords -4.17 0.132 114.768
+    angleX 1.386
+    angleY 99.583
+    angleZ -1.847
+    scale 0.822
+   }
+   {
+    ID "65A569181F17EFC9"
+    coords -9.545 0.132 112.027
+    angleX -0.727
+    angleY 139.168
+    angleZ -1.201
+    scale 0.853
+   }
+  }
+  GenericEntity : "{327E590B0D2DFE7D}PrefabLibrary/Vegetation/Debris/T_trunk_debris_04.et" {
+   ID "65A5691810995423"
+   coords -49.107 0.132 45.294
+   angleY -118.304
+   scale 0.767
+  }
+  $grp Tree : "{425761285F36BF16}PrefabLibrary/Vegetation/Trees/t_betula_pendula_1s.et" {
+   {
+    ID "65A569181F0867C2"
+    coords 80.032 -0.154 122.777
+    angleX -2.133
+    angleY -133.466
+    angleZ -2.459
+    scale 0.988
+   }
+   {
+    ID "65A569181F0A148C"
+    coords 36.224 -0.037 -10.1
+    angleX -1.005
+    angleY 43.068
+    angleZ -2.605
+    scale 0.991
+   }
+   {
+    ID "65A569181F0A4810"
+    coords 35.009 0.132 28.725
+    angleX -2.664
+    angleY -88.728
+    angleZ 0.181
+    scale 1.018
+   }
+   {
+    ID "65A569181F0A4816"
+    coords 32.235 0.132 21.107
+    angleX -1.675
+    angleY 146.265
+    angleZ -0.551
+    scale 0.884
+   }
+   {
+    ID "65A569181F0C7E32"
+    coords -45.375 -0.179 153.134
+    angleX 0.284
+    angleY -104.571
+    angleZ -1.797
+    scale 1.036
+   }
+   {
+    ID "65A569181F0DBDF7"
+    coords -44.315 -1.595 189.352
+    angleX 0.073
+    angleY -158.483
+    angleZ 1.718
+    scale 0.96
+   }
+   {
+    ID "65A569181F0EC6F2"
+    coords -33.829 -0.261 207.929
+    angleX 2.841
+    angleY -108.702
+    angleZ -2.986
+    scale 0.801
+   }
+   {
+    ID "65A569181F1169D7"
+    coords 49.507 -0.73 -37.534
+    angleX 1.917
+    angleY 27.412
+    angleZ -0.169
+    scale 0.909
+   }
+   {
+    ID "65A569181F1169DB"
+    coords 20.968 -4.383 -76.59
+    angleX -0.776
+    angleY 105.747
+    angleZ -2.095
+    scale 0.906
+   }
+   {
+    ID "65A569181F12FF92"
+    coords -20.607 -6.58 -73.459
+    angleX -2.648
+    angleY -131.961
+    angleZ 2.128
+    scale 0.793
+   }
+   {
+    ID "65A569181F13DD1C"
+    coords -55.178 -0.915 89.01
+    angleX 1.131
+    angleY -78.115
+    angleZ 2.074
+    scale 0.994
+   }
+   {
+    ID "65A569181F13DD1D"
+    coords -46.517 0.055 95.531
+    angleX -2.296
+    angleY -139.651
+    angleZ -1.353
+    scale 0.966
+   }
+   {
+    ID "65A569181F183EAE"
+    coords -4.382 -1.316 -48.272
+    angleX 2.563
+    angleY 56.757
+    angleZ -1.277
+    scale 0.725
+   }
+   {
+    ID "65A569181F1969F6"
+    coords -4.047 -0.128 -13.16
+    angleX -2.046
+    angleY 112.02
+    angleZ -2.759
+    scale 0.583
+   }
+   {
+    ID "65A569181F1AE473"
+    coords -17.636 0.101 15.011
+    angleX 2.84
+    angleY -18.82
+    angleZ -2.81
+    scale 0.75
+   }
+   {
+    ID "65A569181F1AE47C"
+    coords -19.105 0.101 17.031
+    angleX -1.589
+    angleY 20.402
+    angleZ -1.996
+    scale 0.626
+   }
+   {
+    ID "65A569181F1B66AC"
+    coords 8.647 -0.067 -2.934
+    angleX 0.064
+    angleY -39.146
+    angleZ -2.914
+    scale 0.534
+   }
+   {
+    ID "65A569181F1B6BED"
+    coords 11.105 -0.061 -2.487
+    angleX 2.673
+    angleY -167.558
+    angleZ 1.165
+    scale 0.662
+   }
+   {
+    ID "65A569181F1C1840"
+    coords 8.621 0.132 35.24
+    angleX -2.987
+    angleY 25.917
+    angleZ 0.542
+    scale 0.87
+   }
+   {
+    ID "65A569181F1C4281"
+    coords 9.561 0.132 36.14
+    angleX -0.042
+    angleY 59.273
+    angleZ 0.622
+    scale 0.856
+   }
+   {
+    ID "65A569181F1D6C4D"
+    coords -44.185 -0.014 23.94
+    angleX 1.468
+    angleY -76.368
+    angleZ -2.423
+    scale 0.561
+   }
+   {
+    ID "65A569181F1E1C14"
+    coords -14.374 -0.097 -16.248
+    angleX -1.866
+    angleY -178.962
+    angleZ 2.236
+    scale 0.726
+   }
+   {
+    ID "65A569181F1E1C19"
+    coords -14.439 -0.087 -14.892
+    angleX -1.946
+    angleY -116.678
+    angleZ 2.078
+    scale 0.588
+   }
+   {
+    ID "65A569181FE089F1"
+    coords -0.406 -1.211 -44.42
+    angleX -1.981
+    angleY 56.9
+    angleZ 1.418
+    scale 0.91
+   }
+   {
+    ID "65A569181FE089F3"
+    coords 1.022 -1.38 -46.63
+    angleX -0.869
+    angleY 4.142
+    angleZ 2.591
+    scale 0.762
+   }
+   {
+    ID "65A569181FE28D45"
+    coords -2.914 0.102 18.748
+    angleX -1.512
+    angleY 24.226
+    angleZ -0.166
+    scale 1.01
+   }
+   {
+    ID "65A569181FE2BF12"
+    coords -6.379 0.101 15.168
+    angleX -1.979
+    angleY -120.634
+    angleZ 2.633
+    scale 1.17
+   }
+   {
+    ID "65A569181FE384F1"
+    coords 2.028 -2.999 -64.432
+    angleX 2.153
+    angleY 98.045
+    angleZ 1.589
+    scale 0.657
+   }
+   {
+    ID "65A569181FE769D3"
+    coords -20.152 -1.072 -56.669
+    angleX -0.813
+    angleY 37.706
+    angleZ 2.888
+    scale 0.762
+   }
+   {
+    ID "65A569181FE7BDBA"
+    coords -14.545 -0.934 -50.259
+    angleX -1.906
+    angleY -122.71
+    angleZ -0.129
+    scale 1.119
+   }
+  }
+  $grp Tree : "{531BB93086610CA1}PrefabLibrary/Vegetation/Trees/t_betula_pendula_0.et" {
+   {
+    ID "65A569181F14907C"
+    coords 6.915 -0.011 0.725
+    angleX 1.876
+    angleY -13.206
+    angleZ 0.607
+    scale 0.961
+   }
+   {
+    ID "65A569181F183700"
+    coords -3.75 0.132 158.473
+    angleX 0.49
+    angleY 9.317
+    angleZ -2.25
+    scale 0.848
+   }
+   {
+    ID "65A569181F183701"
+    coords -2.999 0.132 165.638
+    angleX 0.762
+    angleY 161.493
+    angleZ -2.399
+    scale 1.069
+   }
+   {
+    ID "65A569181F183ABA"
+    coords -2.089 0.132 162.815
+    angleX 1.017
+    angleY 144.497
+    angleZ 2.766
+    scale 1.144
+   }
+   {
+    ID "65A569181F198652"
+    coords -11.269 -0.942 -46.668
+    angleX 1.279
+    angleY 71.93
+    angleZ -2.605
+    scale 1.056
+   }
+   {
+    ID "65A569181F199D76"
+    coords -1.411 -1.406 -48.007
+    angleX 2.782
+    angleY -11.415
+    angleZ -2.379
+    scale 0.851
+   }
+   {
+    ID "65A569181F199D77"
+    coords -10.714 -1.235 -51.554
+    angleX 2.968
+    angleY 109.273
+    angleZ 2.284
+    scale 0.902
+   }
+   {
+    ID "65A569181F1A9318"
+    coords -22.373 0.101 14.435
+    angleX 2.196
+    angleY -111.954
+    angleZ -1.496
+    scale 0.863
+   }
+   {
+    ID "65A569181F1A9319"
+    coords -19.783 0.101 11.212
+    angleX -1.418
+    angleY -94.035
+    angleZ -2.632
+    scale 0.88
+   }
+   {
+    ID "65A569181F1AA7CC"
+    coords -18.889 0.101 17.232
+    angleX -2.541
+    angleY 35.74
+    angleZ 2.817
+    scale 1.276
+   }
+   {
+    ID "65A569181F1B0EBA"
+    coords 10.319 -0.097 -5.451
+    angleX -0.262
+    angleY -146.958
+    angleZ -2.572
+    scale 1.225
+   }
+   {
+    ID "65A569181F1B0EC5"
+    coords 7.843 -0.043 -1.178
+    angleX 0.566
+    angleY 79.302
+    angleZ 2.829
+    scale 1.299
+   }
+   {
+    ID "65A569181F1B6BEC"
+    coords 12.832 -0.038 -0.599
+    angleX 2.751
+    angleY 47.891
+    angleZ 2.281
+    scale 0.867
+   }
+   {
+    ID "65A569181F1C20A5"
+    coords 13.414 0.132 33.051
+    angleX 1.216
+    angleY 116.107
+    angleZ -0.703
+    scale 0.953
+   }
+   {
+    ID "65A569181F1C20AA"
+    coords 15.55 0.132 34.844
+    angleX -0.771
+    angleY 14.008
+    angleZ -1.922
+    scale 1.225
+   }
+   {
+    ID "65A569181F1D1E0A"
+    coords -45.471 -0.568 22.726
+    angleX -0.491
+    angleY 139.443
+    angleZ -1.62
+    scale 0.839
+   }
+   {
+    ID "65A569181F1D83F2"
+    coords 11.273 0.132 39.078
+    angleX -2.44
+    angleY 59.888
+    angleZ -0.339
+    scale 1.055
+   }
+   {
+    ID "65A569181F1FCDCF"
+    coords -12.028 -0.15 -19.564
+    angleX -0.47
+    angleY 172.491
+    angleZ -2.002
+    scale 1.281
+   }
+   {
+    ID "65A569181FE3109C"
+    coords 2.557 -3.379 -67.136
+    angleX 2.624
+    angleY -152.594
+    angleZ -1.853
+    scale 1.118
+   }
+   {
+    ID "65A569181FE3109F"
+    coords -0.268 -3.604 -67.668
+    angleX 1.954
+    angleY 85.279
+    angleZ 2.872
+    scale 0.928
+   }
+   {
+    ID "65A569181FE39B0E"
+    coords 2.903 -2.731 -62.086
+    angleX -0.316
+    angleY 53.933
+    angleZ -1.115
+    scale 1.14
+   }
+  }
+  $grp Tree : "{68C5231808D63103}PrefabLibrary/Vegetation/Trees/t_betula_pendula_2f.et" {
+   {
+    ID "65A569181FE16D5A"
+    coords -30.271 0.033 -13.191
+    angleX -1.504
+    angleY -90.574
+    angleZ -1.745
+    scale 0.973
+   }
+   {
+    ID "65A569181FE7BDB9"
+    coords -15.369 -1.225 -56.087
+    angleX 0.227
+    angleY 120.15
+    angleZ 2.74
+    scale 1.1
+   }
+   {
+    ID "65A569181FE7BDBE"
+    coords -19.232 -0.765 -53.624
+    angleX 0.634
+    angleY -86.212
+    angleZ 1.295
+    scale 1.105
+   }
+   {
+    ID "65A569181FE7FB32"
+    coords -4.817 0.132 48.808
+    angleX 0.93
+    angleY 98.298
+    angleZ 2.315
+    scale 0.926
+   }
+   {
+    ID "65A569181FE7FB33"
+    coords -1.276 0.132 45.189
+    angleX -1.017
+    angleY 13.47
+    angleZ -1.513
+    scale 0.972
+   }
+  }
+  $grp Tree : "{727831E6D77F3360}PrefabLibrary/Vegetation/Trees/t_pinus_sylvestris_3f.et" {
+   {
+    ID "65A56918109D09CB"
+    coords 38.849 -0.232 208.943
+    angleX 0.725
+    angleY -64.47
+    angleZ 0.663
+    scale 0.768
+   }
+   {
+    ID "65A56918109E814F"
+    coords 33.4 0.132 177.34
+    angleX -0.851
+    angleY -153.33
+    angleZ 1.473
+    scale 0.73
+   }
+   {
+    ID "65A56918109E831D"
+    coords 35.4 0.132 201.283
+    angleX 0.243
+    angleY -135.575
+    angleZ 0.272
+    scale 0.751
+   }
+   {
+    ID "65A56918109F899C"
+    coords 27.45 0.132 179.719
+    angleX -0.963
+    angleY -147.815
+    angleZ -1.044
+    scale 0.714
+   }
+   {
+    ID "65A56918109F9F12"
+    coords 41.029 -0.111 205.293
+    angleX 0.799
+    angleY 100.418
+    angleZ -1.683
+    scale 0.703
+   }
+   {
+    ID "65A56918109F9FDE"
+    coords 36.423 0.132 184.186
+    angleX 0.909
+    angleY -52.582
+    angleZ 0.836
+    scale 0.74
+   }
+   {
+    ID "65A56918109F9FDF"
+    coords 53.958 -0.158 185.868
+    angleX -0.645
+    angleY 121.238
+    angleZ -1.836
+    scale 0.771
+   }
+   {
+    ID "65A569181F202AEC"
+    coords 0.444 -2.277 -58.094
+    angleX -1.005
+    angleY -14.722
+    angleZ 1.534
+    scale 0.769
+   }
+   {
+    ID "65A569181F209F26"
+    coords 15.183 -1.534 -44.19
+    angleX -1.766
+    angleY -100.693
+    angleZ -1.448
+    scale 0.767
+   }
+   {
+    ID "65A569181F21960C"
+    coords -6.563 -3.711 -63.804
+    angleX -0.352
+    angleY 129.742
+    angleZ -1.804
+    scale 0.777
+   }
+   {
+    ID "65A569181F223BCC"
+    coords 4.456 -1.017 -38.715
+    angleX 1.374
+    angleY -156.362
+    angleZ 0.796
+    scale 0.745
+   }
+   {
+    ID "65A569181F227148"
+    coords -21.303 -3.663 -63.326
+    angleX 1.994
+    angleY -91.442
+    angleZ -1.494
+    scale 0.763
+   }
+   {
+    ID "65A569181F22714F"
+    coords 2.414 -4.353 -71.731
+    angleX 1.856
+    angleY 44.903
+    angleZ -0.381
+    scale 0.8
+   }
+   {
+    ID "65A569181F237673"
+    coords -22.352 -0.257 -35.478
+    angleX 0.449
+    angleY -158.538
+    angleZ -0.149
+    scale 0.764
+   }
+   {
+    ID "65A569181F239AFB"
+    coords 19.274 -2.089 -50.579
+    angleX 0.183
+    angleY -86.718
+    angleZ 0.644
+    scale 0.71
+   }
+   {
+    ID "65A569181F2418A4"
+    coords -43.949 -1.591 184.579
+    angleX -0.737
+    angleY -164.569
+    angleZ -1.679
+    scale 0.704
+   }
+   {
+    ID "65A569181F24BF36"
+    coords -25.196 0.132 183.771
+    angleX -1.833
+    angleY 52.593
+    angleZ 1.039
+    scale 0.761
+   }
+   {
+    ID "65A569181F250D5E"
+    coords -8.771 -1.885 -57.569
+    angleX 1.65
+    angleY -108.801
+    angleZ -0.709
+    scale 0.719
+   }
+   {
+    ID "65A569181F25768C"
+    coords 6.263 -2.173 -55.602
+    angleX 0.052
+    angleY -22.182
+    angleZ 0.389
+    scale 0.714
+   }
+   {
+    ID "65A569181F25CC01"
+    coords -31.213 0.016 188.242
+    angleX 0.551
+    angleY 124.182
+    angleZ -0.686
+    scale 0.728
+   }
+   {
+    ID "65A569181F261947"
+    coords -12.198 -0.679 -41.086
+    angleX -1.327
+    angleY -19.842
+    angleZ 1.64
+    scale 0.774
+   }
+   {
+    ID "65A569181F269EE5"
+    coords -18.659 -0.378 -36.806
+    angleX -0.75
+    angleY 106.779
+    angleZ -0.981
+    scale 0.787
+   }
+   {
+    ID "65A569181F271998"
+    coords 8.979 -3.298 -67.466
+    angleX -0.69
+    angleY 156.791
+    angleZ -0.028
+    scale 0.708
+   }
+   {
+    ID "65A569181F280FD3"
+    coords -32.157 0.132 127.239
+    angleX 0.431
+    angleY -112.855
+    angleZ -0.231
+    scale 0.786
+   }
+   {
+    ID "65A569181F280FD4"
+    coords -37.608 0.132 134.351
+    angleX 1.718
+    angleY -138.542
+    angleZ 0.759
+    scale 0.792
+   }
+   {
+    ID "65A569181F28D8F0"
+    coords -26.144 0.132 164.496
+    angleX 0.636
+    angleY -84.971
+    angleZ -0.386
+    scale 0.762
+   }
+   {
+    ID "65A569181F2AABDA"
+    coords -35.739 0.132 139.474
+    angleX 1.53
+    angleY 42.584
+    angleZ -1.086
+    scale 0.778
+   }
+   {
+    ID "65A569181F2BB13A"
+    coords -48.237 -0.443 150.595
+    angleX -1.531
+    angleY -137.07
+    angleZ 1.058
+    scale 0.738
+   }
+   {
+    ID "65A569181F2BCD0B"
+    coords -64.508 -2.054 134.293
+    angleX -0.738
+    angleY -167.58
+    angleZ 1.16
+    scale 0.701
+   }
+   {
+    ID "65A569181F2C0F48"
+    coords -40.347 0.132 35.021
+    angleX 1.192
+    angleY 137.509
+    angleZ -0.319
+    scale 0.758
+   }
+   {
+    ID "65A569181F2C8B76"
+    coords -51.397 -1.618 12.807
+    angleX -1.237
+    angleY 9.438
+    angleZ 1.08
+    scale 0.771
+   }
+   {
+    ID "65A569181F2C8B77"
+    coords -47.827 0.121 0.357
+    angleX -1.939
+    angleY -59.943
+    angleZ -1.909
+    scale 0.708
+   }
+   {
+    ID "65A569181F2CF1B9"
+    coords -43.209 0.096 -19.97
+    angleX 0.869
+    angleY -28.368
+    angleZ -0.982
+    scale 0.721
+   }
+   {
+    ID "65A569181F2D21A5"
+    coords -44.47 0.126 26.891
+    angleX 0.229
+    angleY 111.064
+    angleZ 1.304
+    scale 0.783
+   }
+   {
+    ID "65A569181F2D34B9"
+    coords -30.401 0.132 43.124
+    angleX -1.191
+    angleY -144.178
+    angleZ 1.694
+    scale 0.725
+   }
+   {
+    ID "65A569181F2D34BA"
+    coords -36.17 0.132 27.933
+    angleX -1.143
+    angleY 134.828
+    angleZ -0.192
+    scale 0.704
+   }
+   {
+    ID "65A569181F2D7542"
+    coords -43.588 0.132 44.421
+    angleX 1.616
+    angleY -1.681
+    angleZ 0.657
+    scale 0.773
+   }
+   {
+    ID "65A569181F2D754C"
+    coords -33.486 0.132 20.157
+    angleX -1.84
+    angleY 163.449
+    angleZ -0.918
+    scale 0.749
+   }
+   {
+    ID "65A569181F2E14E7"
+    coords -26.287 0.132 112.172
+    angleX 1.433
+    angleY 32.092
+    angleZ 1.961
+    scale 0.784
+   }
+   {
+    ID "65A569181F2E4B03"
+    coords -44.363 -0.376 18.298
+    angleX 0.872
+    angleY -47.913
+    angleZ -0.537
+    scale 0.717
+   }
+   {
+    ID "65A569181F2E8590"
+    coords -52.972 0.132 52.067
+    angleX 1.783
+    angleY 32.048
+    angleZ 1.011
+    scale 0.723
+   }
+   {
+    ID "65A569181F2F2301"
+    coords -51.17 0.103 111.046
+    angleX 0.899
+    angleY -135.608
+    angleZ 1.967
+    scale 0.788
+   }
+   {
+    ID "65A569181F2F7976"
+    coords -58.119 -1.231 87.566
+    angleX 0.781
+    angleY -86.696
+    angleZ 0.201
+    scale 0.799
+   }
+   {
+    ID "65A569181F2F7977"
+    coords -29.545 0.132 108.903
+    angleX 0.284
+    angleY 71.523
+    angleZ -0.753
+    scale 0.78
+   }
+   {
+    ID "65A569181F2FA7C3"
+    coords -33.077 0.132 110.75
+    angleX -0.44
+    angleY -79.598
+    angleZ -0.859
+    scale 0.721
+   }
+   {
+    ID "65A569181F2FE6D5"
+    coords -56.412 -1.247 92.851
+    angleX 1.222
+    angleY -179.555
+    angleZ -1.034
+    scale 0.704
+   }
+   {
+    ID "65A569181F3033BA"
+    coords -29.385 -0.111 -33.629
+    angleX 0.608
+    angleY -104.428
+    angleZ -0.734
+    scale 0.738
+   }
+   {
+    ID "65A569181F30C434"
+    coords -25.329 -0.544 -54.185
+    angleX -0.256
+    angleY -120.875
+    angleZ -1.819
+    scale 0.712
+   }
+   {
+    ID "65A569181F30DA92"
+    coords -41.851 -1.618 -49.251
+    angleX 1.18
+    angleY -59.723
+    angleZ -1.065
+    scale 0.786
+   }
+   {
+    ID "65A569181F31E6B6"
+    coords -33.499 0.101 11.722
+    angleX -1.69
+    angleY -132.005
+    angleZ -1.464
+    scale 0.783
+   }
+   {
+    ID "65A569181F335094"
+    coords -57.625 0.132 -12.87
+    angleX -0.008
+    angleY 169.304
+    angleZ 0.933
+    scale 0.787
+   }
+   {
+    ID "65A569181F3351B4"
+    coords -58.203 -1.618 12.201
+    angleX -1.909
+    angleY 117.283
+    angleZ 0.652
+    scale 0.732
+   }
+   {
+    ID "65A569181F3363CE"
+    coords -29.328 -0.072 -29.39
+    angleX 1.802
+    angleY -53.912
+    angleZ -0.008
+    scale 0.73
+   }
+   {
+    ID "65A569181F33BB21"
+    coords -50.516 0.122 -18.725
+    angleX 1.898
+    angleY 120.216
+    angleZ -0.223
+    scale 0.79
+   }
+   {
+    ID "65A569181F33DC0A"
+    coords -27.138 0.038 -5.153
+    angleX 0.844
+    angleY 128.621
+    angleZ 1.958
+    scale 0.796
+   }
+   {
+    ID "65A569181F33DC0B"
+    coords -48.195 -1.552 -32.942
+    angleX -1.252
+    angleY -152.385
+    angleZ 0.271
+    scale 0.798
+   }
+   {
+    ID "65A569181F3709E3"
+    coords -25.295 -0.251 -41.716
+    angleX -1.343
+    angleY 48.385
+    angleZ 1.868
+    scale 0.739
+   }
+   {
+    ID "65A569181F37AB10"
+    coords -35.835 -0.485 -44.803
+    angleX -0.652
+    angleY 12.58
+    angleZ -1.353
+    scale 0.768
+   }
+   {
+    ID "65A569181F40BB5A"
+    coords -12.329 0.132 140.817
+    angleX 0.966
+    angleY -104.615
+    angleZ -0.321
+    scale 0.741
+   }
+   {
+    ID "65A569181F410509"
+    coords -15.897 0.132 151.025
+    angleX 0.611
+    angleY -48.968
+    angleZ -0.248
+    scale 0.712
+   }
+   {
+    ID "65A569181F419EB4"
+    coords 12.407 0.132 130.945
+    angleX 1.245
+    angleY 20.084
+    angleZ -0.673
+    scale 0.705
+   }
+   {
+    ID "65A569181F41D2BE"
+    coords 1.639 0.132 118.62
+    angleX 0.408
+    angleY -8.438
+    angleZ -0.74
+    scale 0.795
+   }
+   {
+    ID "65A569181F426F62"
+    coords 24.798 0.132 139.193
+    angleX -1.205
+    angleY 14.008
+    angleZ -1.677
+    scale 0.701
+   }
+   {
+    ID "65A569181F42F359"
+    coords -19.552 0.132 158.49
+    angleX 0.237
+    angleY 84.334
+    angleZ 1.923
+    scale 0.733
+   }
+   {
+    ID "65A569181F42F35A"
+    coords -19.397 0.132 142.425
+    angleX 0.797
+    angleY -127.324
+    angleZ 1.044
+    scale 0.798
+   }
+   {
+    ID "65A569181F437B25"
+    coords -19.24 0.132 117.244
+    angleX -0.281
+    angleY -163.097
+    angleZ -0.877
+    scale 0.779
+   }
+   {
+    ID "65A569181F43AB6A"
+    coords 4.873 0.132 152.626
+    angleX 0.66
+    angleY -161.845
+    angleZ -0.764
+    scale 0.793
+   }
+   {
+    ID "65A569181F43FA59"
+    coords 9.728 0.132 159.888
+    angleX 1.148
+    angleY -42.244
+    angleZ -0.957
+    scale 0.719
+   }
+   {
+    ID "65A569181F443D9E"
+    coords -5.406 0.132 153.978
+    angleX -0.138
+    angleY 14.448
+    angleZ 0.717
+    scale 0.786
+   }
+   {
+    ID "65A569181F4520C0"
+    coords -5.426 0.132 136.854
+    angleX 0.982
+    angleY 5.285
+    angleZ 0.012
+    scale 0.788
+   }
+   {
+    ID "65A569181F4520C1"
+    coords -11.507 0.132 128.518
+    angleX -1.064
+    angleY 142.574
+    angleZ -0.697
+    scale 0.746
+   }
+   {
+    ID "65A569181F452FD2"
+    coords -18.169 0.132 123.511
+    angleX 0.149
+    angleY -99.737
+    angleZ -1.137
+    scale 0.744
+   }
+   {
+    ID "65A569181F45438D"
+    coords 15.916 0.132 160.06
+    angleX 0.576
+    angleY 52.637
+    angleZ -1.313
+    scale 0.736
+   }
+   {
+    ID "65A569181F45F4DD"
+    coords 21.288 0.132 151.406
+    angleX -1.196
+    angleY -84.729
+    angleZ 1.649
+    scale 0.766
+   }
+   {
+    ID "65A569181F4617EA"
+    coords 9.78 0.132 137.044
+    angleX -1.882
+    angleY 38.266
+    angleZ 1.708
+    scale 0.708
+   }
+   {
+    ID "65A569181F46E4C5"
+    coords 23.272 0.132 121.968
+    angleX -1.344
+    angleY 165.91
+    angleZ 0.18
+    scale 0.725
+   }
+   {
+    ID "65A569181F47E716"
+    coords 11.785 0.132 117.215
+    angleX -1.863
+    angleY -120.688
+    angleZ -0.669
+    scale 0.702
+   }
+   {
+    ID "65A569181F48F1E9"
+    coords 7.007 0.132 108.917
+    angleX -0.212
+    angleY -134.598
+    angleZ 1.865
+    scale 0.799
+   }
+   {
+    ID "65A569181F49A482"
+    coords 25.26 0.132 87.139
+    angleX -0.719
+    angleY 148.825
+    angleZ 1.855
+    scale 0.756
+   }
+   {
+    ID "65A569181F4ABAC0"
+    coords -10.347 0.132 113.333
+    angleX -1.089
+    angleY -166.217
+    angleZ 0.225
+    scale 0.759
+   }
+   {
+    ID "65A569181F4C0D04"
+    coords -8.951 0.132 102.938
+    angleX -0.786
+    angleY 30.752
+    angleZ 1.256
+    scale 0.767
+   }
+   {
+    ID "65A569181F4C0D07"
+    coords 17.347 0.132 104.078
+    angleX -1.66
+    angleY -129.906
+    angleZ 1.099
+    scale 0.703
+   }
+   {
+    ID "65A569181F4C6A18"
+    coords 13.549 0.132 102.942
+    angleX -1.82
+    angleY 132.082
+    angleZ -0.584
+    scale 0.771
+   }
+   {
+    ID "65A569181F4CE742"
+    coords 24.351 0.132 102.74
+    angleX -0.159
+    angleY 32.257
+    angleZ 0.655
+    scale 0.754
+   }
+   {
+    ID "65A569181F4E7EF3"
+    coords 25.611 0.132 73.755
+    angleX 1.625
+    angleY -10.635
+    angleZ 0.717
+    scale 0.704
+   }
+   {
+    ID "65A569181F4EDC8B"
+    coords -18.529 0.132 96.128
+    angleX 0.806
+    angleY -43.892
+    angleZ -0.983
+    scale 0.787
+   }
+   {
+    ID "65A569181F4EDC94"
+    coords 0.778 0.132 77.042
+    angleX 0.258
+    angleY -84.762
+    angleZ 0.001
+    scale 0.735
+   }
+   {
+    ID "65A569181F4FC778"
+    coords 22.225 0.132 69.315
+    angleX 0.133
+    angleY -129.368
+    angleZ -0.267
+    scale 0.73
+   }
+   {
+    ID "65A569181F501902"
+    coords 4.833 0.132 42.533
+    angleX 1.463
+    angleY 80.994
+    angleZ -1.922
+    scale 0.763
+   }
+   {
+    ID "65A569181F50A6AC"
+    coords -11.321 0.132 46.649
+    angleX 1.035
+    angleY -177.347
+    angleZ -0.38
+    scale 0.763
+   }
+   {
+    ID "65A569181F50D86B"
+    coords 21.032 0.101 15.881
+    angleX -1.688
+    angleY 1.066
+    angleZ -0.366
+    scale 0.745
+   }
+   {
+    ID "65A569181F51CA1E"
+    coords 12.433 0.132 50.241
+    angleX -0.694
+    angleY 32.927
+    angleZ -0.877
+    scale 0.703
+   }
+   {
+    ID "65A569181F520FD2"
+    coords 2.5 0.132 83.887
+    angleX 0.105
+    angleY -23.962
+    angleZ -1.052
+    scale 0.794
+   }
+   {
+    ID "65A569181F520FD3"
+    coords -8.804 0.132 78.124
+    angleX -1.351
+    angleY -50.693
+    angleZ -0.996
+    scale 0.796
+   }
+   {
+    ID "65A569181F52A6E6"
+    coords 24.403 0.132 19.721
+    angleX -0.766
+    angleY -36.652
+    angleZ -0.886
+    scale 0.789
+   }
+   {
+    ID "65A569181F52D804"
+    coords -0.896 0.132 34.995
+    angleX -0.662
+    angleY -140.003
+    angleZ -0.252
+    scale 0.766
+   }
+   {
+    ID "65A569181F52D805"
+    coords 24.081 0.132 64.684
+    angleX 1.573
+    angleY 132.433
+    angleZ -1.877
+    scale 0.714
+   }
+   {
+    ID "65A569181F530CB2"
+    coords 5.69 0.132 76.558
+    angleX 1.286
+    angleY 12.481
+    angleZ -0.144
+    scale 0.79
+   }
+   {
+    ID "65A569181F534F2C"
+    coords 21.282 0.132 80.314
+    angleX -1.356
+    angleY 113.679
+    angleZ 1.181
+    scale 0.756
+   }
+   {
+    ID "65A569181F53CD9D"
+    coords 12.258 0.132 92.121
+    angleX -0.569
+    angleY -179.577
+    angleZ 1.496
+    scale 0.731
+   }
+   {
+    ID "65A569181F53E4E2"
+    coords 17.084 0.132 100.25
+    angleX -0.765
+    angleY 16.656
+    angleZ 1.122
+    scale 0.724
+   }
+   {
+    ID "65A569181F546589"
+    coords 21.94 0.132 49.618
+    angleX -1.722
+    angleY 132.279
+    angleZ 1.644
+    scale 0.778
+   }
+   {
+    ID "65A569181F54658B"
+    coords -17.279 0.101 20.992
+    angleX -1.431
+    angleY 56.076
+    angleZ -0.936
+    scale 0.764
+   }
+   {
+    ID "65A569181F54E315"
+    coords 7.476 -0.753 -32.658
+    angleX 0.675
+    angleY -119.26
+    angleZ -1.566
+    scale 0.723
+   }
+   {
+    ID "65A569181F557B2D"
+    coords 18.319 0.132 62.028
+    angleX -0.46
+    angleY -14.107
+    angleZ -0.848
+    scale 0.741
+   }
+   {
+    ID "65A569181F557B2E"
+    coords 17.307 0.13 21.024
+    angleX 0.456
+    angleY 135.894
+    angleZ 1.13
+    scale 0.708
+   }
+   {
+    ID "65A569181F55A180"
+    coords 4.366 0.132 24.109
+    angleX -0.442
+    angleY -95.529
+    angleZ -0.74
+    scale 0.779
+   }
+   {
+    ID "65A569181F55A34B"
+    coords 8.985 0.132 27.935
+    angleX 0.91
+    angleY 134.257
+    angleZ -1.872
+    scale 0.785
+   }
+   {
+    ID "65A569181F55A34D"
+    coords -1.687 0.132 64.308
+    angleX 1.989
+    angleY -177.512
+    angleZ -0.246
+    scale 0.708
+   }
+   {
+    ID "65A569181F57638F"
+    coords 7.705 0.101 16.298
+    angleX 0.015
+    angleY -58.987
+    angleZ 0.071
+    scale 0.742
+   }
+   {
+    ID "65A569181F5770FE"
+    coords 10.378 0.132 40.177
+    angleX 0.776
+    angleY 29.576
+    angleZ -1.397
+    scale 0.758
+   }
+   {
+    ID "65A569181F5770FF"
+    coords 16.72 0.132 35.918
+    angleX 1.517
+    angleY 6.878
+    angleZ -0.051
+    scale 0.737
+   }
+   {
+    ID "65A569181F578F76"
+    coords -19.874 0.132 35.647
+    angleX -0.092
+    angleY 33.202
+    angleZ 0.206
+    scale 0.748
+   }
+   {
+    ID "65A569181F587A31"
+    coords -13.645 -0.252 -26.118
+    angleX 0.707
+    angleY -53.461
+    angleZ -1.432
+    scale 0.764
+   }
+   {
+    ID "65A569181F58E57E"
+    coords 22.616 -0.357 -18.33
+    angleX -1.257
+    angleY 0.648
+    angleZ -1.888
+    scale 0.721
+   }
+   {
+    ID "65A569181F5919DF"
+    coords -12.119 0.07 8.613
+    angleX -0.649
+    angleY -104.406
+    angleZ -1.037
+    scale 0.769
+   }
+   {
+    ID "65A569181F59C201"
+    coords 10.274 0.076 11.467
+    angleX 0.947
+    angleY -117.513
+    angleZ 0.552
+    scale 0.765
+   }
+   {
+    ID "65A569181F5A32BE"
+    coords 18.36 -0.052 -1.679
+    angleX -1.596
+    angleY -75.215
+    angleZ -0.039
+    scale 0.722
+   }
+   {
+    ID "65A569181F5A62F7"
+    coords 12.505 -0.465 -23.106
+    angleX 1.785
+    angleY -70.996
+    angleZ -0.011
+    scale 0.701
+   }
+   {
+    ID "65A569181F5AEA09"
+    coords 18.612 -0.271 -14.785
+    angleX 0.74
+    angleY 71.161
+    angleZ 0.331
+    scale 0.706
+   }
+   {
+    ID "65A569181F5AEA0A"
+    coords 16.646 -0.855 -32.464
+    angleX 1.593
+    angleY -114.778
+    angleZ -0.226
+    scale 0.79
+   }
+   {
+    ID "65A569181F5B8187"
+    coords 4.752 -0.267 -17.536
+    angleX -1.558
+    angleY -72.743
+    angleZ 1.645
+    scale 0.797
+   }
+   {
+    ID "65A569181F5BA201"
+    coords -20.775 0.07 5.002
+    angleX 0.652
+    angleY 80.873
+    angleZ 1.275
+    scale 0.776
+   }
+   {
+    ID "65A569181F5CB0BF"
+    coords 3.032 -0.059 -4.888
+    angleX 1.796
+    angleY 25.676
+    angleZ 1.543
+    scale 0.718
+   }
+   {
+    ID "65A569181F5E2DAB"
+    coords -4.051 -0.334 -25.093
+    angleX -1.82
+    angleY 100.912
+    angleZ 1.447
+    scale 0.707
+   }
+   {
+    ID "65A569181F5E9942"
+    coords -19.375 -0.125 -22.233
+    angleX -1.964
+    angleY 174.776
+    angleZ -0.609
+    scale 0.704
+   }
+   {
+    ID "65A569181F5ECCD5"
+    coords -4.281 -0.157 -15.507
+    angleX -0.646
+    angleY 131.642
+    angleZ 1.123
+    scale 0.705
+   }
+   {
+    ID "65A569181F5F0933"
+    coords 10.45 -0.151 -9.829
+    angleX -1.106
+    angleY -99.671
+    angleZ 1.336
+    scale 0.775
+   }
+   {
+    ID "65A569181F5F4A88"
+    coords -11.362 -0.122 -16.543
+    angleX -1.086
+    angleY -151.583
+    angleZ 0.937
+    scale 0.777
+   }
+   {
+    ID "65A569181F6078B5"
+    coords 32.321 0.132 128.714
+    angleX -1.619
+    angleY -56.153
+    angleZ 0.649
+    scale 0.782
+   }
+   {
+    ID "65A569181F609334"
+    coords 37.533 0.132 118.807
+    angleX -1.56
+    angleY 60.504
+    angleZ -0.564
+    scale 0.776
+   }
+   {
+    ID "65A569181F609337"
+    coords 35.106 0.132 160.01
+    angleX -1.461
+    angleY 24.599
+    angleZ -1.661
+    scale 0.711
+   }
+   {
+    ID "65A569181F619EF4"
+    coords 70.817 0.132 130.852
+    angleX 1.6
+    angleY -83.51
+    angleZ -1.297
+    scale 0.721
+   }
+   {
+    ID "65A569181F62C651"
+    coords 61.35 -1.326 197.837
+    angleX 0.731
+    angleY -42.617
+    angleZ 0.164
+    scale 0.735
+   }
+   {
+    ID "65A569181F62C652"
+    coords 31.979 0.132 166.049
+    angleX 0.408
+    angleY 116.283
+    angleZ -1.295
+    scale 0.701
+   }
+   {
+    ID "65A569181F62CB80"
+    coords 66.143 -1.502 187.089
+    angleX 1.196
+    angleY 70.37
+    angleZ 1.516
+    scale 0.737
+   }
+   {
+    ID "65A569181F6350D7"
+    coords 61.274 -0.313 177.904
+    angleX 0.406
+    angleY -97.199
+    angleZ 1.141
+    scale 0.797
+   }
+   {
+    ID "65A569181F64674D"
+    coords 44.01 0.132 135.48
+    angleX 0.227
+    angleY 7.921
+    angleZ 1.134
+    scale 0.703
+   }
+   {
+    ID "65A569181F65F240"
+    coords 36.943 0.132 127.576
+    angleX -1.096
+    angleY 7.207
+    angleZ 0.113
+    scale 0.8
+   }
+   {
+    ID "65A569181F667EC2"
+    coords 51.189 0.132 127.549
+    angleX 1.971
+    angleY -154.637
+    angleZ -1.731
+    scale 0.796
+   }
+   {
+    ID "65A569181F672953"
+    coords 47.813 0.132 143.729
+    angleX 1.042
+    angleY -79.774
+    angleZ 1.546
+    scale 0.761
+   }
+   {
+    ID "65A569181F677B6C"
+    coords 33.754 0.132 141.953
+    angleX 1.587
+    angleY -33.235
+    angleZ -0.972
+    scale 0.741
+   }
+   {
+    ID "65A569181F6802F9"
+    coords 41.159 0.132 71.48
+    angleX 1.596
+    angleY 137.114
+    angleZ 1.477
+    scale 0.709
+   }
+   {
+    ID "65A569181F68C793"
+    coords 57.949 0.132 89.75
+    angleX 1.391
+    angleY 71.336
+    angleZ 0.82
+    scale 0.711
+   }
+   {
+    ID "65A569181F69AE66"
+    coords 44.85 0.132 101.858
+    angleX -1.98
+    angleY -136.147
+    angleZ 0.617
+    scale 0.726
+   }
+   {
+    ID "65A569181F6B0381"
+    coords 63.723 0.132 164.186
+    angleX 0.456
+    angleY 23.566
+    angleZ 1.194
+    scale 0.71
+   }
+   {
+    ID "65A569181F6B2112"
+    coords 34.109 0.132 134.124
+    angleX 1.218
+    angleY -95.672
+    angleZ -1.495
+    scale 0.726
+   }
+   {
+    ID "65A569181F6BCBAE"
+    coords 35.393 0.132 152.992
+    angleX 1.669
+    angleY -159.515
+    angleZ 0.505
+    scale 0.753
+   }
+   {
+    ID "65A569181F6C5E38"
+    coords 55.825 0.132 100.418
+    angleX 0.558
+    angleY 41.848
+    angleZ 1.71
+    scale 0.795
+   }
+   {
+    ID "65A569181F6CF37D"
+    coords 33.404 0.132 82.607
+    angleX -0.43
+    angleY -0.121
+    angleZ 0.689
+    scale 0.733
+   }
+   {
+    ID "65A569181F6D2E13"
+    coords 61.736 0.132 93.272
+    angleX -0.345
+    angleY -38.519
+    angleZ -0.477
+    scale 0.784
+   }
+   {
+    ID "65A569181F6E0A62"
+    coords 30.201 0.132 107.5
+    angleX -0.591
+    angleY -131.543
+    angleZ -1.901
+    scale 0.755
+   }
+   {
+    ID "65A569181F6E0A63"
+    coords 49.205 0.132 95.361
+    angleX -0.765
+    angleY -10.514
+    angleZ -0.522
+    scale 0.739
+   }
+   {
+    ID "65A569181F6EAA9D"
+    coords 48.161 0.132 77.129
+    angleX -0.505
+    angleY -87.443
+    angleZ 0.164
+    scale 0.765
+   }
+   {
+    ID "65A569181F6F7256"
+    coords 33.166 0.132 78.534
+    angleX 0.199
+    angleY 78.269
+    angleZ 1.679
+    scale 0.785
+   }
+   {
+    ID "65A569181F6FC816"
+    coords 70.101 0.13 98.438
+    angleX 0.796
+    angleY 10.811
+    angleZ -1.91
+    scale 0.718
+   }
+   {
+    ID "65A569181F6FF781"
+    coords 57.206 0.132 74.813
+    angleX 1.713
+    angleY 77.632
+    angleZ 0.703
+    scale 0.786
+   }
+   {
+    ID "65A569181F703942"
+    coords 33.967 0.132 58.894
+    angleX 1.28
+    angleY -166.547
+    angleZ 1.665
+    scale 0.719
+   }
+   {
+    ID "65A569181F70A59D"
+    coords 35.083 0.132 43.409
+    angleX -1.021
+    angleY -21.457
+    angleZ 1.507
+    scale 0.745
+   }
+   {
+    ID "65A569181F70A59E"
+    coords 51.494 0.132 62.823
+    angleX -1.649
+    angleY 23.226
+    angleZ 1.968
+    scale 0.732
+   }
+   {
+    ID "65A569181F7112AF"
+    coords 44.663 0.132 59.797
+    angleX 0.051
+    angleY 161.021
+    angleZ 0.389
+    scale 0.721
+   }
+   {
+    ID "65A569181F7112B0"
+    coords 37.99 0.132 74.303
+    angleX -1.367
+    angleY -119.095
+    angleZ 1.713
+    scale 0.755
+   }
+   {
+    ID "65A569181F72D0A9"
+    coords 58.126 0.132 81.02
+    angleX -1.038
+    angleY -49.605
+    angleZ -1.997
+    scale 0.703
+   }
+   {
+    ID "65A569181F7322A0"
+    coords 29.44 0.132 89.266
+    angleX -0.384
+    angleY 22.808
+    angleZ -1.261
+    scale 0.715
+   }
+   {
+    ID "65A569181F73895D"
+    coords 41.708 0.132 95.991
+    angleX 1.061
+    angleY -59.515
+    angleZ 1.906
+    scale 0.785
+   }
+   {
+    ID "65A569181F74F992"
+    coords -19.858 0.132 204.5
+    angleX 1.914
+    angleY 20.787
+    angleZ 1.524
+    scale 0.773
+   }
+   {
+    ID "65A569181F75117C"
+    coords 24.448 0.132 201.202
+    angleX 1.674
+    angleY -82.455
+    angleZ -0.398
+    scale 0.712
+   }
+   {
+    ID "65A569181F75226F"
+    coords 12.269 0.132 208.557
+    angleX -1.483
+    angleY -21.732
+    angleZ 1.735
+    scale 0.735
+   }
+   {
+    ID "65A569181F75A321"
+    coords -16.084 0.132 189.401
+    angleX -1.713
+    angleY 138.476
+    angleZ 0.567
+    scale 0.773
+   }
+   {
+    ID "65A569181F764223"
+    coords 39.16 -2.98 -49.645
+    angleX 1.427
+    angleY 154.429
+    angleZ 1.714
+    scale 0.708
+   }
+   {
+    ID "65A569181F76BD71"
+    coords 36.319 -2.036 -44.081
+    angleX -0.515
+    angleY -139.311
+    angleZ 0.872
+    scale 0.76
+   }
+   {
+    ID "65A569181F772AE3"
+    coords 34.331 -0.633 -28.882
+    angleX 1.973
+    angleY 139.245
+    angleZ -0.738
+    scale 0.791
+   }
+   {
+    ID "65A569181F77927D"
+    coords 32.881 -0.896 -32.718
+    angleX -0.075
+    angleY 75.248
+    angleZ 0.655
+    scale 0.705
+   }
+   {
+    ID "65A569181F7794D3"
+    coords 31.834 -0.094 -10.345
+    angleX -0.104
+    angleY 87.652
+    angleZ -0.919
+    scale 0.78
+   }
+   {
+    ID "65A569181F7794D4"
+    coords 52.735 0.122 -18.968
+    angleX 0.564
+    angleY -109.889
+    angleZ 1.776
+    scale 0.737
+   }
+   {
+    ID "65A569181F781428"
+    coords -6.576 0.132 189.828
+    angleX 1.48
+    angleY -65.041
+    angleZ -1.781
+    scale 0.745
+   }
+   {
+    ID "65A569181F784102"
+    coords 8.655 0.132 186.437
+    angleX 0.824
+    angleY 137.85
+    angleZ 1.871
+    scale 0.772
+   }
+   {
+    ID "65A569181F792CE1"
+    coords -12.898 0.132 207.199
+    angleX 0.53
+    angleY -114.217
+    angleZ 0.638
+    scale 0.749
+   }
+   {
+    ID "65A569181F7A1894"
+    coords -1.955 0.132 167.062
+    angleX -1.758
+    angleY -144.2
+    angleZ 0.163
+    scale 0.753
+   }
+   {
+    ID "65A569181F7B2C89"
+    coords -20.591 0.132 182.906
+    angleX 1.4
+    angleY 179.555
+    angleZ -1.849
+    scale 0.725
+   }
+   {
+    ID "65A569181F7BE962"
+    coords 16.79 0.132 165.608
+    angleX 1.32
+    angleY -171.645
+    angleZ -1.256
+    scale 0.752
+   }
+   {
+    ID "65A569181F7BE963"
+    coords -3.435 0.132 173.867
+    angleX 1.935
+    angleY 167.492
+    angleZ -0.679
+    scale 0.764
+   }
+   {
+    ID "65A569181F7C82D5"
+    coords -4.692 0.132 145.295
+    angleX 1.209
+    angleY 154.154
+    angleZ 0.284
+    scale 0.717
+   }
+   {
+    ID "65A569181F7DB4E8"
+    coords 5.622 0.132 191.451
+    angleX -1.026
+    angleY -68.733
+    angleZ 0.773
+    scale 0.777
+   }
+   {
+    ID "65A569181F7DC15F"
+    coords -15.062 0.132 162.898
+    angleX -0.105
+    angleY 163.438
+    angleZ -1.276
+    scale 0.716
+   }
+   {
+    ID "65A569181F7EE4D2"
+    coords 20.77 0.132 171.179
+    angleX -1.874
+    angleY -90.08
+    angleZ 1.289
+    scale 0.75
+   }
+   {
+    ID "65A569181F7F0014"
+    coords 2.098 0.132 185.203
+    angleX 0.239
+    angleY 75.171
+    angleZ 1.273
+    scale 0.746
+   }
+   {
+    ID "65A569181F7F0017"
+    coords -19.432 0.132 187.072
+    angleX -0.159
+    angleY -74.446
+    angleZ 1.7
+    scale 0.785
+   }
+  }
+  $grp Tree : "{86FE6FFC07B02673}PrefabLibrary/Vegetation/Trees/t_pinus_sylvestris_3x.et" {
+   {
+    ID "65A569181F006879"
+    coords -64.607 -1.544 25.361
+    angleX 0.273
+    angleY -16.667
+    angleZ 0.912
+    scale 0.811
+   }
+   {
+    ID "65A569181F01FFCF"
+    coords -62.112 -1.618 20.367
+    angleX 2.7
+    angleY 38.299
+    angleZ 0.007
+    scale 0.798
+   }
+   {
+    ID "65A569181F02DFB9"
+    coords -61.889 0.007 47.879
+    angleX 1.883
+    angleY -146.298
+    angleZ 0.113
+    scale 0.658
+   }
+   {
+    ID "65A569181F038CBB"
+    coords -12.844 0.132 63.261
+    angleX 0.802
+    angleY -98.594
+    angleZ -2.274
+    scale 0.717
+   }
+   {
+    ID "65A569181F04172D"
+    coords -13.548 -6.106 -69.565
+    angleX 2.494
+    angleY -137.828
+    angleZ -1.123
+    scale 0.739
+   }
+   {
+    ID "65A569181F059415"
+    coords -18.613 -5.742 -68.157
+    angleX -0.473
+    angleY 48.429
+    angleZ -1.221
+    scale 0.662
+   }
+   {
+    ID "65A569181F065495"
+    coords -54.217 -1.599 -42.569
+    angleX -1.033
+    angleY 112.877
+    angleZ -2.216
+    scale 0.803
+   }
+   {
+    ID "65A569181F075956"
+    coords -64.876 -1.618 -19.802
+    angleX 1.864
+    angleY 176.709
+    angleZ -1.362
+    scale 0.775
+   }
+   {
+    ID "65A569181F0A14F2"
+    coords 46.209 0.057 -18.811
+    angleX 2.755
+    angleY 137.388
+    angleZ -2.659
+    scale 0.748
+   }
+   {
+    ID "65A569181F0B8B77"
+    coords 42.408 -2.359 -45.313
+    angleX -1.009
+    angleY 65.755
+    angleZ 0.696
+    scale 0.759
+   }
+   {
+    ID "65A569181F0BBB20"
+    coords 42.417 -1.671 -41.257
+    angleX 1.382
+    angleY 170.92
+    angleZ -1.686
+    scale 0.735
+   }
+   {
+    ID "65A569181F34100B"
+    coords 69.709 0.132 69.993
+    angleX -0.596
+    angleY 119.908
+    angleZ 1.759
+    scale 0.728
+   }
+   {
+    ID "65A569181F3570A3"
+    coords 43.024 0.132 63.69
+    angleX -0.195
+    angleY 93.475
+    angleZ -0.301
+    scale 0.799
+   }
+   {
+    ID "65A569181F35F767"
+    coords 62.013 0.132 63.89
+    angleX 2.596
+    angleY 37.135
+    angleZ 2.142
+    scale 0.706
+   }
+   {
+    ID "65A569181F39DDEA"
+    coords 23.12 -0.048 218.897
+    angleX -1.767
+    angleY 39.958
+    angleZ 0.712
+    scale 0.76
+   }
+   {
+    ID "65A569181F3A3F66"
+    coords 75.15 0.132 155.106
+    angleX -2.435
+    angleY 46.485
+    angleZ 0.32
+    scale 0.806
+   }
+   {
+    ID "65A569181F3A52CF"
+    coords 80.213 0.132 148.562
+    angleX -2.822
+    angleY -45.232
+    angleZ 2.823
+    scale 0.701
+   }
+   {
+    ID "65A569181F3A955C"
+    coords 71.573 -2.066 184.163
+    angleX -2.081
+    angleY 93.112
+    angleZ 0.671
+    scale 0.81
+   }
+   {
+    ID "65A569181F3A965C"
+    coords 75.825 -1.964 177.553
+    angleX -1.782
+    angleY -74.698
+    angleZ 1.68
+    scale 0.716
+   }
+   {
+    ID "65A569181F3B338A"
+    coords 73.9 -0.012 105.756
+    angleX 0.328
+    angleY -141.882
+    angleZ -0.469
+    scale 0.677
+   }
+   {
+    ID "65A569181F3C4A26"
+    coords -48.358 -0.037 94.322
+    angleX -0.352
+    angleY 37.871
+    angleZ 0.803
+    scale 0.694
+   }
+   {
+    ID "65A569181F3CA7D7"
+    coords -29.939 0.132 94.354
+    angleX 2.545
+    angleY 67.491
+    angleZ -2.841
+    scale 0.712
+   }
+   {
+    ID "65A569181F3CEDAB"
+    coords -23.302 0.132 86.775
+    angleX -0.175
+    angleY -128.819
+    angleZ 2.335
+    scale 0.806
+   }
+   {
+    ID "65A569181F3D0C9F"
+    coords -62.238 -1.225 116.115
+    angleX -0.211
+    angleY -155.747
+    angleZ -0.354
+    scale 0.739
+   }
+   {
+    ID "65A569181F3DEDEC"
+    coords -59.102 -1.455 96.14
+    angleX -1.777
+    angleY -140.893
+    angleZ -1.067
+    scale 0.744
+   }
+   {
+    ID "65A569181F3E16FB"
+    coords -44.554 0.069 145.45
+    angleX -2.346
+    angleY -81.906
+    angleZ 0.849
+    scale 0.678
+   }
+   {
+    ID "65A569181F3FA186"
+    coords -32.662 -0.019 203.505
+    angleX 2.425
+    angleY -116.898
+    angleZ 1.229
+    scale 0.801
+   }
+  }
+  $grp Tree : "{913BFDAA2CE68926}PrefabLibrary/Vegetation/Trees/t_pinus_sylvestris_stump_01.et" {
+   {
+    ID "65A56918108CAD86"
+    coords 62.25 0.132 148.172
+    angleY -160.273
+    scale 0.917
+   }
+   {
+    ID "65A5691810913318"
+    coords 8.527 0.132 173.952
+    angleY 14.645
+    scale 1.266
+   }
+   {
+    ID "65A5691810933CAF"
+    coords 44.85 0.132 95.191
+    angleY -109.856
+    scale 1.146
+   }
+   {
+    ID "65A569181096EC18"
+    coords 3.322 0.132 91.917
+    angleY -173.194
+    scale 1.144
+   }
+   {
+    ID "65A5691810979D7D"
+    coords 22.746 0.132 140.473
+    angleY 16.194
+    scale 0.803
+   }
+   {
+    ID "65A5691810991414"
+    coords -34.806 0.132 40.261
+    angleY 26.906
+    scale 0.897
+   }
+   {
+    ID "65A56918109A5CFD"
+    coords 14.31 -2.051 -51.864
+    angleX -3.839
+    angleY 132.708
+    angleZ 2.113
+    scale 1.331
+   }
+   {
+    ID "65A56918109B0E2E"
+    coords -3.85 -0.005 -0.481
+    angleX 0.149
+    angleY -12.42
+    angleZ 0.678
+    scale 0.971
+   }
+   {
+    ID "65A56918109BB6DE"
+    coords -20.307 -0.385 -39.359
+    angleX -1.804
+    angleY 143.118
+    angleZ -1.248
+    scale 1.046
+   }
+  }
+  $grp SCR_IndestructibleEnvironmentalEntity : "{926C09375D2DAA4D}PrefabLibrary/Rocks/Granite/GraniteStone_01.et" {
+   {
+    ID "65A569181F1867BC"
+    coords 0.715 0.132 157.304
+    angleX 21.462
+    angleY 63.811
+    angleZ 30.581
+    scale 0.224
+   }
+   {
+    ID "65A569181F186C1B"
+    coords 3.794 0.132 161.043
+    angleX -76.116
+    angleY 39.953
+    angleZ -73.457
+    scale 0.551
+   }
+   {
+    ID "65A569181F191028"
+    coords -24.37 0.101 16.86
+    angleX 31.372
+    angleY -152.638
+    angleZ 150.556
+    scale 0.243
+   }
+   {
+    ID "65A569181F195022"
+    coords -2.043 -0.128 -12.844
+    angleX -34.004
+    angleY 95.842
+    angleZ 36.025
+    scale 0.564
+   }
+   {
+    ID "65A569181F195023"
+    coords -2.872 -0.122 -12.687
+    angleX 18.046
+    angleY 37.717
+    angleZ 147.271
+    scale 0.573
+   }
+   {
+    ID "65A569181F198655"
+    coords -5.198 -0.155 -15.71
+    angleX -19.326
+    angleY -66.31
+    angleZ -106.922
+    scale 0.553
+   }
+   {
+    ID "65A569181F198657"
+    coords -4.083 -0.138 -13.967
+    angleX 68.09
+    angleY -8.57
+    angleZ 19.858
+    scale 0.585
+   }
+   {
+    ID "65A569181F1A61BA"
+    coords 7.977 -0.038 -0.622
+    angleX -11.547
+    angleY -10.805
+    angleZ -21.567
+    scale 0.514
+   }
+   {
+    ID "65A569181F1A61BD"
+    coords 10.375 -0.061 -2.489
+    angleX -68.029
+    angleY -36.778
+    angleZ -143.695
+    scale 0.598
+   }
+   {
+    ID "65A569181F1B5984"
+    coords 6.161 -0.046 -3.037
+    angleX 47.204
+    angleY 112.306
+    angleZ -133.098
+    scale 0.592
+   }
+   {
+    ID "65A569181F1B5987"
+    coords 9.69 -0.011 1.641
+    angleX -7.042
+    angleY -106.598
+    angleZ -34.158
+    scale 0.223
+   }
+   {
+    ID "65A569181F1BFE85"
+    coords 11.25 -0.075 -3.63
+    angleX 58.323
+    angleY -53.714
+    angleZ 72.309
+    scale 0.542
+   }
+   {
+    ID "65A569181F1C4280"
+    coords 13.394 0.132 35.947
+    angleX -61.904
+    angleY -75.467
+    angleZ 171.573
+    scale 0.542
+   }
+   {
+    ID "65A569181F1D5E8A"
+    coords -46.796 0.002 26.678
+    angleX -78.516
+    angleY -149.012
+    angleZ 176.583
+    scale 0.558
+   }
+   {
+    ID "65A569181F1D61A5"
+    coords -42.095 0.132 27.642
+    angleX 17.117
+    angleY 143.667
+    angleZ 82.796
+    scale 0.45
+   }
+   {
+    ID "65A569181F1D6C4C"
+    coords -49.278 -1.144 25.179
+    angleX -76.066
+    angleY 84.037
+    angleZ 142.524
+    scale 0.209
+   }
+   {
+    ID "65A569181F1D7A30"
+    coords -45.888 0.118 30.145
+    angleX 61.053
+    angleY -74.187
+    angleZ 116.568
+    scale 0.595
+   }
+   {
+    ID "65A569181F1D7A37"
+    coords -46.818 -1.495 20.556
+    angleX -35.317
+    angleY 44.243
+    angleZ -67.398
+    scale 0.552
+   }
+   {
+    ID "65A569181F1D83F0"
+    coords -47.892 -1.249 23.713
+    angleX -50.901
+    angleY 34.987
+    angleZ 12.964
+    scale 0.551
+   }
+   {
+    ID "65A569181F1D83F3"
+    coords -45.987 0.12 27.343
+    angleX -78.923
+    angleY 75.951
+    angleZ 50.951
+    scale 0.559
+   }
+   {
+    ID "65A569181F1E1C18"
+    coords -12.745 -0.076 -14.036
+    angleX -45.672
+    angleY 18.65
+    angleZ -76.083
+    scale 0.484
+   }
+   {
+    ID "65A569181F1E1C1B"
+    coords -11.36 -0.066 -10.626
+    angleX 35.575
+    angleY -75.44
+    angleZ 107.362
+    scale 0.367
+   }
+   {
+    ID "65A569181F1EFDE0"
+    coords -16.1 -0.091 -17.802
+    angleX 35.767
+    angleY -59.745
+    angleZ -79.362
+    scale 0.53
+   }
+   {
+    ID "65A569181F1EFDE1"
+    coords -16.599 -0.076 -16.585
+    angleX 2.543
+    angleY 68.062
+    angleZ 104.599
+    scale 0.589
+   }
+   {
+    ID "65A569181F1F38A5"
+    coords -0.717 0.132 160.532
+    angleX 86.487
+    angleY -4.653
+    angleZ -95.661
+    scale 0.55
+   }
+   {
+    ID "65A569181F1F38A6"
+    coords 0.752 0.132 162.87
+    angleX 52.681
+    angleY 99.83
+    angleZ 119.15
+    scale 0.512
+   }
+   {
+    ID "65A569181F1F38A7"
+    coords 0.618 0.132 160.343
+    angleX 68.941
+    angleY -179.714
+    angleZ -174.446
+    scale 0.577
+   }
+   {
+    ID "65A569181F1FA713"
+    coords -3.333 0.132 161.079
+    angleX 37.009
+    angleY 112.503
+    angleZ 66.167
+    scale 0.572
+   }
+   {
+    ID "65A569181FE30857"
+    coords 10.3 0.132 37.235
+    angleX -30.856
+    angleY 78.39
+    angleZ 9.201
+    scale 0.557
+   }
+   {
+    ID "65A569181FE3109E"
+    coords 7.725 0.132 34.268
+    angleX -35.048
+    angleY 36.789
+    angleZ 60.635
+    scale 0.519
+   }
+   {
+    ID "65A569181FE384F2"
+    coords -0.555 -2.77 -62.754
+    angleX 50.632
+    angleY -113.932
+    angleZ 63.97
+    scale 0.35
+   }
+   {
+    ID "65A569181FE3F098"
+    coords 1.821 -2.781 -62.656
+    angleX 89.755
+    angleY -137.242
+    angleZ -162.102
+    scale 0.533
+   }
+   {
+    ID "65A569181FE3F099"
+    coords 3.794 -2.859 -63.261
+    angleX -51.994
+    angleY -14.491
+    angleZ 74.506
+    scale 0.523
+   }
+   {
+    ID "65A569181FE3F09B"
+    coords 2.471 -3.119 -65.334
+    angleX 55.933
+    angleY -152.402
+    angleZ 168.393
+    scale 0.587
+   }
+  }
+  $grp Tree : "{960EA50FD57CD7D5}PrefabLibrary/Vegetation/Trees/t_betula_pendula_1sw.et" {
+   {
+    ID "65A569181F088FEE"
+    coords 77.92 0.132 149.329
+    angleX 0.839
+    angleY 20.183
+    angleZ 0.878
+    scale 0.826
+   }
+   {
+    ID "65A569181F0A6968"
+    coords 31.7 0.101 8.978
+    angleX 0.089
+    angleY 90.464
+    angleZ -1.233
+    scale 0.966
+   }
+   {
+    ID "65A569181F0AEAA6"
+    coords 36.164 0.132 51.48
+    angleX 1.049
+    angleY -42.266
+    angleZ 0.176
+    scale 0.908
+   }
+   {
+    ID "65A569181F0FC17A"
+    coords 56.349 -1.356 207.826
+    angleX 0.578
+    angleY 82.433
+    angleZ 0.041
+    scale 0.894
+   }
+   {
+    ID "65A569181F1169D3"
+    coords 48.908 0.127 -16.387
+    angleX 1.571
+    angleY -8.778
+    angleZ -1.878
+    scale 1.002
+   }
+   {
+    ID "65A569181F1169EC"
+    coords 43 0.025 -13.604
+    angleX 1.995
+    angleY 96.045
+    angleZ 0.066
+    scale 1.154
+   }
+   {
+    ID "65A569181F126BCD"
+    coords -68.438 -0.778 48.092
+    angleX 0.176
+    angleY 4.614
+    angleZ 1.161
+    scale 0.833
+   }
+   {
+    ID "65A569181F129BD1"
+    coords -70.224 -1.628 -22.227
+    angleX 1.487
+    angleY 150.298
+    angleZ 1.076
+    scale 0.815
+   }
+   {
+    ID "65A569181F129BD7"
+    coords -61.784 -1.686 -36.458
+    angleX -0.43
+    angleY -11.228
+    angleZ -0.133
+    scale 0.847
+   }
+   {
+    ID "65A569181F12AF2C"
+    coords -64.375 -1.59 17.867
+    angleX -1.454
+    angleY -90.146
+    angleZ -0.136
+    scale 0.898
+   }
+   {
+    ID "65A569181F13DD1A"
+    coords -39.447 0.132 94.426
+    angleX 0.578
+    angleY 26.808
+    angleZ -1.649
+    scale 0.877
+   }
+   {
+    ID "65A569181F1969F3"
+    coords 0.952 -0.186 -14.703
+    angleX -1.71
+    angleY -113.712
+    angleZ 1.9
+    scale 0.654
+   }
+   {
+    ID "65A569181F1FCDCE"
+    coords -12.319 -0.102 -15.846
+    angleX -0.573
+    angleY -12.81
+    angleZ 1.433
+    scale 1.007
+   }
+   {
+    ID "65A569181FE07AF8"
+    coords 2.874 -1.686 -50.227
+    angleX -0.718
+    angleY -175.798
+    angleZ -0.348
+    scale 0.965
+   }
+   {
+    ID "65A569181FE07AFF"
+    coords 3.34 -1.572 -48.506
+    angleX -1.885
+    angleY -87.827
+    angleZ -0.394
+    scale 1.031
+   }
+   {
+    ID "65A569181FE07C9B"
+    coords -3.806 -1.582 -51.708
+    angleX -0.727
+    angleY -71.633
+    angleZ 1.026
+    scale 0.998
+   }
+   {
+    ID "65A569181FE148BA"
+    coords 11.169 0.132 193.151
+    angleX -1.169
+    angleY 162.427
+    angleZ -1.859
+    scale 0.891
+   }
+   {
+    ID "65A569181FE21856"
+    coords -5.679 0.132 22.171
+    angleX -1.619
+    angleY 63.184
+    angleZ 0.118
+    scale 1.018
+   }
+   {
+    ID "65A569181FE21857"
+    coords -4.309 0.132 23.401
+    angleX -1.614
+    angleY 115.481
+    angleZ -0.329
+    scale 0.861
+   }
+   {
+    ID "65A569181FE21859"
+    coords -4.719 0.101 13.919
+    angleX 0.814
+    angleY 32.564
+    angleZ 1.291
+    scale 1.109
+   }
+   {
+    ID "65A569181FE28D47"
+    coords -25.475 -0.015 -16.679
+    angleX -0.344
+    angleY -20.38
+    angleZ 1.458
+    scale 0.879
+   }
+   {
+    ID "65A569181FE2BF17"
+    coords -9.429 0.101 19.366
+    angleX -0.905
+    angleY 65.48
+    angleZ -1.235
+    scale 1.084
+   }
+   {
+    ID "65A569181FE2D0F8"
+    coords -30.969 0.067 -7.376
+    angleX -0.267
+    angleY 23.061
+    angleZ -0.038
+    scale 1.133
+   }
+   {
+    ID "65A569181FE706EF"
+    coords -12.123 -1.187 -52.173
+    angleX -0.126
+    angleY 168.513
+    angleZ -0.297
+    scale 0.857
+   }
+   {
+    ID "65A569181FE7FB3B"
+    coords -2.842 0.132 44.016
+    angleX -0.147
+    angleY 168.48
+    angleZ -1.049
+    scale 0.92
+   }
+  }
+  $grp Tree : "{9C6CE0F73E3AED80}PrefabLibrary/Vegetation/Trees/t_pinus_sylvestris_1f.et" {
+   {
+    ID "65A56918108C0761"
+    coords 36.789 0.132 161.587
+    angleX 0.064
+    angleY -47.418
+    scale 0.824
+   }
+   {
+    ID "65A56918108C0766"
+    coords 39.6 0.132 128.157
+    angleX -1.292
+    angleY -77.511
+    scale 0.979
+   }
+   {
+    ID "65A56918108CE698"
+    coords 47.925 0.132 66.255
+    angleX 0.165
+    angleY 113.437
+    scale 0.808
+   }
+   {
+    ID "65A56918108D320D"
+    coords 29.127 0.132 193.708
+    angleX 0.354
+    angleY 14.425
+    scale 1.1
+   }
+   {
+    ID "65A56918108D320E"
+    coords 32.425 0.132 186.384
+    angleX 0.63
+    angleY -50.583
+    scale 0.818
+   }
+   {
+    ID "65A56918108DB459"
+    coords 31.166 -0.106 212.482
+    angleX 0.728
+    angleY 85.103
+    scale 0.905
+   }
+   {
+    ID "65A56918108DE0E1"
+    coords 69.326 0.132 159.694
+    angleX 0.099
+    angleY 5.867
+    scale 0.755
+   }
+   {
+    ID "65A56918108DE0FE"
+    coords 53.388 0.132 125.396
+    angleX -0.355
+    angleY -35.992
+    scale 0.8
+   }
+   {
+    ID "65A56918108DE0FF"
+    coords 66.811 0.132 147.061
+    angleX -1.106
+    angleY -79.499
+    scale 1.047
+   }
+   {
+    ID "65A56918108EE3A8"
+    coords 38.379 -0.277 209.901
+    angleX 1.906
+    angleY -73.567
+    scale 0.849
+   }
+   {
+    ID "65A5691810907183"
+    coords -8.717 0.132 156.462
+    angleX 0.418
+    angleY -22.446
+    scale 0.755
+   }
+   {
+    ID "65A56918109095CC"
+    coords 13.883 0.132 126.219
+    angleX -0.766
+    angleY -119.755
+    scale 1.124
+   }
+   {
+    ID "65A569181090E9D0"
+    coords 3.284 0.132 147.308
+    angleX 0.915
+    angleY -73.534
+    scale 1.142
+   }
+   {
+    ID "65A569181090E9D3"
+    coords -14.551 0.132 160.388
+    angleX 0.453
+    angleY 13.634
+    scale 1.013
+   }
+   {
+    ID "65A569181091B5E2"
+    coords 6.035 0.132 207.24
+    angleX -0.117
+    angleY -88.563
+    scale 1.1
+   }
+   {
+    ID "65A569181091F38E"
+    coords 18.354 0.132 184.453
+    angleX -1.798
+    angleY -122.787
+    scale 1.149
+   }
+   {
+    ID "65A5691810920A47"
+    coords 41.032 -3.419 -51.345
+    angleX -1.727
+    angleY -137.454
+    scale 0.928
+   }
+   {
+    ID "65A5691810923731"
+    coords 47.922 0.111 -16.482
+    angleX 0.031
+    angleY -28.62
+    scale 0.943
+   }
+   {
+    ID "65A5691810923737"
+    coords 38.598 0.132 61.099
+    angleX 0.536
+    angleY 16.37
+    scale 0.777
+   }
+   {
+    ID "65A569181092C4BA"
+    coords 13.779 0.132 173.333
+    angleX -0.757
+    angleY -150.572
+    scale 1.018
+   }
+   {
+    ID "65A5691810934605"
+    coords 59.073 0.132 89.686
+    angleX -0.152
+    angleY -10.338
+    scale 0.835
+   }
+   {
+    ID "65A569181093E4BE"
+    coords 67.731 0.132 80.419
+    angleX 0.398
+    angleY 176.863
+    scale 1.013
+   }
+   {
+    ID "65A5691810945BD6"
+    coords -0.11 -0.051 -4.622
+    angleX -0.046
+    angleY 152.165
+    scale 1.112
+   }
+   {
+    ID "65A5691810947EE6"
+    coords 3.133 -0.788 -34.86
+    angleX 1.303
+    angleY -32.444
+    scale 0.99
+   }
+   {
+    ID "65A56918109518B3"
+    coords 26.628 0.132 74.833
+    angleX -0.083
+    angleY -120.062
+    scale 0.767
+   }
+   {
+    ID "65A5691810955A88"
+    coords -19.278 0.132 34.62
+    angleX 1.277
+    angleY -127.116
+    scale 0.871
+   }
+   {
+    ID "65A5691810955A89"
+    coords 13.914 0.132 21.555
+    angleX 0.186
+    angleY 97.715
+    scale 0.769
+   }
+   {
+    ID "65A569181095722E"
+    coords 15.824 0.101 16.496
+    angleX -0.878
+    angleY 32.323
+    scale 0.708
+   }
+   {
+    ID "65A569181095C298"
+    coords -5.901 0.132 58.113
+    angleX 0.712
+    angleY 23.511
+    scale 1.135
+   }
+   {
+    ID "65A569181095C29B"
+    coords 14.907 0.132 63.553
+    angleX -0.003
+    angleY -163.822
+    scale 1.04
+   }
+   {
+    ID "65A569181095D6FF"
+    coords 15.443 0.048 6.825
+    angleX -1.58
+    angleY 135.389
+    scale 0.804
+   }
+   {
+    ID "65A5691810962E72"
+    coords -3.067 0.132 66.121
+    angleX 1.029
+    angleY -108.922
+    scale 0.716
+   }
+   {
+    ID "65A569181096C0F6"
+    coords 17.745 0.132 78.222
+    angleX 1.176
+    angleY -118.315
+    scale 0.728
+   }
+   {
+    ID "65A569181096C0F7"
+    coords 16.18 0.132 76.903
+    angleX 1.124
+    angleY 63.514
+    scale 0.707
+   }
+   {
+    ID "65A5691810970218"
+    coords -20.681 0.132 125.446
+    angleX -0.886
+    angleY 136.718
+    scale 0.709
+   }
+   {
+    ID "65A5691810970219"
+    coords 2.324 0.132 158.807
+    angleX -1.984
+    angleY -179.39
+    scale 0.904
+   }
+   {
+    ID "65A56918109789DB"
+    coords -8.748 0.132 161.363
+    angleX 1.182
+    angleY 104.077
+    scale 1.007
+   }
+   {
+    ID "65A569181097F6C9"
+    coords -15.003 0.132 100.914
+    angleX -1.739
+    angleY -49.803
+    scale 0.952
+   }
+   {
+    ID "65A5691810982F53"
+    coords -32.29 0.058 -10.458
+    angleX -0.406
+    angleY -168.129
+    scale 0.845
+   }
+   {
+    ID "65A56918109877A9"
+    coords -27.501 0.07 -1.052
+    angleX 1.308
+    angleY 169.645
+    scale 1.073
+   }
+   {
+    ID "65A569181098FC90"
+    coords -41.777 -1.596 -38.619
+    angleX 0.226
+    angleY 72.237
+    scale 1.143
+   }
+   {
+    ID "65A569181098FC9F"
+    coords -40.141 0.101 5.728
+    angleX 1.618
+    angleY 161.251
+    scale 0.857
+   }
+   {
+    ID "65A56918109917F7"
+    coords -43.019 0.132 51.242
+    angleX -1.177
+    angleY -54.021
+    scale 0.993
+   }
+   {
+    ID "65A5691810995422"
+    coords -32.562 0.132 24.3
+    angleX 1.916
+    angleY 88.454
+    scale 1.006
+   }
+   {
+    ID "65A5691810995424"
+    coords -38.328 0.068 -19.3
+    angleX 0.519
+    angleY 21.83
+    scale 0.801
+   }
+   {
+    ID "65A5691810995425"
+    coords -51.14 0.132 0.875
+    angleX 1.804
+    angleY 146.452
+    scale 0.953
+   }
+   {
+    ID "65A569181099E574"
+    coords -58.356 -0.794 -19.735
+    angleX -0.348
+    angleY 103.56
+    scale 0.939
+   }
+   {
+    ID "65A56918109A0C2C"
+    coords 19.907 -3.323 -65.438
+    angleX -0.109
+    angleY -56.493
+    scale 1.027
+   }
+   {
+    ID "65A56918109A0C2D"
+    coords 22.556 -1.092 -35.814
+    angleX -0.658
+    angleY 88.948
+    scale 1.086
+   }
+   {
+    ID "65A56918109A2D0F"
+    coords -9.991 -5.258 -66.673
+    angleX 1.182
+    angleY 129.807
+    scale 0.815
+   }
+   {
+    ID "65A56918109A5CE2"
+    coords -28.968 0.132 122.122
+    angleX -0.735
+    angleY 72.029
+    scale 1.053
+   }
+   {
+    ID "65A56918109A987D"
+    coords -42.237 0.102 153.051
+    angleX 1.422
+    angleY -74.116
+    scale 1.077
+   }
+   {
+    ID "65A56918109AF3DF"
+    coords -47.262 -0.186 146.388
+    angleX -0.391
+    angleY 179.522
+    scale 1.135
+   }
+   {
+    ID "65A56918109BB6DD"
+    coords 24.448 -1.207 -37.338
+    angleX 1.578
+    angleY -55.417
+    scale 1.161
+   }
+   {
+    ID "65A56918109F188C"
+    coords -45.335 -1.618 -46.271
+    angleX -1.435
+    angleY -169.019
+    scale 1.023
+   }
+   {
+    ID "65A569181F1169E8"
+    coords -17.291 0.132 29.859
+    angleX 1.928
+    angleY 76.566
+    scale 0.974
+   }
+   {
+    ID "65A569181F1169EA"
+    coords 12.198 0.073 11.17
+    angleX -0.044
+    angleY 13.228
+    scale 1.272
+   }
+   {
+    ID "65A569181F1169EB"
+    coords 13.518 0.065 10.222
+    angleX -1.777
+    angleY -19.095
+    scale 0.709
+   }
+   {
+    ID "65A569181F143FCE"
+    coords 32.836 0.132 93.787
+    angleX -1.922
+    angleY 3.757
+    scale 1.129
+   }
+   {
+    ID "65A569181F143FCF"
+    coords -47.764 -1.47 22.555
+    angleX 0.403
+    angleY 126.665
+    scale 1.228
+   }
+   {
+    ID "65A569181F15529F"
+    coords -48.779 0.132 52.324
+    angleX 0.84
+    angleY 31.257
+    scale 1.2
+   }
+   {
+    ID "65A569181F15EA04"
+    coords -49.229 0.132 50.936
+    angleX -0.061
+    angleY -158.823
+    scale 0.842
+   }
+   {
+    ID "65A569181F166C6F"
+    coords 2.585 -0.38 -24.548
+    angleX -1.403
+    angleY -88.443
+    scale 0.711
+   }
+   {
+    ID "65A569181F173A27"
+    coords 26.264 -0.134 -9.199
+    angleX -1.622
+    angleY 43.2
+    scale 0.898
+   }
+   {
+    ID "65A569181F17A8AD"
+    coords -8.208 0.132 112.234
+    angleX 0.275
+    angleY -41.661
+    scale 1.12
+   }
+  }
+  $grp Tree : "{A35E15EBC6033C07}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_1.et" {
+   {
+    ID "65A569181F0867C3"
+    coords 81.193 -0.505 113.161
+    angleX -1.685
+    angleY -53.45
+    angleZ 1.616
+    scale 0.774
+   }
+   {
+    ID "65A569181F088FF0"
+    coords 80.988 -0.198 133.2
+    angleX -1.308
+    angleY -118.458
+    angleZ -1.034
+    scale 1.19
+   }
+   {
+    ID "65A569181F08EC5E"
+    coords 77.588 0.132 155.505
+    angleX 1.509
+    angleY 35.773
+    angleZ 0.222
+    scale 1.16
+   }
+   {
+    ID "65A569181F0D35B3"
+    coords -38.808 -0.345 203.192
+    angleX -0.605
+    angleY -105.922
+    angleZ -0.348
+    scale 1.198
+   }
+   {
+    ID "65A569181F0EC650"
+    coords -1.353 0.012 222.263
+    angleX 1.818
+    angleY 168.623
+    angleZ -0.145
+    scale 1.042
+   }
+   {
+    ID "65A569181F1169DF"
+    coords -3.465 -6.618 -83.312
+    angleX -1.998
+    angleY -26.269
+    angleZ 1.695
+    scale 1.182
+   }
+   {
+    ID "65A569181F123736"
+    coords -22.09 0.132 56.115
+    angleX -1.041
+    angleY -1.461
+    angleZ 1.881
+    scale 1.057
+   }
+   {
+    ID "65A569181F129BD6"
+    coords -53.49 -1.405 -49.119
+    angleX -0.275
+    angleY 102.934
+    angleZ -0.006
+    scale 0.766
+   }
+   {
+    ID "65A569181F183EA1"
+    coords -9.596 -1.206 -50.045
+    angleX -0.246
+    angleY 50.638
+    angleZ -0.09
+    scale 1.17
+   }
+   {
+    ID "65A569181F186C18"
+    coords -2.377 0.132 157.553
+    angleX 1.695
+    angleY -177.303
+    angleZ -0.251
+    scale 0.932
+   }
+   {
+    ID "65A569181F1969F5"
+    coords -9.133 -0.095 -12.984
+    angleX -1.814
+    angleY 108.186
+    angleZ 0.662
+    scale 0.824
+   }
+   {
+    ID "65A569181F1A931A"
+    coords -20.121 0.101 19.396
+    angleX 1.298
+    angleY 139.651
+    angleZ -1.299
+    scale 0.854
+   }
+   {
+    ID "65A569181F1D1E08"
+    coords -43.363 0.132 22.914
+    angleX -1.593
+    angleY -21.71
+    angleZ 1.648
+    scale 1.174
+   }
+   {
+    ID "65A569181FE00A4A"
+    coords 45.044 0.132 170.607
+    angleX -0.892
+    angleY 89.036
+    angleZ -1.355
+    scale 1.006
+   }
+   {
+    ID "65A569181FE00A4B"
+    coords 41.413 0.132 172.258
+    angleX -1.843
+    angleY 44.408
+    angleZ 0.353
+    scale 0.951
+   }
+   {
+    ID "65A569181FE06F26"
+    coords 1.079 -1.266 -44.438
+    angleX -0.787
+    angleY 161.427
+    angleZ 1.516
+    scale 0.992
+   }
+   {
+    ID "65A569181FE06F27"
+    coords -5.589 -1.446 -50.799
+    angleX 1.236
+    angleY -140.629
+    angleZ 0.818
+    scale 1.09
+   }
+   {
+    ID "65A569181FE089CC"
+    coords -1.059 -1.324 -46.561
+    angleX -1.458
+    angleY -83.323
+    angleZ 1.596
+    scale 0.755
+   }
+   {
+    ID "65A569181FE16D58"
+    coords -28.862 0.004 -17.695
+    angleX -1.86
+    angleY 131.302
+    angleZ -0.752
+    scale 0.669
+   }
+   {
+    ID "65A569181FE16D5B"
+    coords -32.344 0.058 -9.037
+    angleX -0.425
+    angleY -113.635
+    angleZ 0.715
+    scale 1.041
+   }
+   {
+    ID "65A569181FE2BF14"
+    coords -4.773 0.101 17.977
+    angleX 1.073
+    angleY -68.864
+    angleZ -0.392
+    scale 0.699
+   }
+   {
+    ID "65A569181FE2BF15"
+    coords -1.593 0.13 21.053
+    angleX 0.834
+    angleY 169.843
+    angleZ 0.286
+    scale 0.705
+   }
+   {
+    ID "65A569181FE384F0"
+    coords 8.116 -2.844 -63.022
+    angleX 0.325
+    angleY -97.715
+    angleZ 0.05
+    scale 1.104
+   }
+   {
+    ID "65A569181FE39B0F"
+    coords 4.143 -3.12 -65.455
+    angleX -1.343
+    angleY 124.413
+    angleZ 0.556
+    scale 1.055
+   }
+   {
+    ID "65A569181FE706EC"
+    coords -18.86 -0.748 -52.465
+    angleX -0.373
+    angleY 135.323
+    angleZ 1.048
+    scale 1.14
+   }
+   {
+    ID "65A569181FE706ED"
+    coords -15.258 -1.151 -54.962
+    angleX 0.443
+    angleY 42.892
+    angleZ -0.751
+    scale 0.672
+   }
+   {
+    ID "65A569181FE769DC"
+    coords -14.944 -1.897 -59.131
+    angleX -0.172
+    angleY -7.669
+    angleZ -0.898
+    scale 0.744
+   }
+   {
+    ID "65A569181FE7FB39"
+    coords -4.721 0.132 46.233
+    angleX -1.927
+    angleY -33.29
+    angleZ -1.758
+    scale 1.119
+   }
+  }
+  $grp Tree : "{AC43B039B67361F6}PrefabLibrary/Vegetation/Trees/t_betula_pendula_3s.et" {
+   {
+    ID "65A569181F026B85"
+    coords -37.607 0.132 42.11
+    angleX 1.774
+    angleY -167.085
+    angleZ -2.63
+    scale 1.077
+   }
+   {
+    ID "65A569181F075957"
+    coords -65.134 -1.574 -12.594
+    angleX 1.647
+    angleY 62.371
+    angleZ 3.414
+    scale 1.093
+   }
+   {
+    ID "65A569181F0B011E"
+    coords 13.789 -5.094 -75.665
+    angleX 2.511
+    angleY -62.613
+    angleZ -0.929
+    scale 1.083
+   }
+   {
+    ID "65A569181F34100A"
+    coords 60.737 0.132 69.569
+    angleX -1.322
+    angleY -131.346
+    angleZ 0.51
+    scale 1.249
+   }
+   {
+    ID "65A569181F3570AE"
+    coords 29.877 0.132 51.193
+    angleX -1.463
+    angleY 39.673
+    angleZ 3.301
+    scale 1.127
+   }
+   {
+    ID "65A569181F3BC208"
+    coords 77.377 0.132 127.669
+    angleX 3.156
+    angleY -72.962
+    angleZ 3.339
+    scale 1.102
+   }
+   {
+    ID "65A569181F3FBB69"
+    coords -23.072 0.093 209.869
+    angleX -2.252
+    angleY 52.297
+    angleZ 2.596
+    scale 1.263
+   }
+  }
+  $grp Tree : "{B6FEA2C769DA6395}PrefabLibrary/Vegetation/Trees/t_pinus_sylvestris_2s.et" {
+   {
+    ID "65A569181F025311"
+    coords -50.625 0.132 44.281
+    angleX -1.305
+    angleY -80.598
+    angleZ 1.88
+    scale 1.245
+   }
+   {
+    ID "65A569181F036FCE"
+    coords -14.561 0.132 77.421
+    angleX 1.553
+    angleY -107.79
+    angleZ -0.924
+    scale 1.207
+   }
+   {
+    ID "65A569181F04172C"
+    coords -7.615 -6.365 -72.448
+    angleX 1.698
+    angleY -70.677
+    angleZ 0.495
+    scale 1.145
+   }
+   {
+    ID "65A569181F045CDD"
+    coords 2.414 -6.116 -77.305
+    angleX -0.056
+    angleY 104.318
+    angleZ -0.199
+    scale 1.154
+   }
+   {
+    ID "65A569181F059416"
+    coords -21.851 -6.335 -69.42
+    angleX -0.431
+    angleY -142.08
+    angleZ 0.598
+    scale 1.131
+   }
+   {
+    ID "65A569181F0632D2"
+    coords -55.015 -1.586 -33.121
+    angleX 0.205
+    angleY 100.451
+    angleZ 0.005
+    scale 1.021
+   }
+   {
+    ID "65A569181F065494"
+    coords -48.043 -1.618 -44.337
+    angleX 0.95
+    angleY -35.904
+    angleZ 1.841
+    scale 1.205
+   }
+   {
+    ID "65A569181F06F485"
+    coords -44.587 -1.618 -51.25
+    angleX 0.547
+    angleY -162.163
+    angleZ 1.97
+    scale 1.244
+   }
+   {
+    ID "65A569181F0A14F1"
+    coords 46.502 0.036 -24.562
+    angleX 0.779
+    angleY 64.931
+    angleZ -1.46
+    scale 1.26
+   }
+   {
+    ID "65A569181F0B011F"
+    coords 21.426 -3.984 -71.565
+    angleX 1.571
+    angleY 1.011
+    angleZ 1.537
+    scale 1.06
+   }
+   {
+    ID "65A569181F0BBB2F"
+    coords 33.84 -5.338 -72.351
+    angleX -1.874
+    angleY -55.801
+    angleZ -0.898
+    scale 1.262
+   }
+   {
+    ID "65A569181F0BDD73"
+    coords 38.532 -0.223 -21.369
+    angleX -1.204
+    angleY -83.51
+    angleZ -1.228
+    scale 1.099
+   }
+   {
+    ID "65A569181F3487EA"
+    coords 66.605 0.132 74.285
+    angleX 0.246
+    angleY 42.101
+    angleZ 0.842
+    scale 1.128
+   }
+   {
+    ID "65A569181F369BD5"
+    coords 30.366 0.132 16.814
+    angleX 1.667
+    angleY 43.331
+    angleZ 1.721
+    scale 1.165
+   }
+   {
+    ID "65A569181F36CE9E"
+    coords 30.942 0.132 34.018
+    angleX 1.381
+    angleY 63.349
+    angleZ -1.444
+    scale 1.208
+   }
+   {
+    ID "65A569181F37E592"
+    coords -34.244 0.132 49.299
+    angleX 0.281
+    angleY 154.011
+    angleZ -0.392
+    scale 1.227
+   }
+   {
+    ID "65A569181F381F47"
+    coords 25.752 -0.021 216.449
+    angleX 1.067
+    angleY -152.715
+    angleZ -1.946
+    scale 1.242
+   }
+   {
+    ID "65A569181F381F48"
+    coords 6.581 0.122 215.543
+    angleX 0.092
+    angleY 80.939
+    angleZ -0.647
+    scale 1.281
+   }
+   {
+    ID "65A569181F38EAFD"
+    coords -10.537 0.131 215.302
+    angleX -1.254
+    angleY -72.171
+    angleZ -0.362
+    scale 1.043
+   }
+   {
+    ID "65A569181F397AA8"
+    coords 58.69 -1.688 208.151
+    angleX 1.662
+    angleY -20.402
+    angleZ 1.5
+    scale 1.21
+   }
+   {
+    ID "65A569181F397AA9"
+    coords 42.644 -0.533 210.518
+    angleX -1.301
+    angleY -25.544
+    angleZ -0.738
+    scale 1.025
+   }
+   {
+    ID "65A569181F3A955B"
+    coords 73.099 -1.959 180.921
+    angleX -1.44
+    angleY 178.753
+    angleZ 1.877
+    scale 1.096
+   }
+   {
+    ID "65A569181F3BA1DD"
+    coords 74.313 0.11 114.435
+    angleX -0.315
+    angleY 83.246
+    angleZ -1.031
+    scale 1.117
+   }
+   {
+    ID "65A569181F3C4A27"
+    coords -45.132 0.115 98.792
+    angleX -0.56
+    angleY -16.48
+    angleZ -1.378
+    scale 1.283
+   }
+   {
+    ID "65A569181F3D15B0"
+    coords -56.979 -0.619 100.076
+    angleX 0.944
+    angleY 146.035
+    angleZ 1.332
+    scale 1.26
+   }
+   {
+    ID "65A569181F3E3FD4"
+    coords -41.149 0.066 156.106
+    angleX -1.318
+    angleY -51.692
+    angleZ -1.091
+    scale 1.231
+   }
+   {
+    ID "65A569181F3E3FD5"
+    coords -37.293 0.115 159.57
+    angleX -0.906
+    angleY 63.228
+    angleZ 1.435
+    scale 1.133
+   }
+   {
+    ID "65A569181F3EC100"
+    coords -60.067 -0.996 105.235
+    angleX -1.606
+    angleY -117.019
+    angleZ 1.22
+    scale 1.28
+   }
+   {
+    ID "65A569181F3FA185"
+    coords -14.886 0.132 211.31
+    angleX -0.892
+    angleY -2.999
+    angleZ -1.141
+    scale 1.254
+   }
+   {
+    ID "65A569181F3FB48A"
+    coords -35.016 -0.005 200.579
+    angleX 0.936
+    angleY 128.917
+    angleZ 0.48
+    scale 1.036
+   }
+   {
+    ID "65A569181F3FB48B"
+    coords -42.246 -0.834 174.346
+    angleX 0.289
+    angleY 150.858
+    angleZ 1.533
+    scale 1.266
+   }
+   {
+    ID "65A569181F3FBB68"
+    coords -34.457 -0.296 192.95
+    angleX -1.601
+    angleY -67.92
+    angleZ -1.202
+    scale 1.15
+   }
+  }
+  $grp Tree : "{B78F72C338993EA1}Prefabs/Vegetation/Tree/t_betula_pendula/t_betula_pendula_1f.et" {
+   {
+    ID "65A569181FE03E35"
+    coords 39.574 0.132 176.548
+    angleX 0.983
+    angleY -178.929
+    angleZ -0.545
+    scale 1.075
+   }
+   {
+    ID "65A569181FE089F0"
+    coords -11.741 -0.979 -47.903
+    angleX 0.217
+    angleY 159.614
+    angleZ 1.393
+    scale 0.806
+   }
+   {
+    ID "65A569181FE089F7"
+    coords -16.944 -1 -54.569
+    angleX 1.823
+    angleY 56.263
+    angleZ 1.626
+    scale 1.183
+   }
+   {
+    ID "65A569181FE157A9"
+    coords 15.784 0.132 188.61
+    angleX 0.232
+    angleY -3.867
+    angleZ -1.239
+    scale 0.926
+   }
+   {
+    ID "65A569181FE7FB24"
+    coords -9.307 0.132 47.186
+    angleX 1.168
+    angleY -140.849
+    angleZ -0.097
+    scale 0.92
+   }
+   {
+    ID "65A569181FE7FB27"
+    coords -7.217 0.132 44.164
+    angleX -1.728
+    angleY 79.862
+    angleZ 0.448
+    scale 0.852
+   }
+  }
+  $grp Tree : "{C1F4CA4F9D788CE5}PrefabLibrary/Vegetation/Trees/t_pinus_sylvestris_3s.et" {
+   {
+    ID "65A569181F010BE2"
+    coords -60.958 0.016 50.903
+    angleX 0.164
+    angleY 82.059
+    angleZ -0.484
+    scale 0.772
+   }
+   {
+    ID "65A569181F010BE3"
+    coords -61.094 0.038 42.827
+    angleX 0.644
+    angleY -90.563
+    angleZ 0.054
+    scale 0.713
+   }
+   {
+    ID "65A569181F045CC2"
+    coords 0.899 -6.618 -80.136
+    angleX -1.706
+    angleY -58.416
+    angleZ -1.358
+    scale 0.656
+   }
+   {
+    ID "65A569181F068276"
+    coords -42.015 -1.576 -58.172
+    angleX 0.063
+    angleY 107.867
+    angleZ 1.1
+    scale 0.752
+   }
+   {
+    ID "65A569181F06F484"
+    coords -47.503 -1.618 -47.935
+    angleX 1.963
+    angleY -114.085
+    angleZ -1.843
+    scale 0.656
+   }
+   {
+    ID "65A569181F350197"
+    coords 34.541 0.132 54.142
+    angleX 0.178
+    angleY -179.247
+    angleZ -1.196
+    scale 0.663
+   }
+   {
+    ID "65A569181F36723A"
+    coords 26.935 0.101 14.795
+    angleX -0.65
+    angleY 41.947
+    angleZ -0.255
+    scale 0.695
+   }
+   {
+    ID "65A569181F390D66"
+    coords 69.426 -2.877 200.822
+    angleX -0.708
+    angleY 15.986
+    angleZ 1.834
+    scale 0.776
+   }
+   {
+    ID "65A569181F399261"
+    coords 30.718 -0.308 215.459
+    angleX 1.012
+    angleY 47.199
+    angleZ 0.777
+    scale 0.735
+   }
+   {
+    ID "65A569181F39DDEB"
+    coords 3.095 0.083 218.797
+    angleX 0.721
+    angleY -169.315
+    angleZ -0.007
+    scale 0.725
+   }
+   {
+    ID "65A569181F3B1603"
+    coords 71.161 0.132 93.276
+    angleX 0.365
+    angleY 179.72
+    angleZ 1.986
+    scale 0.758
+   }
+   {
+    ID "65A569181F3BA022"
+    coords 73.609 0.119 117.63
+    angleX -0.03
+    angleY 155.483
+    angleZ 1.379
+    scale 0.793
+   }
+   {
+    ID "65A569181F3BA4FC"
+    coords 73.324 -0.02 101.198
+    angleX -1.76
+    angleY -41.925
+    angleZ 1.309
+    scale 0.719
+   }
+   {
+    ID "65A569181F3DC75D"
+    coords -62.033 -1.723 92.834
+    angleX -1.681
+    angleY -34.971
+    angleZ -1.859
+    scale 0.697
+   }
+   {
+    ID "65A569181F3DC75E"
+    coords -50.399 0.035 98.473
+    angleX 0.083
+    angleY 56.658
+    angleZ 0.183
+    scale 0.696
+   }
+   {
+    ID "65A569181F3E5527"
+    coords -49.8 -0.251 135.484
+    angleX -0.907
+    angleY 54.362
+    angleZ -0.493
+    scale 0.659
+   }
+   {
+    ID "65A569181F3FB49C"
+    coords -45.373 -1.553 180.781
+    angleX -1.594
+    angleY 7.108
+    angleZ -0.284
+    scale 0.706
+   }
+  }
+  $grp Tree : "{C8E68C4C6AF159DA}PrefabLibrary/Vegetation/Trees/t_betula_pendula_2sw.et" {
+   {
+    ID "65A569181F036FCB"
+    coords -16.892 0.132 72.402
+    angleX 1.649
+    angleY 77.764
+    angleZ 3.306
+    scale 1.037
+   }
+   {
+    ID "65A569181F03F76D"
+    coords -15.903 0.132 54.467
+    angleX 3.677
+    angleY -62.119
+    angleZ 0.339
+    scale 0.82
+   }
+   {
+    ID "65A569181F068275"
+    coords -52.714 -1.579 -43.882
+    angleX -0.078
+    angleY 159.68
+    angleZ -2.922
+    scale 0.97
+   }
+   {
+    ID "65A569181F0BBB2D"
+    coords 44.922 -4.083 -52.668
+    angleX 3.83
+    angleY -167.744
+    angleZ -1.546
+    scale 0.947
+   }
+   {
+    ID "65A569181F3570A2"
+    coords 42.368 0.132 69.104
+    angleX 1.538
+    angleY 102.835
+    angleZ 0.316
+    scale 1.171
+   }
+   {
+    ID "65A569181F35F760"
+    coords 59.267 0.132 68.552
+    angleX 2.712
+    angleY 115.756
+    angleZ 2.575
+    scale 0.812
+   }
+   {
+    ID "65A569181F36CE9D"
+    coords 31.354 0.132 37.888
+    angleX 3.856
+    angleY 13.766
+    angleZ -0.977
+    scale 0.998
+   }
+   {
+    ID "65A569181FE07C9A"
+    coords -4.114 -1.116 -44.481
+    angleX 1.142
+    angleY 58.987
+    angleZ 1.382
+    scale 1.143
+   }
+   {
+    ID "65A569181FE2D0F9"
+    coords -26.229 0.016 -9.574
+    angleX -0.338
+    angleY 9.613
+    angleZ -1.13
+    scale 0.703
+   }
+   {
+    ID "65A569181FE7FB38"
+    coords 1.192 0.132 49.898
+    angleX -1.852
+    angleY 88.926
+    angleZ -2.883
+    scale 1.12
+   }
+  }
+  $grp Tree : "{CF0A210B7AC7B329}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_2.et" {
+   {
+    ID "65A569181F025310"
+    coords -41.859 0.132 45.262
+    angleX 1.328
+    angleY -28.554
+    angleZ 1.734
+    scale 0.981
+   }
+   {
+    ID "65A569181F036FCC"
+    coords -16.524 0.132 74.217
+    angleX -0.607
+    angleY -122.523
+    angleZ 0.711
+    scale 0.93
+   }
+   {
+    ID "65A569181F036FCD"
+    coords -14.426 0.132 70.916
+    angleX 0.441
+    angleY 64.635
+    angleZ -1.429
+    scale 0.901
+   }
+   {
+    ID "65A569181F03F76C"
+    coords -14.451 0.132 51.164
+    angleX 1.395
+    angleY 50.407
+    angleZ -1.985
+    scale 1.2
+   }
+   {
+    ID "65A569181F04C783"
+    coords 16.862 -6.034 -78.218
+    angleX -1.299
+    angleY -57.372
+    angleZ 1.058
+    scale 1.006
+   }
+   {
+    ID "65A569181F056500"
+    coords -36.583 -1.474 -56.801
+    angleX 0.622
+    angleY 126.819
+    angleZ -0.217
+    scale 1.14
+   }
+   {
+    ID "65A569181F056507"
+    coords -39.439 -1.606 -57.815
+    angleX -1.578
+    angleY -118.799
+    angleZ -0.199
+    scale 0.858
+   }
+   {
+    ID "65A569181F0632DD"
+    coords -61.962 -1.618 -24.568
+    angleX -0.251
+    angleY 47.825
+    angleZ -1.359
+    scale 1.005
+   }
+   {
+    ID "65A569181F08F4D9"
+    coords 79.814 -0.686 167.677
+    angleX 1.432
+    angleY -11.514
+    angleZ 1.625
+    scale 1.14
+   }
+   {
+    ID "65A569181F09BA1F"
+    coords 76.53 -0.429 73.756
+    angleX -0.552
+    angleY -49.879
+    angleZ 0.151
+    scale 0.971
+   }
+   {
+    ID "65A569181F0D35B4"
+    coords -47.171 -1.628 181.564
+    angleX 0.637
+    angleY 99.385
+    angleZ 0.492
+    scale 1.122
+   }
+   {
+    ID "65A569181F0DBDF6"
+    coords -38.007 -0.415 205.203
+    angleX 0.036
+    angleY -37.069
+    angleZ -0.391
+    scale 0.913
+   }
+   {
+    ID "65A569181F0E1A9D"
+    coords 34.663 -0.684 216.388
+    angleX -0.801
+    angleY -121.611
+    angleZ -1.866
+    scale 1.047
+   }
+   {
+    ID "65A569181F0E1A9E"
+    coords 31.381 -1.323 223.361
+    angleX -0.855
+    angleY 109.625
+    angleZ 1.623
+    scale 0.916
+   }
+   {
+    ID "65A569181F0EC6CE"
+    coords -15.258 0.123 217.969
+    angleX -0.674
+    angleY 97.331
+    angleZ 1.691
+    scale 0.93
+   }
+   {
+    ID "65A569181F0F5BF2"
+    coords 77.829 -3.56 188.343
+    angleX 1.478
+    angleY -82.521
+    angleZ -1.474
+    scale 0.837
+   }
+   {
+    ID "65A569181F1169D4"
+    coords 31.304 -5.11 -74.418
+    angleX -1.206
+    angleY 27.027
+    angleZ 1.376
+    scale 0.846
+   }
+   {
+    ID "65A569181F129BD3"
+    coords -68.443 -1.618 -19.6
+    angleX -1.115
+    angleY 157.428
+    angleZ 1.705
+    scale 1.124
+   }
+   {
+    ID "65A569181F350196"
+    coords 32.415 0.132 45.097
+    angleX 1.995
+    angleY 126.852
+    angleZ -0.531
+    scale 1.072
+   }
+   {
+    ID "65A569181F36723D"
+    coords 29.718 0.101 10.491
+    angleX 1.746
+    angleY -81.038
+    angleZ 1.823
+    scale 0.997
+   }
+   {
+    ID "65A569181F37E590"
+    coords -20.495 0.132 55.557
+    angleX -0.291
+    angleY 96.749
+    angleZ 1.311
+    scale 0.928
+   }
+   {
+    ID "65A569181F3847E8"
+    coords 29.935 -0.536 218.274
+    angleX -0.286
+    angleY -36.113
+    angleZ -0.998
+    scale 0.847
+   }
+  }
+  $grp Tree : "{DA7492F3E6B63251}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_1l.et" {
+   {
+    ID "65A569181F088FF3"
+    coords 84.106 -0.878 130.584
+    angleX -1.703
+    angleY -82.081
+    angleZ -1.115
+    scale 0.954
+   }
+   {
+    ID "65A569181F08C8DE"
+    coords 79.224 -3.588 185.842
+    angleX 1.658
+    angleY 131.917
+    angleZ 0.287
+    scale 0.922
+   }
+   {
+    ID "65A569181F08C8DF"
+    coords 77.71 -2.571 179.606
+    angleX 0.915
+    angleY 125.336
+    angleZ -1.95
+    scale 0.787
+   }
+   {
+    ID "65A569181F0966BC"
+    coords 59.84 0.132 64.694
+    angleX 1.109
+    angleY 131.126
+    angleZ 0.012
+    scale 0.83
+   }
+   {
+    ID "65A569181F09BA1C"
+    coords 77.128 -0.307 83.728
+    angleX -1.107
+    angleY -75.5
+    angleZ -1.001
+    scale 1.083
+   }
+   {
+    ID "65A569181F09BA1D"
+    coords 76.314 -0.18 85.477
+    angleX 0.754
+    angleY 20.71
+    angleZ 0.02
+    scale 1.045
+   }
+   {
+    ID "65A569181F09BA1E"
+    coords 60.377 0.132 63.891
+    angleX -0.222
+    angleY -14.403
+    angleZ 1.685
+    scale 0.975
+   }
+   {
+    ID "65A569181F0A4817"
+    coords 37.748 0.132 32.824
+    angleX 1.445
+    angleY 151.572
+    angleZ -1.913
+    scale 1.024
+   }
+   {
+    ID "65A569181F0A7255"
+    coords 29.686 0.132 21.332
+    angleX -1.457
+    angleY -10.778
+    angleZ 1.392
+    scale 1.023
+   }
+   {
+    ID "65A569181F0ACB39"
+    coords 34.352 0.132 52.708
+    angleX -1.685
+    angleY 83.971
+    angleZ -1.686
+    scale 0.923
+   }
+   {
+    ID "65A569181F0ACB3A"
+    coords 46.932 0.132 66.099
+    angleX -1.749
+    angleY -148.419
+    angleZ 1.066
+    scale 0.943
+   }
+   {
+    ID "65A569181F0ADFA2"
+    coords 48.465 0.132 64.076
+    angleX -1.926
+    angleY -129.236
+    angleZ -0.647
+    scale 1.005
+   }
+   {
+    ID "65A569181F0AEAA7"
+    coords 34.923 0.132 48.344
+    angleX -1.375
+    angleY -13.47
+    angleZ 0.228
+    scale 1.095
+   }
+   {
+    ID "65A569181F0C62A4"
+    coords -44.778 -0.358 157.076
+    angleX -0.504
+    angleY 115.942
+    angleZ -1.243
+    scale 1.163
+   }
+   {
+    ID "65A569181F0C7E31"
+    coords -45.373 -0.084 150.664
+    angleX 0.712
+    angleY -11.69
+    angleZ 0.475
+    scale 1.031
+   }
+   {
+    ID "65A569181F0C9A9E"
+    coords -59.294 -1.322 132.537
+    angleX 1.212
+    angleY 18.886
+    angleZ 1.494
+    scale 1.004
+   }
+   {
+    ID "65A569181F0C9A9F"
+    coords -51.807 -0.632 140.256
+    angleX 1.064
+    angleY 167.92
+    angleZ 1.736
+    scale 1.097
+   }
+   {
+    ID "65A569181F0DD094"
+    coords -50.352 -1.597 174.512
+    angleX -0.441
+    angleY 12.964
+    angleZ -1.226
+    scale 1.092
+   }
+   {
+    ID "65A569181F0DD096"
+    coords -33.158 0.061 176.916
+    angleX 1.958
+    angleY -119.084
+    angleZ 0.567
+    scale 1.102
+   }
+   {
+    ID "65A569181F0EB5FE"
+    coords 16.536 0.082 218.843
+    angleX 0.023
+    angleY 44.936
+    angleZ 0.983
+    scale 0.798
+   }
+   {
+    ID "65A569181F0EC656"
+    coords 8.826 0.079 219.141
+    angleX 1.979
+    angleY -84.619
+    angleZ -1.634
+    scale 0.804
+   }
+   {
+    ID "65A569181F0EC657"
+    coords 13.978 0.043 222.1
+    angleX 0.299
+    angleY 61.635
+    angleZ -1.373
+    scale 1.103
+   }
+   {
+    ID "65A569181F0EC6CF"
+    coords -25.89 -0.035 212.026
+    angleX -1.142
+    angleY 116.997
+    angleZ 1.313
+    scale 1.002
+   }
+   {
+    ID "65A569181F0EC6F0"
+    coords -30.974 -0.041 207.024
+    angleX -0.623
+    angleY 5.493
+    angleZ 0.312
+    scale 0.822
+   }
+   {
+    ID "65A569181F0EC6F3"
+    coords -30.144 0.029 205.056
+    angleX 0.882
+    angleY 100.814
+    angleZ 0.859
+    scale 0.859
+   }
+   {
+    ID "65A569181F0F5BF3"
+    coords 63.185 -2.614 210.852
+    angleX 1.719
+    angleY -28.192
+    angleZ 1.205
+    scale 0.855
+   }
+   {
+    ID "65A569181F0F5BF5"
+    coords 74.275 -3.787 200.016
+    angleX 1.816
+    angleY 8.328
+    angleZ 0.817
+    scale 0.874
+   }
+   {
+    ID "65A569181F0FC17B"
+    coords 46.81 -1.029 213.422
+    angleX 1.968
+    angleY 79.357
+    angleZ -1.108
+    scale 0.955
+   }
+   {
+    ID "65A569181F1139E8"
+    coords -31.463 -6.305 -69.199
+    angleX -1.006
+    angleY -44.595
+    angleZ 0.527
+    scale 1.153
+   }
+   {
+    ID "65A569181F1169D1"
+    coords 47.463 0.077 -23.556
+    angleX -0.403
+    angleY 72.545
+    angleZ -0.783
+    scale 1.168
+   }
+   {
+    ID "65A569181F1169D2"
+    coords 52.833 0.109 -21.9
+    angleX 1.039
+    angleY 8.295
+    angleZ 0.671
+    scale 0.802
+   }
+   {
+    ID "65A569181F1169D8"
+    coords 13.049 -6.618 -81.622
+    angleX -0.61
+    angleY 26.445
+    angleZ -1.821
+    scale 0.786
+   }
+   {
+    ID "65A569181F1169DA"
+    coords 21.212 -6.567 -81.141
+    angleX -0.534
+    angleY 50.517
+    angleZ -1.624
+    scale 1.044
+   }
+   {
+    ID "65A569181F1169DE"
+    coords -15 -6.482 -72.728
+    angleX -1.993
+    angleY 46.781
+    angleZ -0.087
+    scale 0.837
+   }
+   {
+    ID "65A569181F1227E8"
+    coords -23.81 0.132 85.716
+    angleX 1.771
+    angleY -10.448
+    angleZ 0.406
+    scale 0.766
+   }
+   {
+    ID "65A569181F1227E9"
+    coords -19.242 0.132 72.445
+    angleX -0.065
+    angleY 129.269
+    angleZ 1.108
+    scale 1.137
+   }
+   {
+    ID "65A569181F123738"
+    coords -41.348 0.132 48.172
+    angleX 0.708
+    angleY -83.114
+    angleZ 0.169
+    scale 0.871
+   }
+   {
+    ID "65A569181F12373B"
+    coords -42.234 0.132 47.98
+    angleX -1.247
+    angleY -27.675
+    angleZ -0.459
+    scale 0.815
+   }
+   {
+    ID "65A569181F126BCC"
+    coords -66.805 -0.974 38.555
+    angleX 1.921
+    angleY 146.925
+    angleZ -0.084
+    scale 1.066
+   }
+   {
+    ID "65A569181F126BCE"
+    coords -65.777 -1.367 30.949
+    angleX -0.624
+    angleY -75.775
+    angleZ -0.895
+    scale 0.873
+   }
+   {
+    ID "65A569181F129BD5"
+    coords -57.43 -1.703 -44.515
+    angleX -0.545
+    angleY 73.699
+    angleZ -0.854
+    scale 1.167
+   }
+   {
+    ID "65A569181F129BD8"
+    coords -68.664 -1.618 -8.64
+    angleX 0.274
+    angleY 45.573
+    angleZ -1.746
+    scale 1.012
+   }
+   {
+    ID "65A569181F12AF2D"
+    coords -66.969 -1.618 18.861
+    angleX -1.371
+    angleY 164.921
+    angleZ -1.613
+    scale 1.093
+   }
+   {
+    ID "65A569181F12AF2F"
+    coords -63.118 -1.416 14.338
+    angleX 1.374
+    angleY 100.956
+    angleZ 1.095
+    scale 1.011
+   }
+   {
+    ID "65A569181F12AFD2"
+    coords -65.258 -0.326 50.462
+    angleX 0.215
+    angleY 155.242
+    angleZ 0.449
+    scale 0.759
+   }
+   {
+    ID "65A569181F12FF8C"
+    coords -51.532 -1.44 -54.641
+    angleX 1.743
+    angleY 105.813
+    angleZ -1.193
+    scale 1.174
+   }
+   {
+    ID "65A569181F13044A"
+    coords -57.905 -0.637 122.787
+    angleX 0.778
+    angleY -48.539
+    angleZ -1.133
+    scale 1.102
+   }
+   {
+    ID "65A569181F13044B"
+    coords -58.405 -0.88 126.97
+    angleX 1.694
+    angleY 169.348
+    angleZ -0.279
+    scale 0.806
+   }
+   {
+    ID "65A569181F13044D"
+    coords -60.896 -1.648 135.113
+    angleX 1.815
+    angleY 100.099
+    angleZ -1.203
+    scale 1.197
+   }
+   {
+    ID "65A569181F13857D"
+    coords -59.72 -0.877 114.105
+    angleX 1.438
+    angleY -105.944
+    angleZ -0.321
+    scale 0.952
+   }
+   {
+    ID "65A569181F13A354"
+    coords -61.98 -1.233 113.722
+    angleX -0.505
+    angleY -57.054
+    angleZ -0.206
+    scale 0.776
+   }
+   {
+    ID "65A569181F13A357"
+    coords -66.453 -1.935 112.552
+    angleX -0.44
+    angleY -143.87
+    angleZ 0.247
+    scale 1.098
+   }
+   {
+    ID "65A569181F13DD00"
+    coords -62.429 -1.325 107.996
+    angleX -0.762
+    angleY -129.906
+    angleZ 1.041
+    scale 1.032
+   }
+   {
+    ID "65A569181F13DD01"
+    coords -66.757 -2.384 100.063
+    angleX -1.759
+    angleY -102.89
+    angleZ -1.269
+    scale 1.03
+   }
+   {
+    ID "65A569181F13DD18"
+    coords -33.885 0.132 91.803
+    angleX -1.415
+    angleY 14.579
+    angleZ 1.904
+    scale 0.886
+   }
+   {
+    ID "65A569181F13DD1B"
+    coords -30.794 0.132 91.448
+    angleX 0.652
+    angleY 152.066
+    angleZ 1.404
+    scale 1.103
+   }
+   {
+    ID "65A569181F13DD1E"
+    coords -63.181 -1.837 90.433
+    angleX -1.03
+    angleY 25.928
+    angleZ 0.284
+    scale 1.074
+   }
+   {
+    ID "65A569181F1969F4"
+    coords -3.307 -0.168 -16.435
+    angleX 0.679
+    angleY -150.737
+    angleZ 1.93
+    scale 0.812
+   }
+   {
+    ID "65A569181F1A931B"
+    coords -16.473 0.098 13.239
+    angleX 1.751
+    angleY -37.695
+    angleZ -0.76
+    scale 1.1
+   }
+   {
+    ID "65A569181F1D1E0B"
+    coords -43.24 0.132 20.105
+    angleX 0.859
+    angleY -42.123
+    angleZ -0.702
+    scale 1.132
+   }
+   {
+    ID "65A569181FE00A45"
+    coords 41.083 0.132 173.719
+    angleX 0.187
+    angleY 107.801
+    angleZ -0.491
+    scale 1.035
+   }
+   {
+    ID "65A569181FE03E34"
+    coords 42.733 0.132 171.524
+    angleX -1.084
+    angleY 129.796
+    angleZ -1.285
+    scale 1.072
+   }
+   {
+    ID "65A569181FE148BB"
+    coords 15.014 0.132 195.481
+    angleX -0.836
+    angleY -22.182
+    angleZ -0.19
+    scale 1.137
+   }
+   {
+    ID "65A569181FE1D104"
+    coords 15.21 0.132 198.515
+    angleX -1.381
+    angleY -142.431
+    angleZ 1.176
+    scale 0.911
+   }
+   {
+    ID "65A569181FE2D0E6"
+    coords -30.86 0.04 -12.086
+    angleX 1.558
+    angleY 174.864
+    angleZ -1.804
+    scale 0.975
+   }
+   {
+    ID "65A569181FE2D0E7"
+    coords -28.447 0.014 -11.752
+    angleX 1.585
+    angleY 124.347
+    angleZ -0.873
+    scale 0.938
+   }
+   {
+    ID "65A569181FE706EE"
+    coords -15.551 -0.941 -51.741
+    angleX 0.875
+    angleY 138.454
+    angleZ -0.306
+    scale 0.875
+   }
+  }
+  $grp Tree : "{DB49D8B142D18E86}PrefabLibrary/Vegetation/Trees/t_betula_pendula_2s.et" {
+   {
+    ID "65A569181F026B87"
+    coords -32.332 0.132 41.082
+    angleX -1.556
+    angleY 7.559
+    angleZ 2.204
+    scale 0.889
+   }
+   {
+    ID "65A569181F045CC3"
+    coords 8.862 -6.014 -76.288
+    angleX -1.508
+    angleY 36.212
+    angleZ -0.513
+    scale 1.145
+   }
+   {
+    ID "65A569181F059417"
+    coords -26.649 -3.148 -61.18
+    angleX -1.753
+    angleY 94.342
+    angleZ 0.073
+    scale 1.268
+   }
+   {
+    ID "65A569181F0B16CF"
+    coords 32.993 -4.662 -66.758
+    angleX 1.726
+    angleY -32.015
+    angleZ 1.774
+    scale 0.966
+   }
+   {
+    ID "65A569181F369BD4"
+    coords 25.59 0.06 7.514
+    angleX -0.428
+    angleY -28.17
+    angleZ 2.452
+    scale 0.871
+   }
+   {
+    ID "65A569181F3A6C06"
+    coords 77.921 0.132 152.729
+    angleX 1.082
+    angleY 30.466
+    angleZ -1.919
+    scale 1.01
+   }
+   {
+    ID "65A569181F3E5526"
+    coords -53.215 -0.535 132.363
+    angleX 2.586
+    angleY -114.503
+    angleZ -0.132
+    scale 0.796
+   }
+   {
+    ID "65A569181FE06F24"
+    coords -0.991 -1.579 -50.257
+    angleX 0.402
+    angleY -45.727
+    angleZ 1.945
+    scale 1.158
+   }
+  }
+  $grp Tree : "{F1DB9A8115310093}PrefabLibrary/Vegetation/Trees/t_betula_pendula_1f.et" {
+   {
+    ID "65A569181F08EC5D"
+    coords 78.637 -1.657 172.726
+    angleX -3.095
+    angleY -160.68
+    angleZ 2.06
+    scale 1.063
+   }
+   {
+    ID "65A569181F09C0D6"
+    coords 79.276 -0.791 93.633
+    angleX 3.141
+    angleY 27.533
+    angleZ 0.956
+    scale 1.003
+   }
+   {
+    ID "65A569181F0ADFA3"
+    coords 59.178 0.132 66.115
+    angleX 0.986
+    angleY -160.592
+    angleZ 3.031
+    scale 0.912
+   }
+   {
+    ID "65A569181F0C62A5"
+    coords -42.366 -0.245 159.736
+    angleX -2.43
+    angleY 138.135
+    angleZ -1.26
+    scale 0.987
+   }
+   {
+    ID "65A569181F0DD097"
+    coords -47.943 -1.635 179.885
+    angleX -0.981
+    angleY 127.753
+    angleZ -0.174
+    scale 1.039
+   }
+   {
+    ID "65A569181F0EC651"
+    coords 17.893 -0.167 223.093
+    angleX 2.18
+    angleY 168.063
+    angleZ 1.417
+    scale 0.834
+   }
+   {
+    ID "65A569181F0F6A1D"
+    coords 75.387 -3.172 188.932
+    angleX 2.661
+    angleY 28.752
+    angleZ 0.222
+    scale 1.116
+   }
+   {
+    ID "65A569181F0FC175"
+    coords 42.58 -0.918 214.724
+    angleX 2.837
+    angleY -138.058
+    angleZ -1.848
+    scale 1.108
+   }
+   {
+    ID "65A569181F1139EB"
+    coords -22.36 -6.565 -72.591
+    angleX 3.657
+    angleY -101.275
+    angleZ 0.102
+    scale 1.173
+   }
+   {
+    ID "65A569181F1169D0"
+    coords 48.083 0.072 -25.449
+    angleX 1.799
+    angleY -1.505
+    angleZ 3.819
+    scale 1.037
+   }
+   {
+    ID "65A569181F126BC8"
+    coords -57.897 0.084 52.544
+    angleX 1.538
+    angleY 109.416
+    angleZ 3.174
+    scale 0.815
+   }
+   {
+    ID "65A569181F126BC9"
+    coords -48.467 0.132 50.009
+    angleX 1.978
+    angleY -25.16
+    angleZ -1.736
+    scale 0.875
+   }
+   {
+    ID "65A569181F126BCF"
+    coords -63.869 -0.181 50.982
+    angleX 2.726
+    angleY -32.323
+    angleZ -1.348
+    scale 1.152
+   }
+   {
+    ID "65A569181F129BD2"
+    coords -70.083 -1.608 -14.756
+    angleX -3.094
+    angleY -105.45
+    angleZ 2.767
+    scale 1.092
+   }
+   {
+    ID "65A569181F129BDC"
+    coords -66.011 -1.618 -6.996
+    angleX 2.402
+    angleY -143.793
+    angleZ -3.252
+    scale 0.852
+   }
+   {
+    ID "65A569181F12FF93"
+    coords -34.76 -3.632 -63.713
+    angleX -3.009
+    angleY 104.099
+    angleZ -0.154
+    scale 1.07
+   }
+   {
+    ID "65A569181F14687B"
+    coords 13.008 -0.058 -2.217
+    angleX -0.017
+    angleY 90.618
+    angleZ -3.039
+    scale 0.976
+   }
+   {
+    ID "65A569181F14907D"
+    coords 9.907 -0.049 -1.485
+    angleX 3.674
+    angleY 19.084
+    angleZ 1.186
+    scale 1.042
+   }
+   {
+    ID "65A569181F183ABD"
+    coords -0.725 0.132 159.693
+    angleX -0.703
+    angleY 7.108
+    angleZ -0.787
+    scale 0.96
+   }
+   {
+    ID "65A569181F198650"
+    coords -7.411 -1.303 -49.905
+    angleX -3.708
+    angleY 71.325
+    angleZ 3.533
+    scale 0.87
+   }
+   {
+    ID "65A569181F198651"
+    coords -7.183 -1.249 -48.829
+    angleX -1.225
+    angleY 73.149
+    angleZ -0.102
+    scale 0.928
+   }
+   {
+    ID "65A569181F1D1E15"
+    coords -47.579 -0.88 24.584
+    angleX -0.825
+    angleY -172.073
+    angleZ -3.401
+    scale 1.129
+   }
+   {
+    ID "65A569181F1FA714"
+    coords -13.976 -0.093 -15.39
+    angleX -0.115
+    angleY 72.874
+    angleZ -1.288
+    scale 1.023
+   }
+  }
+ }
+}

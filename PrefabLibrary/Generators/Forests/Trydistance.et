@@ -1,0 +1,75 @@
+ForestGeneratorEntity {
+ ID "65A5690DF00502E7"
+ Flags 1048579
+ coords 2217.576 41.75 1503.237
+ GeneratorType GeneratorTypeForest "{65A5690DF7316E95}" {
+ }
+ m_bAvoidObjects 1
+ m_bAvoidRoads 1
+ m_bAvoidRivers 1
+ m_bAvoidPowerLines 1
+ m_bAvoidTracks 1
+ m_bAvoidLakes 1
+ m_aLevels {
+  ForestGeneratorTopLevel "{70A1E74435182154}" {
+   m_aTreeGroups {
+    TreeGroupClass "{70A1E7443518BD57}" {
+     m_aTrees {
+      ForestGeneratorTreeShort "{70A1E74435190A97}" {
+       m_Prefab "{779DF03FAB7A131E}PrefabLibrary/Vegetation/Trees/t_picea_abies_stump_01.et"
+      }
+      ForestGeneratorTreeShort "{70A1E74435190A95}" {
+       m_Prefab "{5CA1D12C1B27CAE2}PrefabLibrary/Vegetation/Trees/t_picea_abies_stump_02.et"
+       m_fWeight 0.1
+      }
+     }
+    }
+    TreeGroupClass "{70A1E7443518BD53}" {
+     m_fWeight 0.09
+     m_aTrees {
+      ForestGeneratorTreeTall "{70A1E7443518BD52}" {
+       m_Prefab "{59EDDDB5D3B5241F}PrefabLibrary/Vegetation/Trees/t_piceaabies_3f.et"
+       m_fMidDistance 2
+       m_fTopDistance 3
+      }
+     }
+    }
+   }
+   m_fDensity 100
+  }
+  ForestGeneratorTopLevel "{70A1E744351FE73C}" {
+   m_aTreeGroups {
+    TreeGroupClass "{70A1E74435182F75}" {
+     m_aTrees {
+      ForestGeneratorTreeTall "{70A1E7443518215F}" {
+       m_Prefab "{DB49D8B142D18E86}PrefabLibrary/Vegetation/Trees/t_betula_pendula_2s.et"
+       m_fBotDistance 0.5
+       m_fWeight 0.3
+       m_fMidDistance 1
+       m_fTopDistance 2
+      }
+      ForestGeneratorTreeShort "{70A1E7443518215E}" {
+       m_Prefab "{425761285F36BF16}PrefabLibrary/Vegetation/Trees/t_betula_pendula_1s.et"
+       m_fBotDistance 0.5
+       m_fWeight 0.5
+      }
+      ForestGeneratorTreeShort "{70A1E7443518215D}" {
+       m_Prefab "{A35E15EBC6033C07}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_1.et"
+       m_fBotDistance 0.5
+      }
+      ForestGeneratorTreeShort "{70A1E7443518215C}" {
+       m_Prefab "{DA7492F3E6B63251}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_1l.et"
+      }
+      ForestGeneratorTreeTall "{70A1E74435182142}" {
+       m_Prefab "{AC43B039B67361F6}PrefabLibrary/Vegetation/Trees/t_betula_pendula_3s.et"
+       m_fWeight 0.1
+       m_fMidDistance 2
+       m_fTopDistance 3
+      }
+     }
+    }
+   }
+   m_fDensity 35
+  }
+ }
+}

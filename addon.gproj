@@ -1,0 +1,22 @@
+GameProject {
+ ID "Arkanas"
+ GUID "659C26C5B51DAFF9"
+ TITLE "Arkanas"
+ Dependencies {
+  "58D0FB3206B6F859" "5D84C738432BFE6A" "6109572980E4E3F7" "5E8EB849F3CF691C" "61110CC4F1FF9C8A" "60D76BEF4C841C1A"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

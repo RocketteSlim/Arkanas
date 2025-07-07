@@ -1,0 +1,9 @@
+TerrainMaterial : "{916E4B9FEFDDDAAC}Terrains/Common/Surfaces/MountainGrass_01.emat" {
+ Color 0.188 0.251 0.204 1
+ DielectricReflectance 0
+ SatMapBlend 0.205
+ SatMapBrightness 0.583
+ LocalShadowBias 0.236
+ CavityFromAO 0.503
+ DetailBlendDistance 0
+}
