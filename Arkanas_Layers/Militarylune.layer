@@ -30384,8 +30384,13 @@ $grp GenericEntity : "{526D39BE96FE8A08}Prefabs/Props/Industrial/CargoContainers
   angleY 42.068
  }
 }
-SCR_DestructibleBuildingEntity : "{5312C1597A2D08C6}Prefabs/Structures/Communcation Towers/Green Mountain Tower.et" {
- coords 2393.555 64.914 1083.488
+$grp SCR_DestructibleBuildingEntity : "{5312C1597A2D08C6}Prefabs/Structures/Communcation Towers/Green Mountain Tower.et" {
+ {
+  coords 2393.555 64.914 1083.488
+ }
+ {
+  coords 2432.63 66.75 1111.985
+ }
 }
 $grp SCR_IndestructibleEnvironmentalEntity : "{533CDABD77C4C43E}Prefabs/Rocks/Granite/GraniteCliff_02.et" {
  {
