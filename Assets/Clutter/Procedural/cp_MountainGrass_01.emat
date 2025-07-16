@@ -1,3 +1,10 @@
 Grass : "{1380BA242AFA1447}Assets/Clutter/Procedural/cp_MountainGrass_01.emat" {
+ NormalPower 0.5
  SatMapLerp 0
+ Plants 20
+ Height 0.5
+ Edge 1
+ Zenith 8
+ HeightTreshold 0
+ GlobalLayerGlobalAO 0
 }

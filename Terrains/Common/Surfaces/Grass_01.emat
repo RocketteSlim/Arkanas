@@ -1,2 +1,4 @@
-TerrainMaterial {
+TerrainMaterial : "{5E80F5F438B08C00}Terrains/Common/Surfaces/Grass_01.emat" {
+ DielectricReflectance 0
+ SatMapBlend 0
 }

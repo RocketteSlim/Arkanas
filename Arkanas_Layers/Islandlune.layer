@@ -1,3 +1,7 @@
+GenericEntity {
+ coords 2349.282 66.201 1175.098
+ angleX -8.425
+}
 $grp SplineShapeEntity {
  {
   coords 2259.806 41.618 1353.916
@@ -35892,6 +35896,186 @@ $grp SplineShapeEntity {
    }
   }
  }
+ {
+  coords 3011.993 19.996 1486.986
+  Points {
+   ShapePoint "{65DEF8A26D18FECD}" {
+    Position -16.627 0 -4.538
+   }
+   ShapePoint "{65DEF8A26D91238F}" {
+    Position -4.702 0 -1.611
+   }
+   ShapePoint "{65DEF8A26C0E2330}" {
+    Position 25.306 0 -5.277
+    Data {
+     SplinePointData SplinePointData {
+      InTangent 3.415 0 -0.799
+      OutTangent 3.415 0 -0.799
+     }
+    }
+   }
+   ShapePoint "{65DEF8A26B524E8B}" {
+    Position 32.79 0 -10.382
+   }
+   ShapePoint "{65DEF8A26997B7D7}" {
+    Position 36.676 0 -15.699
+   }
+   ShapePoint "{65DEF8A268F3EB02}" {
+    Position 37.819 0 -24.087
+   }
+   ShapePoint "{65DEF8A27E7D580B}" {
+    Position 37.978 0 -25.971
+   }
+   ShapePoint "{65DEF8A27E04E13F}" {
+    Position 37.834 0 -29.686
+   }
+   ShapePoint "{65DEF8A27B4E4312}" {
+    Position 38.709 0 -101.793
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{55A3B9EDA50846BC}PrefabLibrary/Generators/Walls/Net/WG_NetFence_03.et" {
+    Flags 1048579
+    {
+     $grp SCR_DestructibleEntity : "{168CE46092EAD301}PrefabLibrary/Walls/Net/NetFence_03_4m.et" {
+      {
+       coords -9.05 0.159 -1.941
+       angleY 355.327
+      }
+      {
+       coords 2.934 -0.016 -2.217
+       angleY 6.629
+      }
+      {
+       coords 6.917 -0.075 -2.68
+       angleY 7.226
+      }
+      {
+       coords 10.896 -0.141 -3.184
+       angleY 7.645
+      }
+      {
+       coords 14.87 -0.187 -3.717
+       angleY 8.029
+      }
+      {
+       coords 18.841 -0.228 -4.277
+       angleY 8.47
+      }
+      {
+       coords 37.978 -0.506 -25.55
+       angleY 92.075
+      }
+      {
+       coords 37.927 -0.435 -37.567
+       angleY 89.321
+      }
+      {
+       coords 37.975 -0.412 -41.576
+       angleY 89.321
+      }
+      {
+       coords 38.022 -0.382 -45.586
+       angleY 89.321
+      }
+      {
+       coords 38.07 -0.383 -49.596
+       angleY 89.321
+      }
+      {
+       coords 38.117 -0.353 -53.606
+       angleY 89.321
+      }
+      {
+       coords 38.165 -0.347 -57.615
+       angleY 89.321
+      }
+      {
+       coords 38.212 -0.324 -61.625
+       angleY 89.321
+      }
+      {
+       coords 38.26 -0.316 -65.635
+       angleY 89.321
+      }
+      {
+       coords 38.308 -0.306 -69.645
+       angleY 89.291
+      }
+      {
+       coords 38.357 -0.296 -73.654
+       angleY 89.283
+      }
+      {
+       coords 38.407 -0.287 -77.664
+       angleY 89.283
+      }
+      {
+       coords 38.458 -0.288 -81.673
+       angleY 89.283
+      }
+      {
+       coords 38.508 -0.268 -85.683
+       angleY 89.283
+      }
+      {
+       coords 38.558 -0.258 -89.693
+       angleY 89.283
+      }
+      {
+       coords 38.608 -0.258 -93.703
+       angleY 89.283
+      }
+      {
+       coords 38.658 -0.259 -97.712
+       angleY 89.283
+      }
+     }
+     SCR_DestructibleEntity : "{25E7C831EF87A0E1}PrefabLibrary/Walls/Net/NetFence_03_Pole.et" {
+      coords 38.709 -0.26 -101.722
+      angleY 89.283
+     }
+     $grp SCR_DestructibleEntity : "{664176B900CE86B2}PrefabLibrary/Walls/Net/NetFence_03_2m.et" {
+      {
+       coords 22.807 -0.286 -4.868
+       angleY 9.161
+      }
+      {
+       coords 37.773 -0.51 -23.55
+       angleY 84.148
+      }
+     }
+     $grp SCR_DestructibleEntity : "{F717C1D3B6A27867}PrefabLibrary/Walls/Net/NetFence_03_8m.et" {
+      {
+       coords -16.627 -0.001 -4.538
+       angleY 341.083
+      }
+      {
+       coords -5.053 0.14 -1.614
+       angleY 4.313
+      }
+      {
+       coords 24.791 -0.322 -5.188
+       angleY 31.632
+      }
+      {
+       coords 31.611 -0.445 -9.389
+       angleY 51.071
+      }
+      {
+       coords 36.644 -0.536 -15.62
+       angleY 81.898
+      }
+      {
+       coords 37.833 -0.471 -29.557
+       angleY 89.325
+      }
+     }
+    }
+   }
+  }
+ }
 }
 $grp Tree : "{077C695F02F4312C}PrefabLibrary/Vegetation/Bushes/b_phragmites_australis_1.et" {
  {
@@ -45861,11 +46045,6 @@ Tree : "{516D7C7E2AB8D436}PrefabLibrary/Vegetation/Bushes/b_phragmites_australis
   }
  }
 }
-GenericEntity : "{5E2034AC7EB16E58}Prefabs/Props/PropsHeine/V-22_Wreck.et" {
- coords 2349.282 66.201 1175.098
- angleX -8.425
- angleY 0
-}
 $grp SCR_IndestructibleEnvironmentalEntity : "{75E7837701ADA216}PrefabLibrary/Rocks/Granite/Granite_Stone_03/Granite_BeachStone_03.et" {
  {
   coords 3162.21 0 1306.49
@@ -46160,13 +46339,6 @@ SCR_IndestructibleEnvironmentalEntity : "{AE8CA342C9C3EC27}PrefabLibrary/Rocks/G
     angleZ 126.891
     scale 0.646
    }
-  }
-  SCR_IndestructibleEnvironmentalEntity : "{2BBA69F7F0BCD76E}Prefabs/Rocks/Granite/GraniteRock_01_Forest.et" {
-   coords -0.274 -104.728 32.938
-   angleX -3.503
-   angleY -112.021
-   angleZ 65.206
-   scale 0.787
   }
   $grp SCR_IndestructibleEnvironmentalEntity : "{533CDABD77C4C43E}Prefabs/Rocks/Granite/GraniteCliff_02.et" {
    {
